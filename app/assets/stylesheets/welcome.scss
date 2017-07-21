@@ -1,7 +1,10 @@
-html, body {
+html {
   height: 100%;
-	background-color: #333333;
-	background-image: image-url('kepler-bg-sm.gif');
+}
+
+body {
+  background-color: #333333;
+	background: image-url('kepler-bg-sm.gif');
 	background-size: cover;
 	font-family: 'Roboto', Helvetica, Verdana, Arial, sans-serif;
 }
