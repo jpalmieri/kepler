@@ -1,37 +1,43 @@
+$darkGray: #333333;
+$mediumGray: #666666;
+$lightGray: #CCCCCC;
+
 html {
   height: 100%;
 }
 
 body {
-  background-color: #333333;
+  background-color: $darkGray;
   background: image-url('kepler-bg-sm.gif');
   background-size: cover;
   font-family: 'Roboto', Helvetica, Verdana, Arial, sans-serif;
 }
 
-a:link {
-  text-decoration:none;
-  color: #666666;
-}
+a {
+  &:link {
+    text-decoration:none;
+    color: $mediumGray;
+  }
 
-a:visited {
-  text-decoration:none;
-  color: #666666;
-}
+  &:visited {
+    text-decoration:none;
+    color: $mediumGray;
+  }
 
-a:hover {
-  text-decoration:none;
-  color: #CCCCCC;
-}
+  &:hover {
+    text-decoration:none;
+    color: $lightGray;
+  }
 
-a:active {
-  text-decoration:none;
-  color: #666666;
+  &:active {
+    text-decoration:none;
+    color: $mediumGray;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  color: #CCCCCC;
+  color: $lightGray;
 }
 
 h1 {
