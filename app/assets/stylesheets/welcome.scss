@@ -1,3 +1,28 @@
+.cover {
+  z-index: 1;
+  position: relative;
+  height: 100vh;
+  background-color: #333333;
+  background: image-url('kepler-bg-sm.gif');
+  background-size: cover;
+  overflow: hidden;
+}
+
+.body-content {
+  z-index: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+
+  .hello {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding-top: 50vh;
+  }
+}
+
 #splash {
   width: 255px;
   margin-left: auto;

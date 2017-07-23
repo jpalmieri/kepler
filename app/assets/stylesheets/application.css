@@ -12,6 +12,7 @@
  *
  *= require layout
  *= require vendor/animate.min.css
+ *= require welcome
  *= require_tree .
  *= require_self
  */

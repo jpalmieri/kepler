@@ -2,14 +2,12 @@ $darkGray: #333333;
 $mediumGray: #666666;
 $lightGray: #CCCCCC;
 
-html {
+html, body {
   height: 100%;
+  margin: 0;
 }
 
 body {
-  background-color: $darkGray;
-  background: image-url('kepler-bg-sm.gif');
-  background-size: cover;
   font-family: 'Roboto', Helvetica, Verdana, Arial, sans-serif;
 }
 
