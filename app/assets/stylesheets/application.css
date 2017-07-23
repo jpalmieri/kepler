@@ -11,7 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  *= require layout
- *= require welcome
+ *= require vendor/animate.min.css
  *= require_tree .
  *= require_self
  */
