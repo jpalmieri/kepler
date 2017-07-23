@@ -14,6 +14,10 @@ $(document).ready(function() {
   setTimeout(function() {
      slideCoverUp();
    }, 5000);
+
+   // parallax js magic
+   var scene = $('#scene').get(0);
+   var parallax = new Parallax(scene);
 });
 
 // bind to mouse scroll

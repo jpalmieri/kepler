@@ -1,3 +1,5 @@
+@import 'stars';
+
 .cover {
   z-index: 1;
   position: relative;
@@ -8,18 +10,15 @@
   overflow: hidden;
 }
 
-.body-content {
+.container {
   z-index: 0;
   top: 0;
   left: 0;
   position: absolute;
   width: 100%;
 
-  .hello {
-    margin: auto;
-    text-align: center;
-    width: 50%;
-    padding-top: 50vh;
+  #scene {
+    height: 100vh;
   }
 }
 
