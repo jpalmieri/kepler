@@ -3,11 +3,17 @@ var slideCoverUp =  _.once(function() {
   $('.cover').addClass('slideOutUp');
 });
 
-// bind to splash logo click
 $(document).ready(function() {
+  // bind to splash logo click
   $("div#splash").click(function() {
      slideCoverUp();
   });
+
+  // trigger slide event after a few seconds
+  // (if user doesn't know to click)
+  setTimeout(function() {
+     slideCoverUp();
+   }, 5000);
 });
 
 // bind to mouse scroll
