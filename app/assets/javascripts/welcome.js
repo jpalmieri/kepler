@@ -18,6 +18,12 @@ $(document).ready(function() {
    // parallax js magic
    var scene = $('#scene').get(0);
    var parallax = new Parallax(scene);
+
+   // temporary action to show body content
+   $('.button').click(function() {
+     $('.button-layer').hide();
+     $('.body-content').show();
+   });
 });
 
 // bind to mouse scroll

@@ -21,13 +21,22 @@
   #scene {
     height: 100vh;
 
-    .main-column {
+    .button-layer {
       position: relative !important;
       top: auto !important;
       left: auto !important;
       width: 75%;
       margin: 0 auto;
       padding-top: 150px;
+    }
+
+    .body-content {
+      display: none;
+      color: #ffffff;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+      height: 100vh;
+      pointer-events: all;
     }
   }
 }
