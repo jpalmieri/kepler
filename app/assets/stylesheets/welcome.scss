@@ -20,6 +20,63 @@
 
   #scene {
     height: 100vh;
+
+    .main-column {
+      position: relative !important;
+      top: auto !important;
+      left: auto !important;
+      width: 75%;
+      margin: 0 auto;
+      padding-top: 150px;
+    }
+  }
+}
+
+
+#scene > * {
+  pointer-events: none;
+}
+
+.button {
+  pointer-events: all;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow:hidden;
+  transition: .3s;
+  color: #ffffff;
+  &:after {
+    position: absolute;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  &:after {
+    height: 120%;
+    left: -10%;
+    transform: skewX(15deg);
+    z-index: -1;
+  }
+  &:hover {
+    cursor: pointer;
+    color: #000000;
+    &:after {
+      width: 100%;
+      left: 0;
+      color: #5bcaff;
+    }
+    &:after {
+      left: -10%;
+      width: 120%;
+    }
   }
 }
 
