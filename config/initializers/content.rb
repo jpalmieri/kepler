@@ -6,8 +6,6 @@ yaml_data = YAML::load(ERB.new(IO.read(File.join(Rails.root, 'config', 'content.
 # Merge the "default" section with the section for this environment
 content = yaml_data["default"]
 
-# Merge the "default" section with the section for this environment
-content = yaml_data["default"]
 begin
   content.merge! yaml_data[Rails.env]
 rescue TypeError
