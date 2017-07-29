@@ -1,23 +1,189 @@
 default:
-  foo:
-    bar: "blah blah"
-    baz: "blah blah"
-    qux: "blah blah"
-
-development:
-  foo:
-    bar: "blahdev blah"
-    baz: "blahdev blah"
-    qux: "blahdev blah"
+  foo: "bar"
 
 production:
-  foo:
-    bar: "blahproduction blah"
-    baz: "blahproduction blah"
-    qux: "blahproduction blah"
+  foo: "bar"
+
+development:
+  team:
+    ma_li:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+
+    mee_shell:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    vittoria:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    bogdan:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    stefanie:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    joe:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    florian:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    mee_shell:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    gianna:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    connie:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    eric:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+  performance:
+    embarassed_years:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    young_boy_dancing_group:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    betty_kill_and_tam_shibari:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    will_marshell:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    bjorn_melhus:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    mataya_waldenberg:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    esoc:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+  music:
+    ancestral_voices:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    stefan_schneider:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    vladimir_ivkovic:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    nuel:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    miia:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    neel:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
+    valentino_mora:
+      name: "Your Name"
+      title: "Weirdo"
+      web_link: "http://www.myweirdwebsite.com/"
+      photo:
+      bio: >
+        Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
 
 test:
-  foo:
-    bar: "blahtest blah"
-    baz: "blahtest blah"
-    qux: "blahtest blah"
+  foo: "bar"
