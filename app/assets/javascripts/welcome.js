@@ -3,6 +3,15 @@ var slideCoverUp =  _.once(function() {
   $('.cover').addClass('slideOutUp');
 });
 
+// function to show and hide main nav buttons
+var showButtonGroup = function(e) {
+  var clickTarget = e.target;
+  var targetButtonGroup = $(clickTarget).data('target')
+  $('#' + targetButtonGroup).show();
+  $('.button-layer').hide();
+  $('.main-content').show();
+};
+
 $(document).ready(function() {
   // bind to splash logo click
   $("div#splash").click(function() {
@@ -20,9 +29,8 @@ $(document).ready(function() {
    var parallax = new Parallax(scene);
 
    // temporary action to show body content
-   $('.button').click(function() {
-     $('.button-layer').hide();
-     $('.main-content').show();
+   $('.button').click(function(e) {
+     showButtonGroup(e);
    });
 });
 
