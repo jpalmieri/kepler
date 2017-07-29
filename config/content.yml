@@ -1,0 +1,23 @@
+default:
+  foo:
+    bar: "blah blah"
+    baz: "blah blah"
+    qux: "blah blah"
+
+development:
+  foo:
+    bar: "blahdev blah"
+    baz: "blahdev blah"
+    qux: "blahdev blah"
+
+production:
+  foo:
+    bar: "blahproduction blah"
+    baz: "blahproduction blah"
+    qux: "blahproduction blah"
+
+test:
+  foo:
+    bar: "blahtest blah"
+    baz: "blahtest blah"
+    qux: "blahtest blah"
