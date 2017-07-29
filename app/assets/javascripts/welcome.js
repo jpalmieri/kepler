@@ -6,10 +6,19 @@ var slideCoverUp =  _.once(function() {
 // function to show and hide main nav buttons
 var showButtonGroup = function(e) {
   var clickTarget = e.target;
-  var targetButtonGroup = $(clickTarget).data('target')
+  var targetButtonGroup = $(clickTarget).data('target');
   $('#' + targetButtonGroup).show();
   $('.button-layer').hide();
   $('.main-content').show();
+};
+
+// function to show and hide main nav buttons
+var backToNav = function() {
+  _.each(['.team-view', '.music-view', '.performance-view'], function(view) {
+    $(view).hide();
+  });
+  $('.button-layer').show();
+  $('.main-content').hide();
 };
 
 $(document).ready(function() {
@@ -32,6 +41,11 @@ $(document).ready(function() {
    $('.button').click(function(e) {
      showButtonGroup(e);
    });
+
+   // back to main nav area
+   $('.back-button').click(function() {
+     backToNav();
+   })
 });
 
 // bind to mouse scroll

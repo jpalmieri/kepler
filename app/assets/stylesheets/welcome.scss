@@ -30,6 +30,9 @@
       .team-view, .music-view, .performance-view {
         display: none;
       }
+      .back-button {
+        cursor: pointer;
+      }
     }
   }
 }
