@@ -6,9 +6,27 @@
     <div id='stars-medium' class='layer' data-depth="1.0"></div>
     <div id='stars-big' class='layer' data-depth="1.50"></div>
     <div class="button-layer layer" data-depth="2">
-      <div class='button'>team</div>
-      <div class='button'>performance</div>
-      <div class='button'>music</div>
-    </div> 
+      <div class='button' data-target='team'>team</div>
+      <div class='button' data-target='performance'>performance</div>
+      <div class='button' data-target='music'>music</div>
+    </div>
+
+    <div class='main-content'>
+      <div id='team' class='team-view'>
+        <h1>Team</h1>
+        <%= render partial: 'button-group', locals: {people: @team} %>
+      </div>
+
+      <div id='music' class='music-view'>
+        <h1>Music</h1>
+        <%= render partial: 'button-group', locals: {people: @music} %>
+      </div>
+
+      <div id='performance' class='performance-view'>
+        <h1>Performance</h1>
+        <%= render partial: 'button-group', locals: {people: @performance} %>
+      </div>
+    </div>
   </div>
+
 </div>

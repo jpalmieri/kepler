@@ -22,7 +22,7 @@ $(document).ready(function() {
    // temporary action to show body content
    $('.button').click(function() {
      $('.button-layer').hide();
-     $('.body-content').show();
+     $('.main-content').show();
    });
 });
 
