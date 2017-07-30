@@ -12,6 +12,12 @@ var showButtonGroup = function(e) {
   $('.main-content').show();
 };
 
+var toggleBio = function(e) {
+  var clickTarget = e.target;
+  var targetBio = $(clickTarget).data('target');
+  $('#' + targetBio).slideToggle();
+};
+
 // function to show and hide main nav buttons
 var backToNav = function() {
   _.each(['.team-view', '.music-view', '.performance-view'], function(view) {
@@ -38,14 +44,19 @@ $(document).ready(function() {
    var parallax = new Parallax(scene);
 
    // temporary action to show body content
-   $('.button').click(function(e) {
+   $('.nav-button').click(function(e) {
      showButtonGroup(e);
    });
 
    // back to main nav area
    $('.back-button').click(function() {
      backToNav();
-   })
+   });
+
+   // toggle slide bios
+   $('.bio-button').click(function(e) {
+     toggleBio(e);
+   });
 });
 
 // bind to mouse scroll
