@@ -46,8 +46,13 @@ $(document).ready(function() {
    $('.back-button').click(function() {
      backToNav();
    });
+
+   // clicking logo goes back to cover and resets the view below
    $('.header .logo').click(function() {
      $('.cover').addClass('slideInDown').removeClass('slideOutUp');
+     $('.cover').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+       backToNav();
+     });
    })
 
    // toggle slide bios
