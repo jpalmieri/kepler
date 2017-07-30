@@ -20,6 +20,13 @@
       padding-top: 150px;
     }
 
+    .header {
+      .logo {
+        pointer-events: all;
+        width: 75px;
+      }
+    }
+
     .main-content {
       display: none;
       color: #ffffff;
@@ -115,16 +122,18 @@
 }
 
 @media (max-width: 625px) {
-  img {
-    width: 100%;
-  }
+  .cover {
+    img {
+      width: 100%;
+    }
 
-  #location {
-    width: 100%;
-  }
+    #location {
+      width: 100%;
+    }
 
-  #splash {
-    width: 50%;
-    padding-top: 25%;
+    #splash {
+      width: 50%;
+      padding-top: 25%;
+    }
   }
 }

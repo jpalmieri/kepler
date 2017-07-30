@@ -1,7 +1,7 @@
 // where the magic happens
-var slideCoverUp =  _.once(function() {
+var slideCoverUp = function() {
   $('.cover').addClass('slideOutUp');
-});
+};
 
 // function to show and hide main nav buttons
 var showButtonGroup = function(e) {
@@ -44,7 +44,7 @@ $(document).ready(function() {
    var parallax = new Parallax(scene);
 
    // temporary action to show body content
-   $('.nav-button').click(function(e) {
+   $('.main-button').click(function(e) {
      showButtonGroup(e);
    });
 
@@ -52,6 +52,9 @@ $(document).ready(function() {
    $('.back-button').click(function() {
      backToNav();
    });
+   $('.header .logo').click(function() {
+     $('.cover').addClass('slideInDown').removeClass('slideOutUp');
+   })
 
    // toggle slide bios
    $('.bio-button').click(function(e) {
