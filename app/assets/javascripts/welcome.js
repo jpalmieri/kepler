@@ -33,12 +33,6 @@ $(document).ready(function() {
      slideCoverUp();
   });
 
-  // trigger slide event after a few seconds
-  // (if user doesn't know to click)
-  setTimeout(function() {
-     slideCoverUp();
-   }, 5000);
-
    // parallax js magic
    var scene = $('#scene').get(0);
    var parallax = new Parallax(scene);
