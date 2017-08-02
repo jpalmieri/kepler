@@ -1,6 +1,15 @@
 @import 'stars';
 
-$stdMargin: 200px;
+$destopWidth: 1025px;
+$desktopMargin: 125px;
+
+$tabletWidth: 725px;
+$tabletMargin: 50px;
+
+$mobileWidth: 500px;
+$mobileMargin: 25px;
+
+
 
 .main {
   z-index: 0;
@@ -26,7 +35,7 @@ $stdMargin: 200px;
     .header {
       border-bottom: 1px solid white;
       .header-inner {
-        margin: 10px $stdMargin;
+        margin: 10px $desktopMargin;
         .logo {
           pointer-events: all;
           width: 75px;
@@ -43,7 +52,7 @@ $stdMargin: 200px;
       height: 100vh;
       pointer-events: all;
       .content-wrapper {
-        margin: 0 $stdMargin;
+        margin: 0 $desktopMargin;
         .team-view, .music-view, .performance-view, .bio-item {
           display: none;
         }
@@ -132,7 +141,23 @@ $stdMargin: 200px;
   right: 10px;
 }
 
-@media (max-width: 625px) {
+@media (max-width: $tabletWidth) {
+  .main {
+    #scene {
+      .header {
+        .header-inner {
+          margin: 10px $tabletMargin;
+        }
+      }
+
+      .main-content {
+        .content-wrapper {
+          margin: 0 $tabletMargin;
+        }
+      }
+    }
+  }
+
   .cover {
     img {
       width: 100%;
@@ -145,6 +170,24 @@ $stdMargin: 200px;
     #splash {
       width: 50%;
       padding-top: 25%;
+    }
+  }
+}
+
+@media (max-width: $mobileWidth) {
+  .main {
+    #scene {
+      .header {
+        .header-inner {
+          margin: 10px $mobileMargin;
+        }
+      }
+
+      .main-content {
+        .content-wrapper {
+          margin: 0 $mobileMargin;
+        }
+      }
     }
   }
 }
