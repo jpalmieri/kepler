@@ -32,7 +32,7 @@
     .main-content {
       display: none;
       color: #ffffff;
-      overflow-y: scroll;
+      overflow-y: auto;
       -webkit-overflow-scrolling: touch;
       height: 100vh;
       pointer-events: all;
