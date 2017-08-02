@@ -30,35 +30,35 @@ var backToNav = function() {
 $(document).ready(function() {
   // bind to splash logo click
   $("div#splash").click(function() {
-     slideCoverUp();
+    slideCoverUp();
   });
 
-   // parallax js magic
-   var scene = $('#scene').get(0);
-   var parallax = new Parallax(scene);
+  // parallax js magic
+  var scene = $('#scene').get(0);
+  var parallax = new Parallax(scene);
 
-   // temporary action to show body content
-   $('.category-link').click(function(e) {
-     showButtonGroup(e);
-   });
+  // temporary action to show body content
+  $('.category-link').click(function(e) {
+    showButtonGroup(e);
+  });
 
-   // back to main nav area
-   $('.back-button').click(function() {
-     backToNav();
-   });
+  // back to main nav area
+  $('.back-button').click(function() {
+    backToNav();
+  });
 
-   // clicking logo goes back to cover and resets the view below
-   $('.header .logo').click(function() {
-     $('.cover').addClass('slideInDown').removeClass('slideOutUp');
-     $('.cover').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-       backToNav();
-     });
-   })
+  // clicking logo goes back to cover and resets the view below
+  $('.header .logo').click(function() {
+    $('.cover').addClass('slideInDown').removeClass('slideOutUp');
+    $('.cover').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+      backToNav();
+    });
+  })
 
-   // toggle slide bios
-   $('.bio-button').click(function(e) {
-     toggleBio(e);
-   });
+  // toggle slide bios
+  $('.bio-button').click(function(e) {
+    toggleBio(e);
+  });
 });
 
 // bind to mouse scroll
