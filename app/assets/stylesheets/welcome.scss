@@ -37,16 +37,16 @@ $mobileMargin: 25px;
         position: absolute;
       }
       .team {
-        top: 80px;
-        left: 700px;
+        top: 0;
+        left: 50vw;
       }
       .performance {
-        top: 380px;
-        left: 200px;
+        top: 35vh;
+        left: 10vw;
       }
       .music {
-        top: 480px;
-        left: 900px;
+        top: 60vh;
+        left: 50vw;
       }
     }
 
@@ -170,6 +170,8 @@ $mobileMargin: 25px;
           }
         }
       }
+
+
 
       .main-content {
         .content-wrapper {
