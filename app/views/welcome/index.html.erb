@@ -1,7 +1,7 @@
 <%= render "cover" %>
 
 <div class='main'>
-  <div id="scene" data-pointer-events='true'>
+  <div id="scene" data-pointer-events='true' data-invert-x='false' data-invert-y='false'>
     <div id='stars-small' class='layer' data-depth="0.50" ></div>
     <div id='stars-medium' class='layer' data-depth="1.0"></div>
     <div id='stars-big' class='layer' data-depth="1.50"></div>
@@ -12,10 +12,10 @@
       </div>
     </div>
 
-    <div class="button-layer layer" data-depth="2">
-      <h1 class='main-button team' data-target='team'>team</h1>
-      <h1 class='main-button performance' data-target='performance'>performance</h1>
-      <h1 class='main-button music' data-target='music'>music</h1>
+    <div class="category-layer layer" data-depth="2">
+      <div class='category-link team' data-target='team'>team</div>
+      <div class='category-link performance' data-target='performance'>performance</div>
+      <div class='category-link music' data-target='music'>music</div>
     </div>
 
     <div class='main-content'>

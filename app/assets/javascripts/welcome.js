@@ -8,7 +8,7 @@ var showButtonGroup = function(e) {
   var clickTarget = e.target;
   var targetButtonGroup = $(clickTarget).data('target');
   $('#' + targetButtonGroup).show();
-  $('.button-layer').hide();
+  $('.category-layer').hide();
   $('.main-content').show();
 };
 
@@ -23,7 +23,7 @@ var backToNav = function() {
   _.each(['.team-view', '.music-view', '.performance-view'], function(view) {
     $(view).hide();
   });
-  $('.button-layer').show();
+  $('.category-layer').show();
   $('.main-content').hide();
 };
 
@@ -38,7 +38,7 @@ $(document).ready(function() {
    var parallax = new Parallax(scene);
 
    // temporary action to show body content
-   $('.main-button').click(function(e) {
+   $('.category-link').click(function(e) {
      showButtonGroup(e);
    });
 
