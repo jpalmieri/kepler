@@ -147,6 +147,9 @@ $mobileMargin: 25px;
       .header {
         .header-inner {
           margin: 10px $tabletMargin;
+          .logo {
+            width: 50px;
+          }
         }
       }
 
@@ -179,7 +182,7 @@ $mobileMargin: 25px;
     #scene {
       .header {
         .header-inner {
-          margin: 10px $mobileMargin;
+          margin: 5px $mobileMargin;
         }
       }
 
