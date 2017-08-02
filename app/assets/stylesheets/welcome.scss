@@ -1,5 +1,7 @@
 @import 'stars';
 
+$stdMargin: 200px;
+
 .main {
   z-index: 0;
   top: 0;
@@ -22,10 +24,14 @@
     }
 
     .header {
-      .logo {
-        pointer-events: all;
-        width: 75px;
-        cursor: pointer;
+      border-bottom: 1px solid white;
+      .header-inner {
+        margin: 10px $stdMargin;
+        .logo {
+          pointer-events: all;
+          width: 75px;
+          cursor: pointer;
+        }
       }
     }
 
@@ -36,11 +42,14 @@
       -webkit-overflow-scrolling: touch;
       height: 100vh;
       pointer-events: all;
-      .team-view, .music-view, .performance-view, .bio-item {
-        display: none;
-      }
-      .back-button {
-        cursor: pointer;
+      .content-wrapper {
+        margin: 0 $stdMargin;
+        .team-view, .music-view, .performance-view, .bio-item {
+          display: none;
+        }
+        .back-button {
+          cursor: pointer;
+        }
       }
     }
   }

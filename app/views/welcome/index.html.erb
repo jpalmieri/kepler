@@ -7,7 +7,9 @@
     <div id='stars-big' class='layer' data-depth="1.50"></div>
 
     <div class='header'>
-      <%= image_tag 'kepler_circle_logo_white.png', class: 'logo' %>
+      <div class='header-inner'>
+        <%= image_tag 'kepler_circle_logo_nasa.png', class: 'logo' %>
+      </div>
     </div>
 
     <div class="button-layer layer" data-depth="2">
@@ -17,20 +19,22 @@
     </div>
 
     <div class='main-content'>
-      <div class='back-button'>back</div>
-      <div id='team' class='team-view'>
-        <h1>Team</h1>
-        <%= render partial: 'button-group', locals: {people: @team} %>
-      </div>
+      <div class="content-wrapper">
+        <div class='back-button'>back</div>
+        <div id='team' class='team-view'>
+          <h1>Team</h1>
+          <%= render partial: 'button-group', locals: {people: @team} %>
+        </div>
 
-      <div id='music' class='music-view'>
-        <h1>Music</h1>
-        <%= render partial: 'button-group', locals: {people: @music} %>
-      </div>
+        <div id='music' class='music-view'>
+          <h1>Music</h1>
+          <%= render partial: 'button-group', locals: {people: @music} %>
+        </div>
 
-      <div id='performance' class='performance-view'>
-        <h1>Performance</h1>
-        <%= render partial: 'button-group', locals: {people: @performance} %>
+        <div id='performance' class='performance-view'>
+          <h1>Performance</h1>
+          <%= render partial: 'button-group', locals: {people: @performance} %>
+        </div>
       </div>
     </div>
   </div>
