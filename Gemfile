@@ -7,7 +7,6 @@ end
 
 gem 'pace-rails'
 gem 'jquery-rails'
-gem 'lodash-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
 # Use postgress as the database for Active Record

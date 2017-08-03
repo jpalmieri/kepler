@@ -10,18 +10,20 @@ $mobileWidth: 500px;
 $mobileMargin: 25px;
 
 
+.container {
+  height: 200vh;
+}
 
 .main {
   z-index: 0;
   top: 0;
   left: 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
   overflow: hidden;
+  height: 100vh;
 
   #scene {
-    height: 100vh;
-
     .category-layer {
       display: none;
       position: relative !important;

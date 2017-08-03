@@ -1,39 +1,42 @@
-<%= render "cover" %>
+<div class='container'>
 
-<div class='main'>
-  <div id="scene" data-pointer-events='true'>
-    <div id='stars-small' class='layer' data-depth="0.50" ></div>
-    <div id='stars-medium' class='layer' data-depth="1.0"></div>
-    <div id='stars-big' class='layer' data-depth="1.50"></div>
+  <%= render "cover" %>
 
-    <div class='header'>
-      <div class='header-inner'>
-        <%= image_tag 'kepler_circle_logo_nasa.png', class: 'logo' %>
+  <div class='main'>
+    <div id="scene" data-pointer-events='true'>
+      <div id='stars-small' class='layer' data-depth="0.50" ></div>
+      <div id='stars-medium' class='layer' data-depth="1.0"></div>
+      <div id='stars-big' class='layer' data-depth="1.50"></div>
+
+      <div class='header'>
+        <div class='header-inner'>
+          <%= image_tag 'kepler_circle_logo_nasa.png', class: 'logo' %>
+        </div>
       </div>
-    </div>
 
-    <div class="category-layer layer" data-depth="2">
-      <div class='category-link team' data-target='team'>team</div>
-      <div class='category-link performance' data-target='performance'>performance</div>
-      <div class='category-link music' data-target='music'>music</div>
-    </div>
+      <div class="category-layer layer" data-depth="2">
+        <div class='category-link team' data-target='team'>team</div>
+        <div class='category-link performance' data-target='performance'>performance</div>
+        <div class='category-link music' data-target='music'>music</div>
+      </div>
 
-    <div class='main-content'>
-      <div class="content-wrapper">
-        <div class='back-button'>back</div>
-        <div id='team' class='team-view'>
-          <h1>Team</h1>
-          <%= render partial: 'button-group', locals: {people: @team} %>
-        </div>
+      <div class='main-content'>
+        <div class="content-wrapper">
+          <div class='back-button'>back</div>
+          <div id='team' class='team-view'>
+            <h1>Team</h1>
+            <%= render partial: 'button-group', locals: {people: @team} %>
+          </div>
 
-        <div id='music' class='music-view'>
-          <h1>Music</h1>
-          <%= render partial: 'button-group', locals: {people: @music} %>
-        </div>
+          <div id='music' class='music-view'>
+            <h1>Music</h1>
+            <%= render partial: 'button-group', locals: {people: @music} %>
+          </div>
 
-        <div id='performance' class='performance-view'>
-          <h1>Performance</h1>
-          <%= render partial: 'button-group', locals: {people: @performance} %>
+          <div id='performance' class='performance-view'>
+            <h1>Performance</h1>
+            <%= render partial: 'button-group', locals: {people: @performance} %>
+          </div>
         </div>
       </div>
     </div>

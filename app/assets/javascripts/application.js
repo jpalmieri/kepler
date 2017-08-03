@@ -15,7 +15,6 @@
 //= require turbolinks
 //= require jquery3
 //= require jquery_ujs
-//= require lodash
 //= require vendor/parallax.min.js
 //= require welcome
 //= require_tree .

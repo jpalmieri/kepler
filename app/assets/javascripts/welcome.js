@@ -1,9 +1,21 @@
-// where the magic happens
 var slideCoverUp = function() {
-  $('.cover').addClass('slideOutUp');
+  // Preventing default action of the event
+  event.preventDefault();
+  // Getting the height of the document
+  var n = $(document).height();
+  $('html, body').animate({ scrollTop: n }, 1000, 'swing');
 };
 
-// function to show and hide main nav buttons
+var slideCoverDown = function() {
+  // Preventing default action of the event
+  event.preventDefault();
+  // Getting the height of the document
+  var n = $(document).height();
+  $('html, body').animate({ scrollTop: 0 }, 1000, 'swing', function(){
+    backToNav();
+  });
+};
+
 var showButtonGroup = function(e) {
   var clickTarget = e.target;
   var targetButtonGroup = $(clickTarget).data('target');
@@ -20,7 +32,7 @@ var toggleBio = function(e) {
 
 // function to show and hide main nav buttons
 var backToNav = function() {
-  _.each(['.team-view', '.music-view', '.performance-view'], function(view) {
+  $.each(['.team-view', '.music-view', '.performance-view'], function(view) {
     $(view).hide();
   });
   $('.category-layer').show();
@@ -60,10 +72,7 @@ $(document).ready(function() {
 
   // clicking logo goes back to cover and resets the view below
   $('.header .logo').click(function() {
-    $('.cover').addClass('slideInDown').removeClass('slideOutUp');
-    $('.cover').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-      backToNav();
-    });
+    slideCoverDown();
   })
 
   // toggle slide bios
@@ -71,11 +80,3 @@ $(document).ready(function() {
     toggleBio(e);
   });
 });
-
-// bind to mouse scroll
-var isFirefox = (/Firefox/i.test(navigator.userAgent));
-var mousewheelEvent = isFirefox ? "DOMMouseScroll" : "wheel";
-window.addEventListener(mousewheelEvent, _.throttle(slideCoverUp, 60), false);
-
-// bind to touchscreen scroll
-window.addEventListener('touchmove', _.throttle(slideCoverUp, 60), false);
