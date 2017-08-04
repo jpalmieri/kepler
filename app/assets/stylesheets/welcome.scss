@@ -1,10 +1,14 @@
 @import 'stars';
 
 $destopWidth: 1025px;
-$desktopMargin: 125px;
+$desktopHorizontalMargin: 125px;
+$desktopVerticalMargin: 10px;
+$desktopLogoWidth: 75px;
 
 $tabletWidth: 725px;
-$tabletMargin: 50px;
+$tabletHorizontalMargin: 50px;
+$tabletVerticalMargin: 10px;
+$tabletLogoWidth: 50px;
 
 $mobileWidth: 500px;
 $mobileMargin: 25px;
@@ -57,10 +61,10 @@ $mobileMargin: 25px;
 
     .header {
       .header-inner {
-        margin: 10px $desktopMargin;
+        margin: $desktopVerticalMargin $desktopHorizontalMargin;
         .logo {
           pointer-events: all;
-          width: 75px;
+          width: $desktopLogoWidth;
           cursor: pointer;
         }
       }
@@ -72,12 +76,15 @@ $mobileMargin: 25px;
       color: #ffffff;
       overflow-y: auto;
       -webkit-overflow-scrolling: touch;
-      height: 100vh;
+      height: unquote("-webkit-calc(100vh - #{($desktopVerticalMargin*2) + $desktopLogoWidth})");
       pointer-events: all;
       .content-wrapper {
-        margin: 0 $desktopMargin;
+        margin: 0 $desktopHorizontalMargin;
         .team-view, .music-view, .performance-view, .bio-item {
           display: none;
+        }
+        .bio-content {
+          padding-bottom: 25px;
         }
         .back-button {
           cursor: pointer;
@@ -169,9 +176,9 @@ $mobileMargin: 25px;
     #scene {
       .header {
         .header-inner {
-          margin: 10px $tabletMargin;
+          margin: $tabletVerticalMargin $tabletHorizontalMargin;
           .logo {
-            width: 50px;
+            width: $tabletLogoWidth;
           }
         }
       }
@@ -179,8 +186,9 @@ $mobileMargin: 25px;
 
 
       .main-content {
+        height: unquote("-webkit-calc(100vh - #{($tabletVerticalMargin*2) + $tabletLogoWidth})");
         .content-wrapper {
-          margin: 0 $tabletMargin;
+          margin: 0 $tabletHorizontalMargin;
         }
       }
     }

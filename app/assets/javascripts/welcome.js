@@ -6,14 +6,38 @@ var slideCoverUp = function() {
   $('html, body').animate({ scrollTop: n }, 1000, 'swing');
 };
 
+var bioViewHack = function() {
+  // disable scrolling up to show the cover
+  // as this will interfere with scrolling through the bio content
+  $('.cover').hide();
+  $('.container').css('height','100vh');
+}
+
+var hideMainContent = function() {
+  $('.bio-item').hide();
+  $('.main-content').hide();
+}
+
 var slideCoverDown = function() {
   // Preventing default action of the event
   event.preventDefault();
   // Getting the height of the document
   var n = $(document).height();
+  disableBioViewHack();
   $('html, body').animate({ scrollTop: 0 }, 1000, 'swing', function(){
     backToNav();
   });
+};
+
+var disableBioViewHack = function() {
+  // the below settings are what they should be in views other than bio
+  // the bio view disables them so that the user can't scroll up to show the cover
+
+  // make container height twice viewport height (this is the default)
+  $('.container').css('height','200vh');
+  //scroll to bottom of page (so cover is above viewport)
+  $(window).scrollTop($(document).height());
+  $('.cover').show();
 };
 
 var showButtonGroup = function(e) {
@@ -26,7 +50,10 @@ var showButtonGroup = function(e) {
 var toggleBio = function(e) {
   var clickTarget = e.target;
   var targetBio = $(clickTarget).data('target');
-  $('#' + targetBio).slideToggle();
+  $('.group-links').hide();
+  $('#' + targetBio).show();
+  $('.main-content').show();
+  bioViewHack();
 };
 
 // function to show and hide main nav buttons
@@ -34,6 +61,7 @@ var backToNav = function() {
   $.each(['.team-links', '.music-links', '.performance-links'], function(i, links) {
     $(links).hide();
   });
+  hideMainContent();
   $('.category-link').show();
 };
 
@@ -66,6 +94,16 @@ $(document).ready(function() {
   // back to main nav area
   $('.back-button').click(function() {
     backToNav();
+  });
+
+  // back to main nav area
+  $('.bio-back-button').click(function(e) {
+    var clickTarget = e.target;
+    var targetGroup = $(clickTarget).data('target');
+    $('.group-links').hide();
+    $('.' + targetGroup + '-links').show();
+    disableBioViewHack();
+    hideMainContent();
   });
 
   // clicking logo goes back to cover and resets the view below

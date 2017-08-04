@@ -14,21 +14,31 @@
         </div>
       </div>
 
-
-
-
+      <div class='main-content'>
+        <div class='content-wrapper'>
+          <% @team.each do |person| %>
+            <%= render partial: 'bio', locals: { person: person, member_of: 'team' } %>
+          <% end %>
+          <% @performance.each do |person| %>
+            <%= render partial: 'bio', locals: { person: person, member_of: 'performance' } %>
+          <% end %>
+          <% @music.each do |person| %>
+            <%= render partial: 'bio', locals: { person: person, member_of: 'music' } %>
+          <% end %>
+        </div>
+      </div>
 
       <div class="back-layer link-layer layer" data-depth="1.75">
         <div class='category-link team constellation-link' data-target='team'>team</div>
-        <div class='team-links'>
+        <div class='team-links group-links'>
           <div class='back-button button constellation-link'>back</div>
           <%= render partial: 'group', locals: { people: first_third(@team) } %>
         </div>
-        <div class='performance-links'>
+        <div class='performance-links group-links'>
           <div class='back-button button constellation-link'>back</div>
           <%= render partial: 'group', locals: { people: first_third(@performance) } %>
         </div>
-        <div class='music-links'>
+        <div class='music-links group-links'>
           <div class='back-button button constellation-link'>back</div>
           <%= render partial: 'group', locals: { people: first_third(@music) } %>
         </div>
@@ -36,30 +46,31 @@
 
       <div class="middle-layer link-layer layer" data-depth="2">
         <div class='category-link performance constellation-link' data-target='performance'>performance</div>
-        <div class='team-links'>
+        <div class='team-links group-links'>
           <%= render partial: 'group', locals: { people: second_third(@team) } %>
         </div>
-        <div class='performance-links'>
+        <div class='performance-links group-links'>
           <%= render partial: 'group', locals: { people: second_third(@performance) } %>
         </div>
-        <div class='music-links'>
+        <div class='music-links group-links'>
           <%= render partial: 'group', locals: { people: second_third(@music) } %>
         </div>
       </div>
 
       <div class="front-layer link-layer layer" data-depth="2.25">
         <div class='category-link music constellation-link' data-target='music'>music</div>
-        <div class='team-links'>
+        <div class='team-links group-links'>
           <%= render partial: 'group', locals: { people: third_third(@team) } %>
         </div>
-        <div class='performance-links'>
+        <div class='performance-links group-links'>
           <%= render partial: 'group', locals: { people: third_third(@performance) } %>
         </div>
-        <div class='music-links'>
+        <div class='music-links group-links'>
           <%= render partial: 'group', locals: { people: third_third(@music) } %>
         </div>
         </div>
       </div>
+
 
 
     </div>
