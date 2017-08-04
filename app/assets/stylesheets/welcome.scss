@@ -24,15 +24,14 @@ $mobileMargin: 25px;
   height: 100vh;
 
   #scene {
-    .category-layer {
-      display: none;
+    .link-layer {
       position: relative !important;
       top: auto !important;
       left: auto !important;
       width: 75%;
       margin: 0 auto;
-      padding-top: 150px;
-      .team, .performance, .music {
+      padding: 5vh;
+      .constellation-link {
         font-size: 25px;
         color: white;
         pointer-events: all;
@@ -44,12 +43,15 @@ $mobileMargin: 25px;
         left: 50vw;
       }
       .performance {
-        top: 35vh;
+        top: 20vh;
         left: 10vw;
       }
       .music {
-        top: 60vh;
-        left: 50vw;
+        top: 30vh;
+        left: 60vw;
+      }
+      .team-links, .performance-links, .music-links {
+        display: none;
       }
     }
 

@@ -1,7 +1,0 @@
-<div class="button-container">
-  <% people.each do |person| %>
-    <div class='button bio-button' data-target="<%= person[:simple_name] %>"><%= person[:name] %></div>
-
-    <%= render partial: 'bio', locals: { person: person } %>
-  <% end %>
-</div>

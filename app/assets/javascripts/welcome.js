@@ -19,9 +19,8 @@ var slideCoverDown = function() {
 var showButtonGroup = function(e) {
   var clickTarget = e.target;
   var targetButtonGroup = $(clickTarget).data('target');
-  $('#' + targetButtonGroup).show();
-  $('.category-layer').hide();
-  $('.main-content').show();
+  $('.' + targetButtonGroup + '-links').show();
+  $('.category-link').hide();
 };
 
 var toggleBio = function(e) {
@@ -32,11 +31,10 @@ var toggleBio = function(e) {
 
 // function to show and hide main nav buttons
 var backToNav = function() {
-  $.each(['.team-view', '.music-view', '.performance-view'], function(view) {
-    $(view).hide();
+  $.each(['.team-links', '.music-links', '.performance-links'], function(i, links) {
+    $(links).hide();
   });
-  $('.category-layer').show();
-  $('.main-content').hide();
+  $('.category-link').show();
 };
 
 $(document).ready(function() {
@@ -76,7 +74,7 @@ $(document).ready(function() {
   })
 
   // toggle slide bios
-  $('.bio-button').click(function(e) {
+  $('.bio-link').click(function(e) {
     toggleBio(e);
   });
 });
