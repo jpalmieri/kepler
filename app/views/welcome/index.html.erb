@@ -29,7 +29,7 @@
       </div>
 
       <div class="back-layer link-layer layer" data-depth="1.75">
-        <div class='category-link team constellation-link' data-target='team'>team</div>
+        <h2 class='category-link team constellation-link' data-target='team'>team</h2>
         <div class='team-links group-links'>
           <div class='back-button button constellation-link'>back</div>
           <%= render partial: 'group', locals: { people: first_third(@team) } %>
@@ -45,7 +45,7 @@
       </div>
 
       <div class="middle-layer link-layer layer" data-depth="2">
-        <div class='category-link performance constellation-link' data-target='performance'>performance</div>
+        <h2 class='category-link performance constellation-link' data-target='performance'>performance</h2>
         <div class='team-links group-links'>
           <%= render partial: 'group', locals: { people: second_third(@team) } %>
         </div>
@@ -58,7 +58,7 @@
       </div>
 
       <div class="front-layer link-layer layer" data-depth="2.25">
-        <div class='category-link music constellation-link' data-target='music'>music</div>
+        <h2 class='category-link music constellation-link' data-target='music'>music</h2>
         <div class='team-links group-links'>
           <%= render partial: 'group', locals: { people: third_third(@team) } %>
         </div>
