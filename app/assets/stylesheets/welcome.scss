@@ -40,6 +40,9 @@ $mobileMargin: 25px;
         pointer-events: all;
         cursor: pointer;
         position: absolute;
+        &:hover {
+          font-family: 'Nunito Sans';
+        }
       }
       .team {
         top: 0;
