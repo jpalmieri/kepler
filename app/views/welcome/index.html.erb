@@ -4,9 +4,21 @@
 
   <div class='main'>
     <div id="scene" data-pointer-events='true'>
-      <div id='stars-small' class='layer' data-depth="0.50" ></div>
-      <div id='stars-medium' class='layer' data-depth="1.0"></div>
-      <div id='stars-big' class='layer' data-depth="1.50"></div>
+      <div id='stars-small' class='layer' data-depth="0.50" >
+        <% 100.times.each do |i| %>
+          <div class='star'></div>
+        <% end %>
+      </div>
+      <div id='stars-medium' class='layer' data-depth="1">
+        <% 50.times.each do |i| %>
+          <div class='star'></div>
+        <% end %>
+      </div>
+      <div id='stars-big' class='layer' data-depth="1.5">
+        <% 25.times.each do |i| %>
+          <div class='star'></div>
+        <% end %>
+      </div>
 
       <div class='header'>
         <div class='header-inner'>

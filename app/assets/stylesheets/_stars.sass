@@ -1,73 +1,31 @@
-// borrowed from https://codepen.io/saransh/pen/BKJun
-// danke schön!
+@mixin star-properties
+  $size : random(1, 3) * 1px
+  $x    : random(0, 100) * 1vw
+  $y    : random(0, 100) * 1vh
+  height: $size
+  width:  $size
+  opacity: math(0, 'random')
+  left: $x
+  top: $y
 
-@import compass
+.star
+  display: inline-block
+  border-radius: 100%
+  background-color: white
+  position: absolute
+  opacity: .5
 
-// n is number of stars required
-@function multiple-box-shadow ($n)
-  $value: '#{random(2000)}px #{random(2000)}px #FFF'
-  @for $i from 2 through $n
-    $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF'
+@for $i from 0 through 100
+  #stars-small
+    .star:nth-child(#{$i})
+      @include star-properties
 
-  @return unquote($value)
+@for $i from 0 through 50
+  #stars-medium
+    .star:nth-child(#{$i})
+      @include star-properties
 
-$shadows-small:  multiple-box-shadow(700)
-$shadows-medium: multiple-box-shadow(200)
-$shadows-big:    multiple-box-shadow(100)
-
-#stars-small
-  filter: blur(1px)
-  display: block
-  width: 1px
-  height: 1px
-  background: transparent
-  box-shadow: $shadows-small
-
-
-  &:after
-    display: block
-    content: " "
-    position: absolute
-    top: 2000px
-    width: 1px
-    height: 1px
-    background: transparent
-    box-shadow: $shadows-small
-
-#stars-medium
-  filter: blur(1px)
-  display: block
-  width: 2px
-  height: 2px
-  background: transparent
-  box-shadow: $shadows-medium
-
-
-  &:after
-    display: block
-    content: " "
-    position: absolute
-    top: 2000px
-    width: 2px
-    height: 2px
-    background: transparent
-    box-shadow: $shadows-medium
-
-#stars-big
-  filter: blur(1px)
-  display: block
-  width: 3px
-  height: 3px
-  background: transparent
-  box-shadow: $shadows-big
-
-
-  &:after
-    display: block
-    content: " "
-    position: absolute
-    top: 2000px
-    width: 3px
-    height: 3px
-    background: transparent
-    box-shadow: $shadows-big
+@for $i from 0 through 25
+  #stars-big
+    .star:nth-child(#{$i})
+      @include star-properties
