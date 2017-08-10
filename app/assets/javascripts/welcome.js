@@ -18,19 +18,6 @@ var hideMainContent = function() {
   $('.main-content').hide();
 };
 
-var closeNav = function() {
-  $('.nav-container').removeClass('open');
-  $('.overlay').removeClass('active');
-};
-
-var slideCoverDown = function() {
-  event.preventDefault();
-  disableBioViewHack();
-  closeNav();
-  $('html, body').animate({ scrollTop: 0 }, 1000, 'swing', function(){
-    backToNav();
-  });
-};
 
 var disableBioViewHack = function() {
   // the below settings are what they should be in views other than bio
@@ -70,12 +57,32 @@ var backToNav = function() {
 
 $(document).ready(function() {
   $('.header .header-right').click(function() {
-    $('.nav-container').toggleClass('open');
-    $('.overlay').toggleClass('active');
+    if ($('.nav-container').hasClass('open')) {
+      closeNav();
+    } else {
+      $('.nav-container').addClass('open');
+      $('.overlay').addClass('active');
+      parallax.disable();
+    }
   });
   $('.overlay').click(function() {
     closeNav();
   });
+
+  var closeNav = function() {
+    $('.nav-container').removeClass('open');
+    $('.overlay').removeClass('active');
+    parallax.enable();
+  };
+
+  var slideCoverDown = function() {
+    event.preventDefault();
+    disableBioViewHack();
+    closeNav();
+    $('html, body').animate({ scrollTop: 0 }, 1000, 'swing', function(){
+      backToNav();
+    });
+  };
 
   // bind to splash logo click
   $("div#splash").click(function() {

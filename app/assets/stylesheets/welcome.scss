@@ -6,17 +6,23 @@
 }
 
 .overlay {
-  display: none;
+  visibility: hidden;
   &.active {
     z-index: 0;
-    display: block;
     background-color: black;
     position: absolute;
     height: 100vh;
     width: 100vw;
     top: 0;
+    visibility: visible;
+    animation: fade 0.5s;
     opacity: 0.75;
   }
+}
+
+@keyframes fade {
+  from  { opacity: 0; }
+  to    { opacity: 0.75; }
 }
 
 .header {
