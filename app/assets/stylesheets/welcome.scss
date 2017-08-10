@@ -89,6 +89,8 @@
     }
 
     .main-content {
+      position: absolute;
+      top: #{($desktopVerticalMargin*2) + $desktopLogoWidth};
       border-top: 1px solid white;
       display: none;
       color: #ffffff;
@@ -226,6 +228,7 @@
 
       .main-content {
         height: unquote("-webkit-calc(100vh - #{($tabletVerticalMargin*2) + $tabletLogoWidth})");
+        top: #{($tabletVerticalMargin*2) + $tabletLogoWidth};
         .content-wrapper {
           margin: 0 $tabletHorizontalMargin;
         }
