@@ -66,21 +66,22 @@
         pointer-events: all;
         cursor: pointer;
         position: absolute;
+        margin: 0;
         &:hover {
           font-family: 'Nunito Sans';
         }
       }
       .team {
-        top: 0;
+        top: 15vh;
         left: 50vw;
       }
       .performance {
-        top: 20vh;
-        left: 10vw;
+        top: 25vh;
+        left: 5vw;
       }
       .music {
-        top: 30vh;
-        left: 60vw;
+        top: 45vh;
+        right: 5vw;
       }
       .team-links, .performance-links, .music-links {
         display: none;
@@ -109,6 +110,23 @@
       }
     }
   }
+}
+
+.back-layer .bio-link {
+  &:nth-child(1) { top: 15vh; right: 5vw; };
+  &:nth-child(2) { top: 35vh; left: 45vw; };
+  &:nth-child(3) { top: 60vh; left: 25vw; };
+  &:nth-child(4) { top: 45vh; left: 20vw; };
+}
+.middle-layer .bio-link {
+  &:nth-child(1) { top: 15vh; left: 40vw; };
+  &:nth-child(2) { top: 25vh; left: 15vw; };
+  &:nth-child(3) { top: 40vh; left: 50vw; };
+}
+.front-layer .bio-link {
+  &:nth-child(1) { top: 25vh; right: 0vw; };
+  &:nth-child(2) { top: 50vh; right: 5vw; };
+  &:nth-child(3) { top: 35vh; left: 15vw; };
 }
 
 #scene > * {

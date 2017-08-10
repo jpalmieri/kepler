@@ -37,15 +37,12 @@
       <div class="back-layer link-layer layer" data-depth="0.80">
         <h2 class='category-link team constellation-link' data-target='team'>team</h2>
         <div class='team-links group-links'>
-          <div class='back-button button constellation-link'>back</div>
           <%= render partial: 'group', locals: { people: first_third(@team) } %>
         </div>
         <div class='performance-links group-links'>
-          <div class='back-button button constellation-link'>back</div>
           <%= render partial: 'group', locals: { people: first_third(@performance) } %>
         </div>
         <div class='music-links group-links'>
-          <div class='back-button button constellation-link'>back</div>
           <%= render partial: 'group', locals: { people: first_third(@music) } %>
         </div>
       </div>

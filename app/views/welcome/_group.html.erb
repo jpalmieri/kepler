@@ -1,7 +1,6 @@
 <% people.each do |person| %>
-  <h1 class='bio-link constellation-link'
-    data-target="<%= person[:simple_name] %>"
-    style="top:<%= rand(100)/2 %>vh;left:<%= rand(75) %>vw;">
+  <h3 class='bio-link constellation-link'
+    data-target="<%= person[:simple_name] %>">
     <%= person[:name] %>
   </h1>
 <% end %>

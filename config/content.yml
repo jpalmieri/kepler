@@ -258,8 +258,8 @@ development:
       photo:
       bio: >
         Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
-    - simple_name: 'young_boy_dancing_group'
-      name: "young boy dancing group"
+    - simple_name: 'will_marshell'
+      name: "will marshell"
       title: "Weirdo"
       web_link: "http://www.myweirdwebsite.com/"
       photo:
@@ -272,8 +272,8 @@ development:
       photo:
       bio: >
         Proin vulputate, nisi eget rhoncus faucibus, justo est sagittis turpis, at tincidunt erat magna nec sem. Duis rhoncus commodo faucibus. Curabitur laoreet magna a fringilla auctor. Aliquam erat volutpat. Pellentesque lorem orci, elementum eu ullamcorper in, molestie at urna. Praesent et risus vitae orci elementum elementum ut sit amet tortor. Vestibulum dignissim neque ac lorem finibus, et condimentum dolor tempus. Morbi eu arcu viverra, pharetra lacus in, molestie sapien. Aenean sapien libero, porttitor ac nisl non, consectetur pulvinar sem. Morbi a commodo justo. Ut imperdiet velit vitae sem faucibus, sit amet gravida urna elementum. In lacinia enim vel ante ultricies, vitae ullamcorper ante dictum. Cras convallis sit amet eros placerat sodales. Praesent semper, neque ac venenatis tempor, sem massa pellentesque metus, ut placerat nulla metus nec ipsum. Maecenas venenatis finibus sagittis.
-    - simple_name: 'will_marshell'
-      name: "will marshell"
+    - simple_name: 'young_boy_dancing_group'
+      name: "young boy dancing group"
       title: "Weirdo"
       web_link: "http://www.myweirdwebsite.com/"
       photo:
