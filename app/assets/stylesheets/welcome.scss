@@ -74,7 +74,7 @@
         position: absolute;
         margin: 0;
         &:hover {
-          font-family: 'Nunito Sans';
+          @include gradient-text($logoGradient);
         }
       }
       .team {
