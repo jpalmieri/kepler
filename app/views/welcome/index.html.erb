@@ -50,12 +50,15 @@
       <div class="middle-layer link-layer layer" data-depth="0.90">
         <h2 class='category-link performance constellation-link' data-target='performance'>performance</h2>
         <div class='team-links group-links'>
+          <div class='back-arrow'></div>
           <%= render partial: 'group', locals: { people: second_third(@team) } %>
         </div>
         <div class='performance-links group-links'>
+          <div class='back-arrow'></div>
           <%= render partial: 'group', locals: { people: second_third(@performance) } %>
         </div>
         <div class='music-links group-links'>
+          <div class='back-arrow'></div>
           <%= render partial: 'group', locals: { people: second_third(@music) } %>
         </div>
       </div>

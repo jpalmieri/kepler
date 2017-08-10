@@ -110,7 +110,7 @@ $(document).ready(function() {
   });
 
   // back to main nav area
-  $('.back-button').click(function() {
+  $('.back-arrow').click(function() {
     backToNav();
   });
 
