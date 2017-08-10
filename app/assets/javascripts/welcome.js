@@ -16,14 +16,17 @@ var bioViewHack = function() {
 var hideMainContent = function() {
   $('.bio-item').hide();
   $('.main-content').hide();
-}
+};
+
+var closeNav = function() {
+  $('.nav-container').removeClass('open');
+  $('.overlay').removeClass('active');
+};
 
 var slideCoverDown = function() {
-  // Preventing default action of the event
   event.preventDefault();
-  // Getting the height of the document
-  var n = $(document).height();
   disableBioViewHack();
+  closeNav();
   $('html, body').animate({ scrollTop: 0 }, 1000, 'swing', function(){
     backToNav();
   });
@@ -66,6 +69,14 @@ var backToNav = function() {
 };
 
 $(document).ready(function() {
+  $('.header .header-right').click(function() {
+    $('.nav-container').toggleClass('open');
+    $('.overlay').toggleClass('active');
+  });
+  $('.overlay').click(function() {
+    closeNav();
+  });
+
   // bind to splash logo click
   $("div#splash").click(function() {
     slideCoverUp();

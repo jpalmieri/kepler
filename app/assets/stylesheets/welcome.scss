@@ -1,21 +1,47 @@
 @import 'stars';
-
-$destopWidth: 1025px;
-$desktopHorizontalMargin: 125px;
-$desktopVerticalMargin: 10px;
-$desktopLogoWidth: 75px;
-
-$tabletWidth: 725px;
-$tabletHorizontalMargin: 50px;
-$tabletVerticalMargin: 10px;
-$tabletLogoWidth: 50px;
-
-$mobileWidth: 500px;
-$mobileMargin: 25px;
-
+@import 'nav';
 
 .container {
   height: 200vh;
+}
+
+.overlay {
+  display: none;
+  &.active {
+    z-index: 0;
+    display: block;
+    background-color: black;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    opacity: 0.75;
+  }
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  .header-inner {
+    margin: $desktopVerticalMargin;
+    .logo {
+      pointer-events: all;
+      width: $desktopLogoWidth;
+      cursor: pointer;
+    }
+    .header-right {
+      cursor: pointer;
+      color: white;
+      position: absolute;
+      top: 0;
+      right: $desktopVerticalMargin;
+      font-size: 65px;
+      pointer-events: all;
+    }
+  }
 }
 
 .main {
@@ -61,17 +87,6 @@ $mobileMargin: 25px;
       }
     }
 
-    .header {
-      .header-inner {
-        margin: $desktopVerticalMargin $desktopHorizontalMargin;
-        .logo {
-          pointer-events: all;
-          width: $desktopLogoWidth;
-          cursor: pointer;
-        }
-      }
-    }
-
     .main-content {
       border-top: 1px solid white;
       display: none;
@@ -95,7 +110,6 @@ $mobileMargin: 25px;
     }
   }
 }
-
 
 #scene > * {
   pointer-events: none;
@@ -174,18 +188,23 @@ $mobileMargin: 25px;
 }
 
 @media (max-width: $tabletWidth) {
+
+.header {
+  .header-inner {
+    margin: $tabletVerticalMargin;
+    .logo {
+      width: $tabletLogoWidth;
+    }
+    .header-right {
+      top: 0;
+      right: $tabletVerticalMargin;
+      font-size: 45px;
+    }
+  }
+}
+
   .main {
     #scene {
-      .header {
-        .header-inner {
-          margin: $tabletVerticalMargin $tabletHorizontalMargin;
-          .logo {
-            width: $tabletLogoWidth;
-          }
-        }
-      }
-
-
 
       .main-content {
         height: unquote("-webkit-calc(100vh - #{($tabletVerticalMargin*2) + $tabletLogoWidth})");
@@ -213,17 +232,21 @@ $mobileMargin: 25px;
 }
 
 @media (max-width: $mobileWidth) {
+.header {
+  .header-inner {
+    margin: $mobileVerticalMargin;
+    .header-right {
+      top: 0;
+      right: $mobileVerticalMargin;
+    }
+  }
+}
+
   .main {
     #scene {
-      .header {
-        .header-inner {
-          margin: 5px $mobileMargin;
-        }
-      }
-
       .main-content {
         .content-wrapper {
-          margin: 0 $mobileMargin;
+          margin: 0 $mobileHorizontalMargin;
         }
       }
     }

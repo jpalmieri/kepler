@@ -1,5 +1,8 @@
 default:
   foo: "bar"
+  facebook: "https://www.facebook.com/kepler452b.org"
+  instagram: "https://www.instagram.com/kp452b/"
+  resident_advisor: "something"
 
 production:
   team:

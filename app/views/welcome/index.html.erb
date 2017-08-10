@@ -20,12 +20,6 @@
         <% end %>
       </div>
 
-      <div class='header'>
-        <div class='header-inner'>
-          <%= image_tag 'kepler_circle_logo_nasa.png', class: 'logo' %>
-        </div>
-      </div>
-
       <div class='main-content'>
         <div class='content-wrapper'>
           <% @team.each do |person| %>
@@ -83,7 +77,16 @@
         </div>
       </div>
 
-
+      <div class='header'>
+        <div class='header-inner'>
+          <%= image_tag 'kepler_circle_logo_nasa.png', class: 'logo' %>
+          <div class='header-right'>
+            <%= fa_icon 'bars' %>
+          </div>
+        </div>
+      </div>
+      <div class='overlay'></div>
+      <%= render "nav" %>
 
     </div>
   </div>
