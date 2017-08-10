@@ -8,17 +8,23 @@
   position: absolute;
   z-index: 1;
   display: grid;
-  grid-template-columns: 75px 75px 75px;
+  grid-template-columns: auto 75px;
+  grid-template-rows: repeat(3, 50px);
   color: #444;
   -webkit-transition: transform 0.5s;
   -moz-transition: transform 0.5s;
   transition: transform 0.5s;
   &.open {
     transform: translateX(-225px);
+    @media (max-width: $tabletWidth) {
+      transform: translateX(-205px);
+    }
+    @media (max-width: $mobileWidth) {
+      transform: translateX(-185px);
+    }
   }
   .grid-item {
     color: #fff;
-    padding: 20px;
     font-size: 150%;
     a {
       text-decoration: none;
@@ -28,8 +34,9 @@
     }
   }
   .icon {
-    text-align: left;
-    grid-column: 3;
+    justify-self: center;
+    text-align: center;
+    grid-column: 2;
     .fa {
       &:hover {
         @include gradient-text($logoGradient);
@@ -38,9 +45,10 @@
   }
   .label {
     font-weight: 300;
-  	font-style: normal;
+    font-style: normal;
+    justify-self: right;
     text-align: right;
-    grid-column: 1 / 3;
+    grid-column: 1;
     padding-right: 0;
     a {
       &:hover {
