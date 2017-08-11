@@ -1,4 +1,9 @@
 @import "base/variables";
+@import "base/mixins";
+
+// hamburger animation stolen from Rosa:
+// https://codepen.io/RRoberts/pen/ZBYaJr
+// Thanks!
 
 .header {
   position: absolute;
@@ -12,15 +17,67 @@
       pointer-events: all;
       width: $desktopLogoWidth;
       cursor: pointer;
+      -webkit-transition: opacity 0.5s ease-in;
+      -o-transition: opacity 0.5s ease-in;
+      transition: opacity 0.5s ease-in;
     }
-    .header-right {
-      cursor: pointer;
-      color: white;
+    .hamburger {
       position: absolute;
-      top: 0;
-      right: $desktopVerticalMargin;
-      font-size: 65px;
+      top: 10px;
+      right: $desktopVerticalMargin + 5px;
       pointer-events: all;
+      .line{
+        width: 50px;
+        height: 5px;
+        background-color: $lightGray;
+        display: block;
+        margin: 8px auto;
+        -webkit-transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        -o-transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+      }
+
+      &:hover {
+        cursor: pointer;
+        .line {
+          background: $logoGradient;
+          background-size: 400% 400%;
+          animation: gradientFade 2s linear infinite;
+        }
+      }
+      @media (hover: none) {
+        &:hover {
+          .line {
+            background: $lightGray
+          }
+        }
+        &.active {
+          .line {
+            background: $logoGradient;
+            background-size: 400% 400%;
+            animation: gradientFade 2s linear infinite;
+          }
+        }
+      }
+
+      &.active .line {
+        &:nth-child(2){
+          opacity: 0;
+        }
+        &:nth-child(1){
+          -webkit-transform: translateY(13px) rotate(45deg);
+          -ms-transform: translateY(13px) rotate(45deg);
+          -o-transform: translateY(13px) rotate(45deg);
+          transform: translateY(13px) rotate(45deg);
+        }
+        &:nth-child(3){
+          -webkit-transform: translateY(-13px) rotate(-45deg);
+          -ms-transform: translateY(-13px) rotate(-45deg);
+          -o-transform: translateY(-13px) rotate(-45deg);
+          transform: translateY(-13px) rotate(-45deg);
+        }
+      }
     }
   }
 }

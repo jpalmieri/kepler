@@ -56,10 +56,12 @@ var backToNav = function() {
 };
 
 $(document).ready(function() {
-  $('.header .header-right').click(function() {
+  $('.header .hamburger').click(function(e) {
+    e.preventDefault();
     if ($('.nav-container').hasClass('open')) {
       closeNav();
     } else {
+      $('.hamburger').addClass('active');
       $('.nav-container').addClass('open');
       $('.overlay').addClass('active');
       parallax.disable();
@@ -70,6 +72,7 @@ $(document).ready(function() {
   });
 
   var closeNav = function() {
+    $('.hamburger').removeClass('active');
     $('.nav-container').removeClass('open');
     $('.overlay').removeClass('active');
     parallax.enable();
