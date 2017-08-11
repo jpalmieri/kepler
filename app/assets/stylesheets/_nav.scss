@@ -4,32 +4,32 @@
 .nav-container {
   cursor: pointer;
   top: ($desktopVerticalMargin*2) + $desktopLogoWidth;
-  left: 100vw;
   position: absolute;
   z-index: 1;
   display: grid;
   grid-template-columns: auto 75px;
   grid-template-rows: repeat(3, 50px);
   color: #444;
-  -webkit-transition: transform 0.5s;
-  -moz-transition: transform 0.5s;
-  transition: transform 0.5s;
+  -webkit-transition: right 0.5s;
+  -moz-transition: right 0.5s;
+  transition: right 0.5s;
+  right: -30vw;
+  @media (max-width: $tabletWidth) {
+    right: -50vw;
+  }
+  @media (max-width: $mobileWidth) {
+    right: -70vw;
+  }
   &.open {
-    transform: translateX(-225px);
-    @media (max-width: $tabletWidth) {
-      transform: translateX(-205px);
-    }
-    @media (max-width: $mobileWidth) {
-      transform: translateX(-185px);
-    }
+    right: 0;
   }
   .grid-item {
-    color: #fff;
+    color: $lightGray;
     font-size: 150%;
     a {
       text-decoration: none;
       &:link, &:visited, &:active {
-        color: $white;
+        color: $lightGray;
       }
     }
   }
