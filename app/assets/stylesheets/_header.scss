@@ -1,0 +1,55 @@
+@import "base/variables";
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  .header-inner {
+    margin: $desktopVerticalMargin;
+    .logo {
+      pointer-events: all;
+      width: $desktopLogoWidth;
+      cursor: pointer;
+    }
+    .header-right {
+      cursor: pointer;
+      color: white;
+      position: absolute;
+      top: 0;
+      right: $desktopVerticalMargin;
+      font-size: 65px;
+      pointer-events: all;
+    }
+  }
+}
+
+@media (max-width: $tabletWidth) {
+  .header {
+    .header-inner {
+      margin: $tabletVerticalMargin;
+      .logo {
+        width: $tabletLogoWidth;
+      }
+      .header-right {
+        color: $lightGray;
+        top: 0;
+        right: $tabletVerticalMargin;
+        font-size: 45px;
+      }
+    }
+  }
+}
+
+@media (max-width: $mobileWidth) {
+  .header {
+    .header-inner {
+      margin: $mobileVerticalMargin;
+      .header-right {
+        top: 0;
+        right: $mobileVerticalMargin;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@import "base/variables";
+
+.back-arrow  {
+  height: 2em;
+  width: 2em;
+  position: absolute;
+  cursor: pointer;
+  pointer-events: all;
+  background: $lightGray;
+  -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
+  clip-path: polygon(100% 0, 0 50%, 100% 100%);
+  &:hover {
+    background: $logoGradient;
+    background-size: 400% 400%;
+    animation: gradientFade 2s linear infinite;
+  }
+}
+
+.button {
+  pointer-events: all;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow:hidden;
+  transition: .3s;
+  color: #ffffff;
+  &:after {
+    position: absolute;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  &:after {
+    height: 120%;
+    left: -10%;
+    transform: skewX(15deg);
+    z-index: -1;
+  }
+  &:hover {
+    cursor: pointer;
+    color: #000000;
+    &:after {
+      width: 100%;
+      left: 0;
+      color: #5bcaff;
+    }
+    &:after {
+      left: -10%;
+      width: 120%;
+    }
+  }
+}

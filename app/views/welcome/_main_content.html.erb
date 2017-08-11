@@ -1,0 +1,13 @@
+<div class='main-content'>
+  <div class='content-wrapper'>
+    <% @team.each do |person| %>
+      <%= render partial: 'bio', locals: { person: person, member_of: 'team' } %>
+    <% end %>
+    <% @performance.each do |person| %>
+      <%= render partial: 'bio', locals: { person: person, member_of: 'performance' } %>
+    <% end %>
+    <% @music.each do |person| %>
+      <%= render partial: 'bio', locals: { person: person, member_of: 'music' } %>
+    <% end %>
+  </div>
+</div>

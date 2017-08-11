@@ -1,3 +1,5 @@
+@import "base/variables";
+
 .cover {
   z-index: 1;
   position: relative;
@@ -6,4 +8,52 @@
   background: image-url('kepler-bg-sm.gif');
   background-size: cover;
   overflow: hidden;
+
+  #splash {
+    width: 255px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+    cursor: pointer;
+  }
+
+  #location {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  #socialmedia1 {
+    width: 38px;
+    position: absolute;
+    top: 10px;
+    right: 60px;
+  }
+
+  #socialmedia2 {
+    width: 38px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+
+
+@media (max-width: $tabletWidth) {
+  .cover {
+    img {
+      width: 100%;
+    }
+
+    #location {
+      width: 100%;
+    }
+
+    #splash {
+      width: 50%;
+      padding-top: 25%;
+    }
+  }
 }

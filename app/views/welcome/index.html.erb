@@ -1,93 +1,22 @@
+
 <div class='container'>
 
   <%= render "cover" %>
 
   <div class='main'>
     <div id="scene" data-pointer-events='true'>
-      <div id='stars-small' class='layer' data-depth="0.50" >
-        <% 100.times.each do |i| %>
-          <div class='star'></div>
-        <% end %>
-      </div>
-      <div id='stars-medium' class='layer' data-depth="0.60">
-        <% 50.times.each do |i| %>
-          <div class='star'></div>
-        <% end %>
-      </div>
-      <div id='stars-big' class='layer' data-depth="0.70">
-        <% 25.times.each do |i| %>
-          <div class='star'></div>
-        <% end %>
-      </div>
 
-      <div class='main-content'>
-        <div class='content-wrapper'>
-          <% @team.each do |person| %>
-            <%= render partial: 'bio', locals: { person: person, member_of: 'team' } %>
-          <% end %>
-          <% @performance.each do |person| %>
-            <%= render partial: 'bio', locals: { person: person, member_of: 'performance' } %>
-          <% end %>
-          <% @music.each do |person| %>
-            <%= render partial: 'bio', locals: { person: person, member_of: 'music' } %>
-          <% end %>
-        </div>
-      </div>
+      <%= render partial: 'stars' %>
 
-      <div class="back-layer link-layer layer" data-depth="0.80">
-        <h2 class='category-link team constellation-link' data-target='team'>team</h2>
-        <div class='team-links group-links'>
-          <%= render partial: 'group', locals: { people: first_third(@team) } %>
-        </div>
-        <div class='performance-links group-links'>
-          <%= render partial: 'group', locals: { people: first_third(@performance) } %>
-        </div>
-        <div class='music-links group-links'>
-          <%= render partial: 'group', locals: { people: first_third(@music) } %>
-        </div>
-      </div>
+      <%= render partial: 'main_content' %>
 
-      <div class="middle-layer link-layer layer" data-depth="0.90">
-        <h2 class='category-link performance constellation-link' data-target='performance'>performance</h2>
-        <div class='team-links group-links'>
-          <div class='back-arrow'></div>
-          <%= render partial: 'group', locals: { people: second_third(@team) } %>
-        </div>
-        <div class='performance-links group-links'>
-          <div class='back-arrow'></div>
-          <%= render partial: 'group', locals: { people: second_third(@performance) } %>
-        </div>
-        <div class='music-links group-links'>
-          <div class='back-arrow'></div>
-          <%= render partial: 'group', locals: { people: second_third(@music) } %>
-        </div>
-      </div>
+      <%= render partial: 'constellation_links' %>
 
-      <div class="front-layer link-layer layer" data-depth="1.0">
-        <h2 class='category-link music constellation-link' data-target='music'>music</h2>
-        <div class='team-links group-links'>
-          <%= render partial: 'group', locals: { people: third_third(@team) } %>
-        </div>
-        <div class='performance-links group-links'>
-          <%= render partial: 'group', locals: { people: third_third(@performance) } %>
-        </div>
-        <div class='music-links group-links'>
-          <%= render partial: 'group', locals: { people: third_third(@music) } %>
-        </div>
-        </div>
-      </div>
+      <%= render partial: 'header' %>
 
-      <div class='header'>
-        <div class='header-inner'>
-          <%= image_tag 'kepler_circle_logo_nasa.png', class: 'logo' %>
-          <div class='header-right'>
-            <%= fa_icon 'bars' %>
-          </div>
-        </div>
-      </div>
-      <div class='overlay'></div>
       <%= render "nav" %>
 
+      <div class='overlay'></div>
     </div>
   </div>
 </div>
