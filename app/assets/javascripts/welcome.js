@@ -113,7 +113,7 @@ $(document).ready(function() {
   });
 
   // back to main nav area
-  $('.back-arrow').click(function() {
+  $('.group-back-button').click(function() {
     backToNav();
   });
 
