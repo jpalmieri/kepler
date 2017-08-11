@@ -2,6 +2,7 @@
 @import "base/mixins";
 
 #scene {
+  pointer-events: none;
   .link-layer {
     position: relative !important;
     top: auto !important;
