@@ -12,12 +12,9 @@
   pointer-events: all;
   .content-wrapper {
     margin: 0 $desktopHorizontalMargin;
-    .team-view, .music-view, .performance-view, .bio-item {
-      display: none;
-    }
-    .bio-content {
-      padding-bottom: 20vh;
-    }
+  }
+  .team-view, .music-view, .performance-view {
+    display: none;
   }
 }
 

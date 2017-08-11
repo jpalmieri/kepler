@@ -1,0 +1,48 @@
+@import "base/variables";
+
+.bio-item {
+  display: none;
+  
+  .back-arrow {
+    position: unset;
+  }
+  .row-1 {
+    display: flex;
+    margin-top: 25px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .row-1-item-1 {
+    margin-bottom: 25px;
+  }
+  .row-1-item-2 {
+    @media (min-width: 1250px) {
+      width: 75%;
+    }
+  }
+  .row-2 {
+    display: flex;
+    margin-bottom: 25px;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .photo {
+    min-width: 350px;
+    height: 350px;
+    border: 1px solid white;
+  }
+  .personal-details {
+    margin: auto 0 auto 25px;
+    flex-shrink: 2;
+  }
+  h1.name {
+    text-align: unset;
+    margin: 0;
+  }
+  .web-link {
+    word-break: break-all;
+  }
+  .bio-content {
+    padding-bottom: 20vh;
+  }
+}

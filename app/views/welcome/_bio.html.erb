@@ -1,22 +1,29 @@
 <div id="<%= person[:simple_name] %>" class="bio-item">
-  <div class='bio-back-button back-arrow' data-target="<%= member_of %>"></div>
-  <div class='photo'>
-  </div>
-  <div class='personal-details'>
-    <h1 class='name'>
-      <%= person[:name] %>
-    </h1>
-    <div class='title'>
-      <%= person[:title] %>
+  <div class='row-1'>
+    <div class='row-1-item-1'>
+      <div class='bio-back-button back-arrow' data-target="<%= member_of %>"></div>
     </div>
-    <div class='web-link'>
-      <%= person[:web_link] %>
-    </div>
-  </div>
-  <div class='bio'>
-    <div class='bio-title'>BIO</div>
-    <div class='bio-content'>
-      <%= person[:bio] %>
+    <div class='row-1-item-2'>
+      <div class='row-2'>
+        <div class='photo'>
+        </div>
+        <div class='personal-details'>
+          <h1 class='name'>
+            <%= person[:name] %>
+          </h1>
+          <div class='title'>
+            <%= person[:title] %>
+          </div>
+          <div class='web-link'>
+            <%= person[:web_link] %>
+          </div>
+        </div>
+      </div>
+      <div class='bio'>
+        <div class='bio-content'>
+          <%= person[:bio] %>
+        </div>
+      </div>
     </div>
   </div>
 </div>
