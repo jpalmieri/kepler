@@ -59,10 +59,10 @@
     text-align: unset;
     margin: 0;
     @media (max-width: $tabletWidth) {
-      font-size: calc(1.5em + 1vmin);
+      font-size: calc(1.875em + 1vmin);
     }
     @media (max-width: $mobileWidth) {
-      font-size: calc(1.125em + 1vmin);
+      font-size: calc(1.5em + 1vmin);
     }
   }
   .web-link {

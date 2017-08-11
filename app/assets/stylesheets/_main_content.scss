@@ -3,9 +3,7 @@
 .main-content {
   position: absolute;
   top: #{($desktopVerticalMargin*2) + $desktopLogoWidth};
-  border-top: 1px solid white;
   display: none;
-  color: #ffffff;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   height: unquote("calc(100vh - #{($desktopVerticalMargin*2) + $desktopLogoWidth})");
