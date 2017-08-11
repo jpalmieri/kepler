@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: auto 75px;
   grid-template-rows: repeat(3, 50px);
+  grid-row-gap: 5px;
   color: #444;
   -webkit-transition: right 0.5s ease-in-out;
   -moz-transition: right 0.5s ease-in-out;
@@ -25,7 +26,7 @@
   }
   .grid-item {
     color: $lightGray;
-    font-size: 150%;
+    font-size: 200%;
     a {
       text-decoration: none;
       &:link, &:visited, &:active {
@@ -54,6 +55,15 @@
       &:hover {
         @include gradient-text($logoGradient);
       }
+    }
+  }
+  @media (hover: none) {
+    .icon .fa:hover, .label a:hover {
+      background: none;
+      color: $lightGray;
+      -webkit-background-clip: unset;
+      -webkit-text-fill-color: unset;
+      animation: none;
     }
   }
 }
