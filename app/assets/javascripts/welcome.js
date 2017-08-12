@@ -16,8 +16,8 @@ var bioViewHack = function() {
 var hideMainContent = function() {
   $('.bio-item').hide();
   $('.main-content').hide();
+  $('.info').hide();
 };
-
 
 var disableBioViewHack = function() {
   // the below settings are what they should be in views other than bio
@@ -78,6 +78,16 @@ $(document).ready(function() {
     parallax.enable();
   };
 
+  var showInfo = function() {
+    $('.group-links').hide();
+    $('.category-link').hide();
+    $('.bio-item').hide();
+    $('.info').show();
+    $('.main-content').show();
+    bioViewHack();
+    closeNav();
+  };
+
   var slideCoverDown = function() {
     event.preventDefault();
     disableBioViewHack();
@@ -113,7 +123,7 @@ $(document).ready(function() {
   });
 
   // back to main nav area
-  $('.group-back-button').click(function() {
+  $('.home-back-button').click(function() {
     backToNav();
   });
   $('.home-link').click(function() {
@@ -138,5 +148,9 @@ $(document).ready(function() {
   // toggle slide bios
   $('.bio-link').click(function(e) {
     toggleBio(e);
+  });
+
+  $('.about-link').click(function() {
+    showInfo();
   });
 });

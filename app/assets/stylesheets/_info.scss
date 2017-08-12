@@ -1,0 +1,74 @@
+@import "base/variables";
+
+.info {
+  display: none;
+  .main-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+    @media (max-width: $mobileWidth) {
+      margin-top: $mobileHorizontalMargin;
+    }
+  }
+  .main-row-item-1 {
+    margin-bottom: 25px;
+    margin-right: 25px;
+    min-width: 50px;
+    @media (max-width: $tabletWidth) {
+      width: 100%;
+    }
+    @media (max-width: $mobileWidth) {
+      margin-bottom: $mobileHorizontalMargin;
+    }
+    .back-link-set {
+      display: flex;
+      flex-flow: row nowrap;
+      .back-arrow {
+        position: unset;
+      }
+      .back-text {
+        height: 30px;
+        margin: auto 11px;
+      }
+    }
+  }
+  .inner-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    .video {
+      border: 1px solid $white;
+      margin-right: 25px;
+      margin-bottom: 25px;
+      width:500px;
+      height: 300px;
+      @media (max-width: $tabletWidth) {
+        width: 100%;
+        margin-right: 0;
+      }
+      @media (max-width: 350px) {
+        height: 170px;
+      }
+    }
+  }
+  .main-column {
+    display: flex;
+    flex-flow: column nowrap;
+    @media (min-width: 1250px) {
+      width: 75%;
+    }
+    margin: auto 0;
+    @media (max-width: $tabletWidth) {
+      width: 100%;
+    }
+    .event-details-column {
+      margin-bottom: 25px;
+    }
+  }
+
+  .below-content-column {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+}

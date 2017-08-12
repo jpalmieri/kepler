@@ -3,6 +3,7 @@ default:
   facebook: "https://www.facebook.com/kepler452b.org"
   instagram: "https://www.instagram.com/kp452b/"
   resident_advisor: "something"
+  location: "52.33'20.5\"N 13°24'53.8\"E"
 
 production:
   team:

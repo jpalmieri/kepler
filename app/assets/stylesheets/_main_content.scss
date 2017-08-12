@@ -1,6 +1,7 @@
 @import "base/variables";
 
 .main-content {
+  width: 100%;
   position: absolute;
   top: #{($desktopVerticalMargin*2) + $desktopLogoWidth};
   display: none;

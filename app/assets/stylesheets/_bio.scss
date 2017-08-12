@@ -11,7 +11,7 @@
     height: 30px;
     margin: auto;
   }
-  .row-1 {
+  .top-row {
     display: flex;
     margin-top: 25px;
     @media (max-width: $mobileWidth) {
@@ -20,13 +20,13 @@
     flex-flow: row wrap;
     justify-content: space-between;
   }
-  .row-1-item-1 {
+  .top-row-item-1 {
     margin-bottom: 25px;
     @media (max-width: $mobileWidth) {
       margin-bottom: $mobileHorizontalMargin;
     }
   }
-  .row-1-item-2 {
+  .top-row-item-2 {
     @media (min-width: 1250px) {
       width: 75%;
     }
@@ -40,7 +40,7 @@
     flex-flow: row nowrap;
     justify-content: flex-start;
   }
-  .row-3 {
+  .back-button-row {
     display: flex;
     flex-flow: row nowrap;
   }

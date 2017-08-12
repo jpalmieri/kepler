@@ -9,5 +9,7 @@
     <% @music.each do |person| %>
       <%= render partial: 'bio', locals: { person: person, member_of: 'music' } %>
     <% end %>
+
+    <%= render partial: 'info' %>
   </div>
 </div>
