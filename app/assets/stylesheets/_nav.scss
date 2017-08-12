@@ -51,7 +51,7 @@
     text-align: right;
     grid-column: 1;
     padding-right: 0;
-    a {
+    a, .internal-nav-link {
       &:hover {
         @include gradient-text($logoGradient);
       }

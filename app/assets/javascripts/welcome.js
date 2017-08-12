@@ -116,8 +116,11 @@ $(document).ready(function() {
   $('.group-back-button').click(function() {
     backToNav();
   });
+  $('.home-link').click(function() {
+    backToNav();
+    closeNav();
+  });
 
-  // back to main nav area
   $('.bio-back-button').click(function(e) {
     var clickTarget = e.target;
     var targetGroup = $(clickTarget).data('target');

@@ -1,9 +1,15 @@
 <div class='nav-container'>
   <div class='grid-item about label'>
-    <%= link_to "about", CONTENT[:resident_advisor], target: '_blank' %>
+    <div class="home-link internal-nav-link">home</div>
   </div>
   <div class='grid-item about icon'>
-    <%= link_to fa_icon('info-circle'), CONTENT[:resident_advisor], target: '_blank' %>
+    <div class="home-link internal-nav-link"><%= fa_icon('home') %></div>
+  </div>
+  <div class='grid-item about label'>
+    <div class="about-link internal-nav-link">about</div>
+  </div>
+  <div class='grid-item about icon'>
+    <div class="about-link internal-nav-link"><%= fa_icon('info-circle') %></div>
   </div>
   <div class='grid-item tickets label'>
     <%= link_to "tickets", CONTENT[:resident_advisor], target: '_blank' %>
