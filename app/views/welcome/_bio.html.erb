@@ -18,7 +18,7 @@
             <%= person[:title] %>
           </div>
           <div class='web-link'>
-            <%= person[:web_link] %>
+            <%= link_to person[:web_link], person[:web_link], target: '_blank' %>
           </div>
         </div>
       </div>

@@ -58,12 +58,8 @@
     }
   }
   @media (hover: none) {
-    .icon .fa:hover, .label a:hover {
-      background: none;
-      color: $lightGray;
-      -webkit-background-clip: unset;
-      -webkit-text-fill-color: unset;
-      animation: none;
+    .icon .fa:hover, .label a:hover, .internal-nav-link:hover {
+      @include unset-gradient-text($lightGray);
     }
   }
 }
