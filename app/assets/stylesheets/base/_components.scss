@@ -1,9 +1,9 @@
 @import "base/variables";
+@import "base/mixins";
 
 .back-arrow  {
   height: 2em;
   width: 2em;
-  position: absolute;
   cursor: pointer;
   pointer-events: all;
   background: $lightGray;
@@ -13,5 +13,25 @@
     background: $logoGradient;
     background-size: 400% 400%;
     animation: gradientFade 2s linear infinite;
+  }
+  @media (hover: none) {
+    background: $logoGradient;
+    background-size: 400% 400%;
+    animation: gradientFade 2s linear infinite;
+  }
+}
+
+.back-text {
+  padding-left: 11px;
+  height: 30px;
+  margin: auto;
+  cursor: pointer;
+  pointer-events: all;
+  color: $lightGray;
+  &:hover {
+    @include gradient-text($logoGradient);
+  }
+  @media (hover: none) {
+    @include gradient-text($logoGradient);
   }
 }

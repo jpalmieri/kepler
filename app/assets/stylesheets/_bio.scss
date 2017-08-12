@@ -6,6 +6,11 @@
   .back-arrow {
     position: unset;
   }
+  .back-text {
+    padding-left: 11px;
+    height: 30px;
+    margin: auto;
+  }
   .row-1 {
     display: flex;
     margin-top: 25px;
@@ -34,6 +39,10 @@
     }
     flex-flow: row nowrap;
     justify-content: flex-start;
+  }
+  .row-3 {
+    display: flex;
+    flex-flow: row nowrap;
   }
   .photo {
     min-width: 350px;

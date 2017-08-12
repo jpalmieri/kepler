@@ -34,6 +34,13 @@
     .team-links, .performance-links, .music-links {
       display: none;
     }
+    .row {
+      display: flex;
+      flex-flow: row nowrap;
+      position: absolute;
+      left: 0;
+      top: 10vh;
+    }
   }
 
   .back-layer .bio-link {
