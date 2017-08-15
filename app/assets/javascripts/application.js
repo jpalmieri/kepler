@@ -13,5 +13,7 @@
 //= require jquery3
 //= require jquery_ujs
 //= require rails-ujs
+//= require jquery_ujs
 //= require turbolinks
+//= require vendor/parallax.min.js
 //= require_tree .

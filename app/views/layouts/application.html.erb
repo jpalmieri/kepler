@@ -16,6 +16,11 @@
 
   <body>
     <%= render 'shared/header' %>
-    <%= yield %>
+    <div id="scene" data-pointer-events='true'>
+      <%= render 'shared/stars' %>
+      <div class='main'>
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
