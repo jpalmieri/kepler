@@ -5,6 +5,9 @@ production:
   foo: "bar"
 
 development:
+  resident_advisor_path: "#"
+  instagram_path: "//instagram.com"
+  facebook_path: "//facebook.com"
   team:
     - simple_name: 'ma_li'
       name: "Ma Li"

@@ -1,9 +1,13 @@
 .welcome {
   .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
     background-color: #333333;
     background: image-url('kepler-bg-sm.gif');
     background-size: cover;
-    height: 100vh;
 
     #splash {
       width: 255px;
