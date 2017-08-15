@@ -1,48 +1,55 @@
-.cover {
-  background-color: #333333;
-  background: image-url('kepler-bg-sm.gif');
-  background-size: cover;
+.welcome {
+  .cover {
+    background-color: #333333;
+    background: image-url('kepler-bg-sm.gif');
+    background-size: cover;
+    height: 100vh;
 
-  #splash {
-    width: 255px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 150px;
-  }
-
-  #location {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-  }
-
-  #socialmedia1 {
-    width: 38px;
-    position: absolute;
-    top: 10px;
-    right: 60px;
-  }
-
-  #socialmedia2 {
-    width: 38px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-
-  @media (max-width: 625px) {
-    img {
-      width: 100%;
+    #splash {
+      width: 255px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 150px;
     }
 
     #location {
-      width: 100%;
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
     }
 
-    #splash {
-      width: 50%;
-      padding-top: 25%;
+    #socialmedia1 {
+      width: 38px;
+      position: absolute;
+      top: 10px;
+      right: 60px;
     }
+
+    #socialmedia2 {
+      width: 38px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    @media (max-width: 625px) {
+      img {
+        width: 100%;
+      }
+
+      #location {
+        width: 100%;
+      }
+
+      #splash {
+        width: 50%;
+        padding-top: 25%;
+      }
+    }
+  }
+
+  .index {
+    display: none;
   }
 }

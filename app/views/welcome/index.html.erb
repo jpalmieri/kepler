@@ -1,16 +1,26 @@
-<div class='cover'>
-  <div id="socialmedia1">
-    <%= link_to image_tag("facebook-icon.png"), "https://www.facebook.com/kepler452b.org", target: '_blank' %>
+<div class='welcome'>
+  <div class='cover'>
+    <div id="socialmedia1">
+      <%= link_to image_tag("facebook-icon.png"), "https://www.facebook.com/kepler452b.org", target: '_blank' %>
+    </div>
+    <div id="socialmedia2">
+      <%= link_to image_tag("instagram-icon.png"), "https://www.instagram.com/kp452b/", target: '_blank' %>
+    </div>
+    <div id="splash">
+      <%= image_tag "kepler452b.png", alt: "Kepler452b.org" %>
+    </div>
+    <div id="location">
+      <%= link_to "https://www.google.de/maps/place/52%C2%B028'45.0%22N+13%C2%B025'55.0%22E/@52.4791892,13.4310504,19z/data=!4m5!3m4!1s0x0:0x0!8m2!3d52.479159!4d13.431957", target: "_blank" do %>
+        <%= image_tag "gps_date.png" %>
+      <% end %>
+    </div>
   </div>
-  <div id="socialmedia2">
-    <%= link_to image_tag("instagram-icon.png"), "https://www.instagram.com/kp452b/", target: '_blank' %>
+
+
+  <div class='index'>
+    <ul>
+      <li><%= link_to 'team', '#' %></li>
+      <li><%= link_to 'performance', '#' %></li>
+      <li><%= link_to 'music', '#' %></li>
+    </ul>
   </div>
-  <div id="splash">
-    <%= image_tag "kepler452b.png", alt: "Kepler452b.org" %>
-  </div>
-  <div id="location">
-    <%= link_to "https://www.google.de/maps/place/52%C2%B028'45.0%22N+13%C2%B025'55.0%22E/@52.4791892,13.4310504,19z/data=!4m5!3m4!1s0x0:0x0!8m2!3d52.479159!4d13.431957", target: "_blank" do %>
-      <%= image_tag "gps_date.png" %>
-    <% end %>
-  </div>
-</div>
