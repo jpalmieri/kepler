@@ -1,0 +1,8 @@
+<div class='music'>
+  <h1>Musicians</h1>
+  <ul>
+    <% @musicians.each do |person| %>
+      <li><%= person[:name] %></li>
+    <% end %>
+  </ul>
+</div>

@@ -1,0 +1,8 @@
+<div class='team'>
+  <h1>Team</h1>
+  <ul>
+    <% @team_members.each do |person| %>
+      <li><%= person[:name] %></li>
+    <% end %>
+  </ul>
+</div>
