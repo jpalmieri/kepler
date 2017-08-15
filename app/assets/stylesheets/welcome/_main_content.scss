@@ -1,0 +1,36 @@
+@import "base/variables";
+
+.main-content {
+  width: 100%;
+  position: absolute;
+  top: #{($desktopVerticalMargin*2) + $desktopLogoWidth};
+  display: none;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: unquote("calc(100vh - #{($desktopVerticalMargin*2) + $desktopLogoWidth})");
+  pointer-events: all;
+  .content-wrapper {
+    margin: 0 $desktopHorizontalMargin;
+  }
+  .team-view, .music-view, .performance-view {
+    display: none;
+  }
+}
+
+@media (max-width: $tabletWidth) {
+  .main-content {
+    height: unquote("calc(100vh - #{($tabletVerticalMargin*2) + $tabletLogoWidth})");
+    top: #{($tabletVerticalMargin*2) + $tabletLogoWidth};
+    .content-wrapper {
+      margin: 0 $tabletHorizontalMargin;
+    }
+  }
+}
+
+@media (max-width: $mobileWidth) {
+  .main-content {
+    .content-wrapper {
+      margin: 0 $mobileHorizontalMargin;
+    }
+  }
+}

@@ -13,7 +13,6 @@
  *= require font-awesome
  *=require pace/white/pace-theme-center-radar
  *= require layout
- *= require welcome
  *= require_tree .
  *= require_self
  */
