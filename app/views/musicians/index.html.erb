@@ -2,7 +2,7 @@
   <h1>Musicians</h1>
   <ul>
     <% @musicians.each do |person| %>
-      <li><%= person[:name] %></li>
+      <li><%= link_to person[:name], musician_path(person[:simple_name]) %></li>
     <% end %>
   </ul>
 </div>

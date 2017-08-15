@@ -2,7 +2,7 @@
   <h1>Performance</h1>
   <ul>
     <% @performers.each do |person| %>
-      <li><%= person[:name] %></li>
+      <li><%= link_to person[:name], performer_path(person[:simple_name]) %></li>
     <% end %>
   </ul>
 </div>

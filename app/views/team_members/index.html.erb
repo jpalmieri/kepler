@@ -2,7 +2,7 @@
   <h1>Team</h1>
   <ul>
     <% @team_members.each do |person| %>
-      <li><%= person[:name] %></li>
+      <li><%= link_to person[:name], team_member_path(person[:simple_name]) %></li>
     <% end %>
   </ul>
 </div>
