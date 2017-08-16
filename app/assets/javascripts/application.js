@@ -12,9 +12,9 @@
 //
 //= require jquery3
 //= require jquery_ujs
-//= require vendor/jquery.pjax
+//= require jquery.pjax
 //= require rails-ujs
-//= require vendor/parallax.min.js
+//= require parallax.min.js
 //= require_tree .
 
 // this tells pjax what links to fire on
