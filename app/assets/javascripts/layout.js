@@ -1,4 +1,4 @@
-$(document).on('turbolinks:load', function() {
+$(document).ready(function() {
   // parallax js magic
   var scene = $('#scene').get(0);
   // mobile User Agent detection
