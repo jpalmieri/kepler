@@ -18,7 +18,7 @@
     <%= render 'shared/header' %>
     <div id="scene" data-pointer-events='true'>
       <%= render 'shared/stars' %>
-      <div class='main'>
+      <div class='main' data-pjax-container>
         <%= yield %>
       </div>
     </div>

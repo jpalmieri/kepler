@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 # javascript libraries
 gem 'jquery-rails', '~> 4.0'
+gem 'rack-pjax'
 
 # css libraries/stylesheets
 gem 'normalize-rails', '~> 4.0'

@@ -12,7 +12,12 @@
 //
 //= require jquery3
 //= require jquery_ujs
+//= require vendor/jquery.pjax
 //= require rails-ujs
-//= require jquery_ujs
 //= require vendor/parallax.min.js
 //= require_tree .
+
+// this tells pjax what links to fire on
+$(function() {
+  $(document).pjax('a:not([data-remote]):not([data-behavior]):not([data-skip-pjax])', '[data-pjax-container]')
+});
