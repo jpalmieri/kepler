@@ -1,4 +1,4 @@
-class TeamMembersController < ApplicationController
+class TeamController < ApplicationController
   def index
     @team_members = CONTENT[:team]
   end

@@ -1,4 +1,4 @@
-class PerformersController < ApplicationController
+class PerformanceController < ApplicationController
   def index
     @performers = CONTENT[:performance]
   end

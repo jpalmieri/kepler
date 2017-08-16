@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'welcome/index'
   get 'about', to: 'welcome#about'
 
-  resources :team_members, only: [:index, :show]
-  resources :performers, only: [:index, :show]
-  resources :musicians, only: [:index, :show]
+  resources :team, as: 'team_members', only: [:index, :show]
+  resources :performance, as: 'performers', only: [:index, :show]
+  resources :music, as: 'musicians', only: [:index, :show]
 end

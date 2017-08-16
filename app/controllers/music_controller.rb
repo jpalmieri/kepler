@@ -1,4 +1,4 @@
-class MusiciansController < ApplicationController
+class MusicController < ApplicationController
   def index
     @musicians = CONTENT[:music]
   end
