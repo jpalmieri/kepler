@@ -18,6 +18,11 @@
     <%= render 'shared/header' %>
     <div id="scene" data-pointer-events='true'>
       <%= render 'shared/stars' %>
+
+      <div class="back-layer link-layer layer" data-depth="0.80"></div>
+      <div class="middle-layer link-layer layer" data-depth="0.90"></div>
+      <div class="front-layer link-layer layer" data-depth="1.0"></div>
+
       <div class='main' data-pjax-container>
         <%= yield %>
       </div>

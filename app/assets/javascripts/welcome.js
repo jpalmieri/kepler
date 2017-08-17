@@ -5,5 +5,4 @@ $(document).ready(function() {
     $('.cover').hide();
     $('.index').show();
   });
-
 });

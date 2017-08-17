@@ -17,10 +17,14 @@
   </div>
 
 
-  <div class='index'>
-    <ul>
-      <li><%= link_to 'team', team_members_path %></li>
-      <li><%= link_to 'performance', performers_path %></li>
-      <li><%= link_to 'music', musicians_path %></li>
-    </ul>
+<div class='index'>
+  <div class='constellation-link-group' data-destination='back-layer'>
+    <%= link_to 'team', team_members_path %>
   </div>
+  <div class='constellation-link-group' data-destination='middle-layer'>
+    <%= link_to 'performance', performers_path %>
+  </div>
+  <div class='constellation-link-group' data-destination='front-layer'>
+    <%= link_to 'music', musicians_path %>
+  </div>
+</div>
