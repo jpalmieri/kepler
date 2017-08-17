@@ -5,12 +5,8 @@ class TeamController < ApplicationController
 
   def show
     team_members = CONTENT[:team]
-    team_member = team_members.select do |x|
-      x[:simple_name] == params[:id]
-    end
-    if team_member
-      @team_member = team_member.first
-    else
+    @team_member = team_members.select {|m| m[:simple_name] == params[:id]}.first()
+    unless @team_member
       flash[:error] = "team member not found"
       redirect to team_members_index
     end

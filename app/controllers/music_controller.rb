@@ -5,13 +5,9 @@ class MusicController < ApplicationController
 
   def show
     musicians = CONTENT[:music]
-    musician = musicians.select do |x|
-      x[:simple_name] == params[:id]
-    end
-    if musician
-      @musician = musician.first
-    else
-      flash[:error] = "team member not found"
+    @musician = musicians.select {|m| m[:simple_name] == params[:id]}.first()
+    unless @musician
+      flash[:error] = "musician not found"
       redirect to musicians_index
     end
   end

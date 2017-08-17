@@ -5,13 +5,9 @@ class PerformanceController < ApplicationController
 
   def show
     performers = CONTENT[:performance]
-    performer = performers.select do |x|
-      x[:simple_name] == params[:id]
-    end
-    if performer
-      @performer = performer.first
-    else
-      flash[:error] = "team member not found"
+    @performer = performers.select {|m| m[:simple_name] == params[:id]}.first()
+    unless @performer
+      flash[:error] = "performer not found"
       redirect to performers_index
     end
   end
