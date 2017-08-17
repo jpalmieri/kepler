@@ -13,7 +13,31 @@ $(document).ready(function() {
     // instatiate as default (x and y inverted)
     var parallax = new Parallax(scene);
   }
+
   moveLinksIntoConstellation($('.constellation-link-group'), $('.link-layer'));
+
+  // Hamburger nav function
+  $('.header .hamburger').click(function(e) {
+    e.preventDefault();
+    if ($('.nav-container').hasClass('open')) {
+      closeNav();
+    } else {
+      $('.hamburger').addClass('active');
+      $('.nav-container').addClass('open');
+      $('.overlay').addClass('active');
+      parallax.disable();
+    }
+  });
+  $('.overlay').click(function() {
+    closeNav();
+  });
+
+  var closeNav = function() {
+    $('.hamburger').removeClass('active');
+    $('.nav-container').removeClass('open');
+    $('.overlay').removeClass('active');
+    parallax.enable();
+  };
 });
 
 // 'pjax:end' fires on back/forward browser button navigation

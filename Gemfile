@@ -36,6 +36,7 @@ gem 'rack-pjax', '~> 1.0'
 
 # css libraries/stylesheets
 gem 'normalize-rails', '~> 4.0'
+gem 'font-awesome-rails', '~> 4.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

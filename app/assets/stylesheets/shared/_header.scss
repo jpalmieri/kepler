@@ -2,5 +2,189 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
+  width: 100%;
+  .header-inner {
+    margin: $desktopVerticalMargin;
+    .logo {
+      pointer-events: all;
+      width: $desktopLogoWidth;
+      cursor: pointer;
+      -webkit-transition: opacity 0.5s ease-in;
+      -o-transition: opacity 0.5s ease-in;
+      transition: opacity 0.5s ease-in;
+    }
+    .hamburger {
+      position: absolute;
+      top: 10px;
+      right: $desktopVerticalMargin + 5px;
+      pointer-events: all;
+      .line{
+        width: 50px;
+        height: 5px;
+        background-color: $lightGray;
+        display: block;
+        margin: 8px auto;
+        // hamburger animation stolen from Rosa:
+        // https://codepen.io/RRoberts/pen/ZBYaJr
+        // Thanks!
+        -webkit-transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        -o-transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+      }
+
+      &:hover {
+        cursor: pointer;
+        .line {
+          background: $logoGradient;
+          background-size: 400% 400%;
+          animation: gradientFade 2s linear infinite;
+        }
+      }
+      @media (hover: none) {
+        &:hover {
+          .line {
+            background: $lightGray
+          }
+        }
+        &.active {
+          .line {
+            background: $logoGradient;
+            background-size: 400% 400%;
+            animation: gradientFade 2s linear infinite;
+          }
+        }
+      }
+
+      &.active .line {
+        &:nth-child(2){
+          opacity: 0;
+        }
+        &:nth-child(1){
+          -webkit-transform: translateY(13px) rotate(45deg);
+          -ms-transform: translateY(13px) rotate(45deg);
+          -o-transform: translateY(13px) rotate(45deg);
+          transform: translateY(13px) rotate(45deg);
+        }
+        &:nth-child(3){
+          -webkit-transform: translateY(-13px) rotate(-45deg);
+          -ms-transform: translateY(-13px) rotate(-45deg);
+          -o-transform: translateY(-13px) rotate(-45deg);
+          transform: translateY(-13px) rotate(-45deg);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $tabletWidth) {
+  .header {
+    .header-inner {
+      margin: $tabletVerticalMargin;
+      .logo {
+        width: $tabletLogoWidth;
+      }
+      .header-right {
+        color: $lightGray;
+        top: 0;
+        right: $tabletVerticalMargin;
+        font-size: 45px;
+      }
+    }
+  }
+}
+
+@media (max-width: $mobileWidth) {
+  .header {
+    .header-inner {
+      margin: $mobileVerticalMargin;
+      .header-right {
+        top: 0;
+        right: $mobileVerticalMargin;
+      }
+    }
+  }
+}
+
+.nav-container {
+  cursor: pointer;
+  top: ($desktopVerticalMargin*2) + $desktopLogoWidth;
+  position: absolute;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: auto 75px;
+  grid-template-rows: repeat(3, 50px);
+  grid-row-gap: 5px;
+  color: #444;
+  -webkit-transition: right 0.5s ease-in-out;
+  -moz-transition: right 0.5s ease-in-out;
+  transition: right 0.5s ease-in-out;
+  right: -35vw;
+  @media (max-width: $tabletWidth) {
+    right: -50vw;
+  }
+  @media (max-width: $mobileWidth) {
+    right: -85vw;
+  }
+  &.open {
+    right: 0;
+  }
+  .grid-item {
+    color: $lightGray;
+    font-size: 200%;
+    a {
+      text-decoration: none;
+      &:link, &:visited, &:active {
+        color: $lightGray;
+      }
+    }
+  }
+  .icon {
+    justify-self: center;
+    text-align: center;
+    grid-column: 2;
+    .fa {
+      &:hover {
+        @include gradient-text($logoGradient);
+      }
+    }
+  }
+  .label {
+    font-weight: 300;
+    font-style: normal;
+    justify-self: right;
+    text-align: right;
+    grid-column: 1;
+    padding-right: 0;
+    a, .internal-nav-link {
+      &:hover {
+        @include gradient-text($logoGradient);
+      }
+    }
+  }
+  @media (hover: none) {
+    .icon .fa:hover, .label a:hover, .internal-nav-link:hover {
+      @include unset-gradient-text($lightGray);
+    }
+  }
+}
+
+.overlay {
+  visibility: hidden;
+  @keyframes fade {
+    from  { opacity: 0; }
+    to    { opacity: 0.75; }
+  }
+  &.active {
+    z-index: 1;
+    background-color: black;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    visibility: visible;
+    animation: fade 0.5s;
+    opacity: 0.75;
+  }
 }
