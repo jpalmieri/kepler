@@ -33,7 +33,7 @@ var moveLinksIntoConstellation = function($sourceContainers, $destinationContain
   $destinationContainers.each(function(i, el) { $(el).empty(); });
   $sourceContainers.each(function(i, linkGroup) {
     var $destination = $('.' + $(linkGroup).data('destination'));
-    $(linkGroup).children('a').each(function(i, link) {
+    $(linkGroup).children().each(function(i, link) {
       // copy them to the new div instead of moving them
       $(link).clone().appendTo($destination);
     });

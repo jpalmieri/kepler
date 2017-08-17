@@ -2,17 +2,17 @@
   <div class='constellation-index'>
     <div class='constellation-link-group' data-destination='back-layer'>
       <% first_third(@team_members).each do |person| %>
-        <%= link_to person[:name], team_member_path(person[:simple_name]) %>
+        <h3><%= link_to person[:name], team_member_path(person[:simple_name]) %></h3>
       <% end %>
     </div>
     <div class='constellation-link-group' data-destination='middle-layer'>
       <% middle_third(@team_members).each do |person| %>
-        <%= link_to person[:name], team_member_path(person[:simple_name]) %>
+        <h3><%= link_to person[:name], team_member_path(person[:simple_name]) %></h3>
       <% end %>
     </div>
     <div class='constellation-link-group' data-destination='front-layer'>
       <% last_third(@team_members).each do |person| %>
-        <%= link_to person[:name], team_member_path(person[:simple_name]) %>
+        <h3><%= link_to person[:name], team_member_path(person[:simple_name]) %></h3>
       <% end %>
     </div>
   </div>

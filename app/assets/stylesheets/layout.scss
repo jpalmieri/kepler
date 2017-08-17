@@ -1,45 +1,56 @@
+$darkGray: #333333;
+$mediumGray: #666666;
+$lightGray: #CCCCCC;
+$white: #FFFFFF;
+
 html {
   height: 100%;
 }
 
 body {
-  color: white;
+  color: $white;
   background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-  font-family: 'Roboto', Helvetica, Verdana, Arial, sans-serif;
+  font-family: 'Nunito Sans', Helvetica, Verdana, Arial, sans-serif;
+  font-size: calc(0.75em + 1vmin);
 }
 
 a {
   &:link, &:visited, &:active {
-    text-decoration:none;
-    color: #666666;
+    text-decoration: none;
+    color: $lightGray;
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
+  font-family: 'Squared Display';
   font-weight: normal;
-  color: #CCCCCC;
+  color: $white;
 }
 
+h4, h5, h6 {
+  font-weight: normal;
+  color: $lightGray;
+}
+
+h1 { font-size: calc(2.25em + 1vmin); }
+h2 { font-size: calc(1.875em + 1vmin); }
+h3 { font-size: calc(1.5em + 1vmin); }
+h4 { font-size: calc(1.125em + 1vmin); }
+h5 { font-size: calc(0.875em + 1vmin); }
+h6 { font-size: calc(0.75em + 1vmin); }
+
 h1, h2 {
-  font-style:normal;
-  text-align:center;
-  font-size: 48px;
-  letter-spacing:5px;
+  text-align: center;
+  letter-spacing: 5px;
   padding: 0;
 }
 
 h1 {
-  font-weight:100;
-
+  font-size: 48px;
 }
 
 h2 {
-  font-style:normal;
-  font-weight:300;
-  text-align:center;
-  letter-spacing:5px;
   font-size: 24px;
-  padding: 0;
 }
 
 #scene {
