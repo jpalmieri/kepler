@@ -1,8 +1,19 @@
 <div class='performance'>
-  <h1>Performance</h1>
-  <ul>
-    <% @performers.each do |person| %>
-      <li><%= link_to person[:name], performer_path(person[:simple_name]) %></li>
-    <% end %>
-  </ul>
+  <div class='constellation-index'>
+    <div class='constellation-link-group' data-destination='back-layer'>
+      <% first_third(@performers).each do |person| %>
+        <%= link_to person[:name], performer_path(person[:simple_name]) %>
+      <% end %>
+    </div>
+    <div class='constellation-link-group' data-destination='middle-layer'>
+      <% middle_third(@performers).each do |person| %>
+        <%= link_to person[:name], performer_path(person[:simple_name]) %>
+      <% end %>
+    </div>
+    <div class='constellation-link-group' data-destination='front-layer'>
+      <% last_third(@performers).each do |person| %>
+        <%= link_to person[:name], performer_path(person[:simple_name]) %>
+      <% end %>
+    </div>
+  </div>
 </div>

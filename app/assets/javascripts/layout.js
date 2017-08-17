@@ -16,7 +16,8 @@ $(document).ready(function() {
   moveLinksIntoConstellation($('.constellation-link-group'), $('.link-layer'));
 });
 
-$(document).on('pjax:complete', function() {
+// 'pjax:end' fires on back/forward browser button navigation
+$(document).on('pjax:complete pjax:end', function() {
   moveLinksIntoConstellation($('.constellation-link-group'), $('.link-layer'));
 });
 
@@ -33,8 +34,8 @@ var moveLinksIntoConstellation = function($sourceContainers, $destinationContain
   $sourceContainers.each(function(i, linkGroup) {
     var $destination = $('.' + $(linkGroup).data('destination'));
     $(linkGroup).children('a').each(function(i, link) {
-      $(link).appendTo($destination);
+      // copy them to the new div instead of moving them
+      $(link).clone().appendTo($destination);
     });
-    $(linkGroup).remove();
   });
 };
