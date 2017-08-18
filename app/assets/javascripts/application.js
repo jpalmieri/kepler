@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require jquery.pjax
 //= require rails-ujs
+//= require pace/pace
 //= require parallax.min.js
 //= require_tree .
 
