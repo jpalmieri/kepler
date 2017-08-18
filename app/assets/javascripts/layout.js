@@ -31,19 +31,21 @@ $(document).ready(function() {
   $('.overlay').click(function() {
     closeNav();
   });
-
   var closeNav = function() {
     $('.hamburger').removeClass('active');
     $('.nav-container').removeClass('open');
     $('.overlay').removeClass('active');
     parallax.enable();
   };
+
+  // 'pjax:end' fires on back/forward browser button navigation
+  $(document).on('pjax:complete pjax:end', function() {
+    closeNav();
+    moveLinksIntoConstellation($('.constellation-link-group'), $('.link-layer'));
+  });
 });
 
-// 'pjax:end' fires on back/forward browser button navigation
-$(document).on('pjax:complete pjax:end', function() {
-  moveLinksIntoConstellation($('.constellation-link-group'), $('.link-layer'));
-});
+
 
 // kind of a hack to move elements rendered via pjax into the parallax.js layers.
 // since one pjax link can only be associated with updating one pjax container,

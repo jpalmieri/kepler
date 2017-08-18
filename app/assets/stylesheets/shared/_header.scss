@@ -85,11 +85,10 @@
       .logo {
         width: $tabletLogoWidth;
       }
-      .header-right {
+      .hamburger {
         color: $lightGray;
-        top: 0;
+        top: $tabletVerticalMargin;
         right: $tabletVerticalMargin;
-        font-size: 45px;
       }
     }
   }
@@ -99,8 +98,8 @@
   .header {
     .header-inner {
       margin: $mobileVerticalMargin;
-      .header-right {
-        top: 0;
+      .hamburger {
+        top: $mobileVerticalMargin;
         right: $mobileVerticalMargin;
       }
     }
@@ -108,7 +107,6 @@
 }
 
 .nav-container {
-  cursor: pointer;
   top: ($desktopVerticalMargin*2) + $desktopLogoWidth;
   position: absolute;
   z-index: 2;
