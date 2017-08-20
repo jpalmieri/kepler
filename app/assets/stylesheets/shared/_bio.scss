@@ -1,0 +1,100 @@
+.main-content {
+  width: 100%;
+  position: absolute;
+  top: #{($desktopVerticalMargin*2) + $desktopLogoWidth};
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: unquote("calc(100vh - #{($desktopVerticalMargin*2) + $desktopLogoWidth})");
+  pointer-events: all;
+  .content-wrapper {
+    margin: 0 $desktopHorizontalMargin;
+  }
+  .team-view, .music-view, .performance-view {
+    display: none;
+  }
+}
+
+@media (max-width: $tabletWidth) {
+  .main-content {
+    height: unquote("calc(100vh - #{($tabletVerticalMargin*2) + $tabletLogoWidth})");
+    top: #{($tabletVerticalMargin*2) + $tabletLogoWidth};
+    .content-wrapper {
+      margin: 0 $tabletHorizontalMargin;
+    }
+  }
+}
+
+@media (max-width: $mobileWidth) {
+  .main-content {
+    .content-wrapper {
+      margin: 0 $mobileHorizontalMargin;
+    }
+  }
+}
+
+
+.bio-item {
+  .top-row {
+    display: flex;
+    margin-top: 25px;
+    @media (max-width: $mobileWidth) {
+      margin-top: $mobileHorizontalMargin;
+    }
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .top-row-item-1 {
+    @media (min-width: 1250px) {
+      width: 75%;
+    }
+  }
+  .row-1 {
+    display: flex;
+    margin-bottom: 25px;
+    @media (max-width: $mobileWidth) {
+      margin-bottom: $mobileHorizontalMargin;
+    }
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .back-button-row {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .photo {
+    min-width: 350px;
+    height: 350px;
+    @media (max-width: 950px) {
+      min-width: 200px;
+      height: 200px;
+    }
+    @media (max-width: $mobileWidth) {
+      min-width: 100px;
+      height: 100px;
+    }
+    border: 1px solid white;
+  }
+  .personal-details {
+    margin: auto 0 auto 25px;
+    @media (max-width: $mobileWidth) {
+      margin-left: $mobileHorizontalMargin;
+    }
+    flex-shrink: 2;
+  }
+  h1.name {
+    text-align: unset;
+    margin: 0;
+    @media (max-width: $tabletWidth) {
+      font-size: calc(1.875em + 1vmin);
+    }
+    @media (max-width: $mobileWidth) {
+      font-size: calc(1.5em + 1vmin);
+    }
+  }
+  .web-link {
+    word-break: break-all;
+  }
+  .bio-content {
+    padding-bottom: 20vh;
+  }
+}
