@@ -226,5 +226,13 @@ development:
         <b>2015</b> Villanpsico Tour ’15 Biwota fest, Magazine Club. València; Villanpsico Tour ’15, Online. Torís; Villanpsico Tour ’15 Giferiano Fest, Ca la Mera. Ontinyent; Villanpsico Tour ’15 Atronador Fest, Sala Ocho y Medio. Alacant; UFFF!!!, Schere 8. Berlin; Wedding Moabit Kultur Festival, PublicArtLab Of ce. Berlin; Föhnfest, die Backerei. Innsbruck; Future Now. Feria MARTE, Four Seasons
         Sixties. Castelló; BATALLAR – BATALLEM, La Gallera. València; LoopSider V, Loophole. Berlin; Sismothérapie, Cirque Electrique. Paris
         <b>2014</b> Fest-ardor, Gandia; La Llimera, Valencia; Wedding Moabit Kultur Festival, PublicArtLab Of ce. Berlin; Exentricités, ISBA. Insitut Supérieur des Beaux Arts. Besançon
+    - simple_name: 'proxima_plus'
+      name: "Proxima Plus ft. ZAFTIK musik"
+      title: ""
+      web_links:
+        - ""
+      photo:
+      bio: |
+        Born in San Fransisco, California on Sept 7, 1986, Claire Côte has been dancing and singing since she could walk and talk. Claire graduated from Goucher College with a B.A. in Anthropology, Art, and Dance in 2009. From 2007-2011, she created dance-theater pieces with effervescent collective in Baltimore, MD. Since moving to Berlin in 2011, she performs experimental, improvisation dance with various musicians including Lolita Terrorist Sounds, Passi ora, and Voodoohop, wearing self- made, imaginative costumes. In February 2017, she produced and self-released cross-genre, down- tempo electronic music under the name, quest:in:time, a collaborative project with Peter Lay of electronic welfare. In June 2017 she began her solo music project as ZAFTIK, delivering juicy vibes to the dance- oor. She recently formed the dance collective Proxima Plus with Irene Anglada and Marissa Medal, whose aim is to bring people closer by connecting and exchanging energy, and to experience movement and sensations more fully through interactive performances. Proxima Plus will prepare and guide the “lucky ones” on their journey to Kepler 425b, accompanied by the juicy waves of ZAFTIK musik.
 test:
   foo: "bar"
