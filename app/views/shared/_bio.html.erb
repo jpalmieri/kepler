@@ -13,9 +13,11 @@
               <div class='title'>
                 <%= person[:title] %>
               </div>
-              <div class='web-link'>
-                <%= link_to person[:web_link], person[:web_link], target: '_blank' %>
-              </div>
+              <% person[:web_links].each do |web_link| %>
+                <div class='web-link'>
+                  <%= link_to web_link, "//#{web_link}", target: '_blank' %>
+                </div>
+              <% end %>
             </div>
           </div>
           <div class='bio'>
