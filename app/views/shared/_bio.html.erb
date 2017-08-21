@@ -21,9 +21,9 @@
             </div>
           </div>
           <div class='bio'>
-            <div class='bio-content'>
-              <%= person[:bio] %>
-            </div>
+            <p class='bio-content'>
+              <%= person[:bio].html_safe %>
+            </p>
           </div>
         </div>
       </div>
