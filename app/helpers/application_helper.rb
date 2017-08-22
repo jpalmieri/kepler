@@ -10,4 +10,12 @@ module ApplicationHelper
   def last_third(arr)
     return arr[((arr.length/3*2)+1)..-1]
   end
+
+  def bio_photo(photo_name)
+    begin
+      image_tag("bio/#{photo_name}")
+    rescue Sprockets::Rails::Helper::AssetNotFound
+      return nil
+    end
+  end
 end
