@@ -16,7 +16,7 @@ development:
       title: "Installation and Performance Artist"
       web_links:
         - "malimalimali.com"
-      photo:
+      photo: "ma_li.jpg"
       bio: >
         Originally born in China, Ma Li received her MFA from San Francisco Art Institute. She formulates dream-like worlds using recycled materials both physical and digital. Combining her background in choreography and her upbringing in China, Ma Li orchestrates participatory performance through the methodologies of military training and childhood play. Ma Li is the recipient of the Pollack-Krasner Foundation Grant, the Murphy and Cadogan Contemporary Art Award, and has performed and exhibited internationally at art museums, galleries and venues. Her latest project was presented at the Asian Art Museum in San Francisco in Feb 2017, where she led 300 visitors to play a gigantic dance video game of watermelon-style TechnoTaichi.
     - simple_name: 'florian'
@@ -24,7 +24,7 @@ development:
       title: "Fashion Designer & Pattern Cutter"
       web_links:
         - "florianmathe.com"
-      photo:
+      photo: "florian_team.jpg"
       bio: >
         Finding his technical feet during a Viennese apprenticeship for Fashion and Clothing Manufacturing, UDK alumnus Florian Máthé arrived in Berlin 4 years ago to begin his studies at the nation’s most prestigious creative institution. Immediately diving into Berlin’s art scene, he founded and organised a pop up project and art space called “je regrette” in Berlin Mitte, curating four shows featuring artists like Mischa Badasyan, Daniel Ferstl, Stephanie Ballantine and Kim Asendorf. During his studies, he worked for different labels and costume designers such as Marques’ Almeida, Wales Bonner and Hannah Hopkins and specialized in pattern cutting and tailoring. Using his technical background as a strong foundation to build on, he is currently developing his men’s and women’s wear graduate collection, which is deeply influenced by London’s Queer Performance Scene. With a desire to “[question] the terms of beauty, body and aesthetics” as key motivation, he wishes to convey vibrantness, freedom and emotion in the context of fashion as well as a new spectacular performance.
     - simple_name: 'vanta'
@@ -90,7 +90,7 @@ development:
       title: "Software Engineer"
       web_links:
         - "jpalmieri.com"
-      photo:
+      photo: "joe_palmieri.jpg"
       bio: >
         Joe Palmieri is a Software Engineer based in Oakland, California who devotes his energy to collaborative installations in the San Francisco area and beyond. He has contributed to Catacomb of Veils and, to a lesser extent, La Victrola, both shown at Burning Man 2016. Recently, he has led the conceptual and preliminary design for C60, a steel sculpture with interactive fire effects which will debut in a partially finished form at Burning Man 2017. Over the coming year, he will be adding additional fire effects to C60 and sculpting his mustache to more Dalí-like proportions.
     - simple_name: 'sophia'
@@ -117,7 +117,7 @@ development:
       title: ""
       web_links:
         - ""
-      photo:
+      photo: "miiia.jpg"
       bio: |
         Chinese Canadian electronic music artist MIIIA has been weaving her unique blend of vibes at the forefront of Shanghai’s underground music scene since she settled down in this city. With a relentless passion for creation, she is continuously building a musical dream-world that grows from the studio into her on-stage performances. Countless party-goers have fallen for her talent and charisma; she is truly a part of China’s current underground music movement.
 
@@ -166,7 +166,7 @@ development:
       title: ""
       web_links:
         - ""
-      photo:
+      photo: "valentino_mora.jpg"
       bio: |
         Seamlessly incorporating influences of movement, expression and soul into his production, Valentino Canzani Mora has never strayed far from this ethos since experimenting with music from a very young age. Raised by Uruguayan parents - of which his father was a trained sound engineer and musician, Mora was surrounded by music and exposed to producing constantly throughout his childhood.
 
@@ -231,7 +231,7 @@ development:
       title: ""
       web_links:
         - ""
-      photo:
+      photo: "zaftik.jpg"
       bio: |
         Born in San Fransisco, California on Sept 7, 1986, Claire Côte has been dancing and singing since she could walk and talk. Claire graduated from Goucher College with a B.A. in Anthropology, Art, and Dance in 2009. From 2007-2011, she created dance-theater pieces with effervescent collective in Baltimore, MD. Since moving to Berlin in 2011, she performs experimental, improvisation dance with various musicians including Lolita Terrorist Sounds, Passi ora, and Voodoohop, wearing self- made, imaginative costumes. In February 2017, she produced and self-released cross-genre, down- tempo electronic music under the name, quest:in:time, a collaborative project with Peter Lay of electronic welfare. In June 2017 she began her solo music project as ZAFTIK, delivering juicy vibes to the dance- oor. She recently formed the dance collective Proxima Plus with Irene Anglada and Marissa Medal, whose aim is to bring people closer by connecting and exchanging energy, and to experience movement and sensations more fully through interactive performances. Proxima Plus will prepare and guide the “lucky ones” on their journey to Kepler 425b, accompanied by the juicy waves of ZAFTIK musik.
   designers:
@@ -244,7 +244,7 @@ development:
       bio: |
         Vladimir Karaleev’s work is characterized by intense study of the human body and its connections with clothing through experimental incision and innovative shape. A striking feature of both his women’s and men’s collections is the subtle yet decisive play with contrast of material. In uenced by contemporary art and architecture, Karaleev’s collections re ect a conceptual understanding of clothing as a medium as well as its functional purpose. The individual forms of expression are propagated through fashion unobtrusively, without disregarding the balance between material, shape and detail. The garments underline the individuality of a person but he / she remains the focal point.Vladimir Karaleev, born in 1981 in So a, Bulgaria, studied fashion design at the University of Applied Sciences (HTW) in Berlin, Germany. Following his studies, he founded his eponymous label in 2010 and was included within a short time in the of cial schedule of the Mercedes Benz Fashion Week Berlin. In 2014 he was nominated for the International Woolmark Prize. Vladimir Karaleev’s collections are represented in numerous concept stores in Europe, North America, Asia and the Middle East.
     - simple_name: 'florian_mathe'
-      name: "Florian Máthé"
+      name: "Florian Máthé"
       title: ""
       web_links:
         - ""
