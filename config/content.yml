@@ -32,7 +32,7 @@ development:
       title: "Creative coder + Visual artist"
       web_links:
         - "thomasvanta.net"
-      photo:
+      photo: "vanta.jpg"
       bio: >
         Thomas Van Ta is a digital Alter Ego. After studying Environmental Sciences in Granada University, Spain, Van Ta began his career as a visual designer. There he was part of the audiovisual collective Miga. Moving then to Berlin, he made an internship at the mythical record label Mnus, where he became part of development team at 2V-P. Nowadays he works as creative coder in the studio Pfadfinderei as well as collaborating with many artistic and commercial projects such as Melt! Festival, Fusion Festival and Lowlands Festival.
     - simple_name: 'stefanie'
@@ -40,7 +40,7 @@ development:
       title: "Visual Artist + Designer"
       web_links:
         - "stefanieloveday.com"
-      photo:
+      photo: "stefanie.jpg"
       bio: >
         Stefanie Loveday is a Swiss-Canadian artist working and living in Berlin, Germany. Her photographs and participatory performances explore landscape as an extension of the body. Loveday received a Masters of Fine Art in Photography from San Francisco Art Institute and a Bachelor of Media Arts from Emily Carr University. She was the recipient of the Leon and Thea Koerner Award in the Fine and Performing Arts, and the Helen Pitt Award. Loveday has been awarded artist residencies at Programa Red de Residencies Artísticas LOCAL, Universidad Nacional de Colombia in Bogotá and Leticia, and The Hammock Residency in Vancouver, Canada.
     - simple_name: 'giannina'
@@ -48,7 +48,7 @@ development:
       title: "Communications"
       web_links:
         - ""
-      photo:
+      photo: "giannina.jpg"
       bio: >
         Giannina Lisitano holds a BA in Communication & Cultural Management and graduated in Cultural History and Theory from Humboldt University Berlin with a master thesis questioning images of death in times of algorithms and memes. Since an internship at documenta 12 she has dedicated most of her life to support the communication of art, cultural and political projects such as the Berlin Biennale for contemporary art, transmediale festival or Werkbundarchive - Museum of things. Currently she works as a communications manager for segeband PR (48 Stunden Neukölln, Kindl Zentrum für zeitgenössische Kunst) and “Immersion - analog arts in a digital age” a new format by Berliner Festspiele.
     - simple_name: 'vittoria'
@@ -58,7 +58,7 @@ development:
         - "terraformafestival.com"
         - "inverted-audio.com"
         - "utura-artists.com"
-      photo:
+      photo: "vittoria.jpg"
       bio: >
         Mingling her interest for electronic music and writing since her early teens, the experiences within editorial contexts (Tsinoshi Bar, Inverted Audio) and festivals (NeXTones, Krake) brought Vittoria to move from Milano to Berlin in 2015, two weeks after her graduation in International Relations. Fuelled by a grounded enthusiasm and strong will, she started an internship at Matias Aguayo’s label Cómeme to then soon become a booker of the label’s related agency futura. Concurrently working remotely for Electropark Exchanges, a Milano-based project of seated concerts focusing on electronic and classical music, Vittoria is now also collaborating with the experimental and sustainable festival Terraforma.
     - simple_name: 'mee_shell'
@@ -66,7 +66,7 @@ development:
       title: "Video Production"
       web_links:
         - ""
-      photo:
+      photo: "mee_shell.jpg"
       bio: >
         Techno music, listening, producing, djing, dancing, movie making and organising artistic events, those are my passions and I try to put all my heart and energy into each one of them. At the end of the day, I want to inspire people and help them see things from a different perspective.
     - simple_name: 'bogdan'
@@ -74,7 +74,7 @@ development:
       title: "Filmmaker"
       web_links:
         - ""
-      photo:
+      photo: "bogdan.jpg"
       bio: >
         Bogdan Licar is a monkey-coder, filmmaker and avid dancer - after years of working with mathematics and digital art, he moved to analogue photography and filmmaking, focusing on deprecated visual and printing techniques, with the occasional scripted short film for his ongoing filmmaking degree in London. Mainly interested in water and plants, he’s trying to merge dance, shadow play and childhood memories onto film and possibly into physical ascension.
     - simple_name: 'connie'
@@ -107,7 +107,7 @@ development:
       title: ""
       web_links:
         - ""
-      photo:
+      photo: "ancestral_voices.jpg"
       bio: |
         The birth of Ancestral Voices represents a new path for an established and highly respected producer. Liam Blackburn carved out a singular musical voice as Indigo, and also more recently as half of acclaimed duo Akkord. Inevitably a new approach to creating music has developed into a new identity: seeping with textures, loaded with a taut energy that whispers tales of shamanism and transformative life experiences.
 
@@ -127,7 +127,7 @@ development:
       title: ""
       web_links:
         - ""
-      photo:
+      photo: "neel.jpg"
       bio: >
         Neel is an artist who pays close attention to the technical aspect of sound whether producing in the studio, DJing or playing live around the world. His considered output fuses rhythm and texture with techno and ambience in hugely captivating ways, as proved by his latest LP Phobos, which was well received by all media and set a new standard for ambient music.
         Further releases on labels like Bunker NY and Spectrum Spools only confirm the uniqueness of his sound, and that also comes across in his immersive ambient AV shows at places like Mutek and Berlin Atonal, his solo live techno shows and of course Voices From the Lake, his live and studio collaboration with Donato Dozzy. Neel is, then, a true modern day techno craftsman who can do surreal and unusual things with sound in truly unique ways.
@@ -136,7 +136,7 @@ development:
       title: ""
       web_links:
         - ""
-      photo:
+      photo: "nuel.jpg"
       bio: |
         Italian DJ and producer Nuel is someone who explores long form grooves, meditative rhythm and soothing soundscapes. He does so on labels like Further, Latency and Aquaplano in both EP and LP form, and is at home in both the techno and ambient worlds.
 
@@ -146,7 +146,7 @@ development:
       title: ""
       web_links:
         - ""
-      photo:
+      photo: "stefan_schneider.jpg"
       bio: |
         STEFAN SCHNEIDER is a Düsseldorf based musician and producer who, for a little more than two decades, is one of the most original and prolific voices in contemporary electronic music. SCHNEIDER is a founding member of Düsseldorfs electronic outfit KREIDLER (1994-99) and has also been a third of the internationally highly acclaimed trio TO ROCOCO ROT (1995-2014) . During the past couple of years he has also collaborated and produced with a.o. Joachim Roedelius (Cluster), Arto Lindsay, Bill Wells, Dieter Moebius (Cluster), Sofia Jernberg, Koshiro Hino (YPY/GOAT), John McEntire (tortoise) and fine art superstar Katharina Grosse.
 
@@ -191,7 +191,7 @@ development:
       title: ""
       web_links:
         - "thump.vice.com/en_us/article/pg8x3k/young-boy-dancing-group-lasers-butt-queer-art"
-      photo:
+      photo: "ybdg.jpg"
       bio: |
         Young Boy Dancing Group is a lose performance collective around Tomislav Feller, Nils Amadeus Lange, Maria Metsalu, Ofelia jarl Ortega, Vincent Riebeek, Nicolas Roses, Manuel Scheiwiller.From event to event the cast, title and scenes are changing according to the venue. The show is constructed with different scenes addressing sexuality, digital age, fetishes, contemporary dance, pop and youth culture. The scenes are often structured improvisation with a prepared aesthetic approach aiming for an entertaining spectacle. Ybdg is critiquing the institutionalized performances and dance shows produced by the theaters, some shows being constructed within a day, quickly built up and vivid labeling. Thereby all the participators are having an in uence on creating the scenes and carry the same authorship. YBDG showed amongst others at: Silencio, Paris, Lithuanian Pavilion, Venice Biennale 2015, Chart Art Fair, Manifesta Biennale, Zürich, AHMD & Chapter 10, London, Lof cialàrt, Paris, Roskilde Festival, DK.
     - simple_name: 'will_marshell'
@@ -199,7 +199,7 @@ development:
       title: ""
       web_links:
         - ""
-      photo:
+      photo: "will_marshell.jpg"
       bio: >
         Will Marshall is the Co-Founder and CEO of Planet Labs. He leads the overall company strategy and direction. Prior to Planet Labs, Will was a Scientist at NASA/USRA where he was Deputy Systems Engineer on lunar orbiter mission “LADEE”, a Science Team member for the lunar impactor mission “LCROSS”, served as Co-Principal Investigator on PhoneSat, and was the technical lead on research projects in space debris remediation. Will received his Ph.D. in Physics from the University of Oxford and his Masters in Physics with Space Science and Technology from the University of Leicester. Will was a Postdoctoral Fellow at George Washington University and Harvard.
     - simple_name: 'mataya_waldenberg'
@@ -207,7 +207,7 @@ development:
       title: "Performance Artist, Musician, Model "
       web_links:
         - "pw-magazine.com/2017/lady-matayas-fantastischer-pfad-aus-der-duesternis/"
-      photo:
+      photo: "mataya_waldenberg.jpg"
       bio: >
         Mataya Waldenberg aka Lady Mataya is a performance artist and musician. Since 2012, Mataya Waldenberg has studied Experiemental Design at the University of Art and Design Linz, and now concentrates on performance, photography and video. Their focus lies on the theme of gender and its place in society. In 2016, Waldenberg released their debut album “The Fantastic Tale”, with another album to be released in September 2017.
     - simple_name: 'proxima_plus'
@@ -224,7 +224,7 @@ development:
       title: ""
       web_links:
         - ""
-      photo:
+      photo: "vladimir_karaleev.jpg"
       bio: |
         Vladimir Karaleev’s work is characterized by intense study of the human body and its connections with clothing through experimental incision and innovative shape. A striking feature of both his women’s and men’s collections is the subtle yet decisive play with contrast of material. In uenced by contemporary art and architecture, Karaleev’s collections re ect a conceptual understanding of clothing as a medium as well as its functional purpose. The individual forms of expression are propagated through fashion unobtrusively, without disregarding the balance between material, shape and detail. The garments underline the individuality of a person but he / she remains the focal point.Vladimir Karaleev, born in 1981 in So a, Bulgaria, studied fashion design at the University of Applied Sciences (HTW) in Berlin, Germany. Following his studies, he founded his eponymous label in 2010 and was included within a short time in the of cial schedule of the Mercedes Benz Fashion Week Berlin. In 2014 he was nominated for the International Woolmark Prize. Vladimir Karaleev’s collections are represented in numerous concept stores in Europe, North America, Asia and the Middle East.
     - simple_name: 'florian_mathe'
@@ -232,7 +232,7 @@ development:
       title: ""
       web_links:
         - ""
-      photo:
+      photo: "florian_designer.jpg"
       bio: |
         Finding his technical feet during a Viennese ap- prenticeship for Fashion and Clothing Manufacturing, UDK alumnus Florian Máthé arrived in Berlin 4 years ago to begin his studies at the nation’s most prestigious creative institution. Immediately diving into Berlin’s art scene, he founded and organised a pop up project and art space called “je regrette” in Berlin Mitte, curating four shows featur- ing artists like Mischa Badasyan, Daniel Ferstl, Stephanie Ballantine and Kim Asendorf. During his studies, he worked for different labels and costume designers such as Marques’ Almeida, Wales Bonner and Hannah Hopkins and specialized in pattern cutting and tailoring. Using his technical background as a strong foundation to build on, he is currently developing his men's and women’s wear graduate collection, which is deeply in uenced by London’s Queer Performance Scene. With a desire to “[question] the terms of beauty, body and aesthetics” as key motivation, he wishes to convey vibrantness, freedom and emotion in the context of fashion as well as a new spectacular performance.
     - simple_name: 'bjorn_melhus'
@@ -240,7 +240,7 @@ development:
       title: "Made on Mars"
       web_links:
         - ""
-      photo:
+      photo: "bjorn_melhus.jpg"
       bio: |
         <b>Made on Mars</b>
         The Brand new Fall/Winter Collection celebrates the  nancial crisis and is appropriately accompanied with mulled wine, seasonal baked goods and many intriguing insights on how to do Xmas on Mars. Not to be missed!And not to be forgotten: By attending this ultimate Xmas celebration you will already have put a check mark next to your Xmas festivities and can calmly leave for your well earned winter vacation on Venus!
@@ -249,7 +249,7 @@ development:
       title: ""
       web_links:
         - ""
-      photo:
+      photo: "nelson_santos.jpg"
       bio: |
         Nelson Santos is a Portuguese fashion designer, illustrator and artist, who moved to London in 2007 after studying Fashion and Textiles Design in Portugal.He explores and overemphasizes the human body shape by manipulating materials, texture and cuts to create unique pieces to suit each individual he works with. His work is a fusion of art and fashion, exploring a different side of fashion and the dichotomy between the beautiful and the ugly and the aspirational desire for beauty. Nelson’s inspiration comes from the people in the streets, music and  lms. Since 2012 he has been working as senior fashion editor at KCTV, which has enabled him to keep up to date and share his views on the fashion world with the general public.As an up and coming designer, he won a national award in 1st place for young fashion designers in Portugal in 2006. He has also been awarded the “The Future of Fashion Illustration” an international competition by Fashion Capital, in 2012 and chosen over 100,000 entrants. Nelson is a multifaceted creative who over the last 2 years has not only designed and made several costumes for performers, singers & DJ’s, worldwide, but also has art directed and styled fashion  lms and most recently contributed towards a world-renowned fashion book called Petrie 66. Nelson continues to grow by grasping all new opportunities that come his way.
     - simple_name: 'xvii_studio'
@@ -257,7 +257,7 @@ development:
       title: "Bodies that Shatter"
       web_links:
         - ""
-      photo:
+      photo: "bodies_that_shatter.jpg"
       bio: |
         <b>Bodies that Shatter</b>
         The work explores the contemporary phenomenon of ‘net feminism’ also referred to as Feminism 4.0 which conceives female melancholy as a methodological practice, the praxis that questions and thwarts society’s patriarchal structures. The title ‘Bodies that shatter’ is rooted in the early work of Judith Butler which in her book ‘Bodies that matter’ described the performative power of the language, where subjects are described as male or female, and thus become socially perceptible as such through the performativity of the gender. The core of the following collection appeals to the power of female self-portrayal in the sense of empowerment as opposed to the tradition of a male-dominated perspective. The power to dash, shock or shatter in reference to the blogger scene and the social mediascape at large is considered here (probed) and it’s ironically offensive parody of the conservative depiction of female body.The background of the concept recurs in the colour and form composition of the collection. The implementation of  at patterns which emphasize the framing of the body’s fragments, the asymmetry and omissions is an integral part of the lingerie collection in regards to present day feminist practice.
@@ -266,7 +266,7 @@ development:
       title: "Bodies that Shatter"
       web_links:
         - ""
-      photo:
+      photo: "daven_zang.jpg"
       bio: |
         Daven Zang studied architecture and building engineering in Shanghai and Berlin, now, Daven Zhang is doing his own fashion brand DAVENZANG.The Branding is divided into two different lines, the middle-end products focusing on young customers and the high-end products involved Couture and designer brand. “YIN&YANG,LOVE,INDIVIDUALITY” is our main slogan. We try to merge eastern and western elements to create womenswear & unisex-wear. Like the creatures in the nature, DAVENZANG girls are modern intuitive thinkers sophisticatedly balanced with their avant-garde style. Unisex groups are the souls who follow the androgynism and show their endless love to the world. DAVENZANG hopes to spread this energy to the world by beautiful and a certain lifestyle balanced quite well between all the concepts.
 
