@@ -82,7 +82,7 @@ development:
       title: "Communications"
       web_links:
         - ""
-      photo:
+      photo: "connie.jpg"
       bio: >
         Connie is a writer and communicator living in Berlin. Born in New Jersey, she began working with music labels, media artists, actors, and directors while attending university in New York City. After receiving her BA in Asian and Middle Eastern Languages and Cultures, she moved to San Francisco and was a founding member of the Elastic Future experimental theater company as a collaborator and costume designer. In addition to managing the Kearny Street Workshop gallery (a nonprofit dedicated to the work of emerging Asian American artists), she also spent 15 years writing about music, art, and culture for publications like Flavorpill, XLR8R, Alarm Press, and more. She also served on the San Francisco Arts Commission’s Grants for the Arts Cultural Equity Initiative board, where she was responsible for funding local arts organizations. She currently works in the tech sector, where she is the editorial director for Verto Analytics, a Finnish data startup.
     - simple_name: 'joe'
@@ -93,14 +93,6 @@ development:
       photo: "joe_palmieri.jpg"
       bio: >
         Joe Palmieri is a Software Engineer based in Oakland, California who devotes his energy to collaborative installations in the San Francisco area and beyond. He has contributed to Catacomb of Veils and, to a lesser extent, La Victrola, both shown at Burning Man 2016. Recently, he has led the conceptual and preliminary design for C60, a steel sculpture with interactive fire effects which will debut in a partially finished form at Burning Man 2017. Over the coming year, he will be adding additional fire effects to C60 and sculpting his mustache to more Dalí-like proportions.
-    - simple_name: 'sophia'
-      name: "Sophia Gräfe"
-      title: "Curator"
-      web_links:
-        - ""
-      photo:
-      bio: >
-        Sophia Gräfe is a media culture scholar, assistant curator and freelance text editor based in Berlin. Her academic work explores the sociological and epistemological meaning of pictures within cultural processes. This includes work within the fields of video and digital art. As an assistant curator she has worked with various media and film festivals such as the transmediale festival, Werkleitz festival and Internationale Kurzfilmtage Oberhausen as well as galleries and artist studios. She is frequently editing texts for artist, curators and galleries and is currently a research assistant at Humboldt-Universität zu Berlin.
   music:
     - simple_name: 'ancestral_voices'
       name: "Ancestral Voices"
