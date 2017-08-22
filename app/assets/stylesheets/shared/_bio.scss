@@ -63,16 +63,21 @@
   }
   .photo {
     min-width: 350px;
-    height: 350px;
+    max-width: 450px;
+    height: auto;
+    img {
+      height: auto;
+      width: 100%;
+    }
     @media (max-width: 950px) {
       min-width: 200px;
-      height: 200px;
+      max-width: 300px;
     }
     @media (max-width: $mobileWidth) {
       min-width: 100px;
-      height: 100px;
+      max-width: 200px
     }
-    border: 1px solid white;
+    // border: 1px solid white;
   }
   .personal-details {
     margin: auto 0 auto 25px;
