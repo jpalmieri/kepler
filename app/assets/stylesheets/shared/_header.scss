@@ -7,12 +7,14 @@
   .header-inner {
     margin: $desktopVerticalMargin;
     .logo {
-      pointer-events: all;
-      width: $desktopLogoWidth;
-      cursor: pointer;
-      -webkit-transition: opacity 0.5s ease-in;
-      -o-transition: opacity 0.5s ease-in;
-      transition: opacity 0.5s ease-in;
+      img {
+        pointer-events: all;
+        width: $desktopLogoWidth;
+        cursor: pointer;
+        -webkit-transition: opacity 0.5s ease-in;
+        -o-transition: opacity 0.5s ease-in;
+        transition: opacity 0.5s ease-in;
+      }
     }
     .hamburger {
       position: absolute;
@@ -83,7 +85,9 @@
     .header-inner {
       margin: $tabletVerticalMargin;
       .logo {
-        width: $tabletLogoWidth;
+        img {
+          width: $tabletLogoWidth;
+        }
       }
       .hamburger {
         color: $lightGray;

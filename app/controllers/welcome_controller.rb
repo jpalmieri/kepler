@@ -4,4 +4,8 @@ class WelcomeController < ApplicationController
 
   def about
   end
+
+  def splash
+    @show_splash = true
+  end
 end

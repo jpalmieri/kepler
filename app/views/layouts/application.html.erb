@@ -15,6 +15,9 @@
 
   <body>
     <div class='container'>
+      <% if @show_splash %>
+        <%= render 'shared/splash' %>
+      <% end %>
       <%= render 'shared/header' %>
       <div id="scene" data-pointer-events='true'>
         <%= render 'shared/stars' %>

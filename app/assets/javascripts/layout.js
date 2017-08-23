@@ -43,6 +43,10 @@ $(document).ready(function() {
     closeNav();
     moveLinksIntoConstellation($('.constellation-link-group'), $('.link-layer'));
   });
+
+  $('.splash #logo').click(function() {
+    $('.splash').addClass('active');
+  });
 });
 
 

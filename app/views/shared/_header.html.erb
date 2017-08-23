@@ -1,6 +1,6 @@
 <div class='header'>
   <div class='header-inner'>
-    <%= image_tag 'kepler_circle_logo_nasa.png', class: 'logo' %>
+    <%= link_to image_tag('kepler_circle_logo_nasa.png'), index_path, class: 'logo' %>
     <div class='hamburger'>
       <span class="line"></span>
       <span class="line"></span>
@@ -11,7 +11,7 @@
 
 <div class='nav-container'>
   <div class='grid-item about label'>
-    <%= link_to 'home', root_path %>
+    <%= link_to 'home', index_path %>
   </div>
   <div class='grid-item about icon'>
     <%= link_to fa_icon('home'), root_path%>
