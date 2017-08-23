@@ -1,12 +1,4 @@
 default:
-  foo: "bar"
-
-production:
-  resident_advisor_path: "//www.residentadvisor.net/events/1003233"
-  instagram_path: "//www.instagram.com/kp452b/"
-  facebook_path: "//www.facebook.com/kepler452b.org"
-
-development:
   resident_advisor_path: "//www.residentadvisor.net/events/1003233"
   instagram_path: "//www.instagram.com/kp452b/"
   facebook_path: "//www.facebook.com/kepler452b.org"
