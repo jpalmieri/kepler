@@ -11,3 +11,9 @@
 `rails s`
 
 🚀 [http://localhost:3000](http://localhost:3000)
+
+### Deploy
+
+Easiest thing is to use heroku's [webui](https://dashboard.heroku.com/apps/nameless-inlet-37967/deploy/github).
+
+The other option is via the [command line](https://devcenter.heroku.com/articles/git#deploying-code).
