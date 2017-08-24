@@ -1,8 +1,3 @@
 <div class='music'>
-  <h1>Musicians</h1>
-  <ul>
-    <% @musicians.each do |person| %>
-      <li><%= link_to person[:name], musician_path(person[:simple_name]) %></li>
-    <% end %>
-  </ul>
+  <%= render partial: 'shared/constellation-index', locals: { people: @musicians, show_path_method_name: 'musician_path' } %>
 </div>

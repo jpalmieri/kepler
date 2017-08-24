@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+}
+
+body {
+  color: $white;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  font-family: 'Nunito Sans', Helvetica, Verdana, Arial, sans-serif;
+  font-size: calc(0.75em + 1vmin);
+}
+
+a {
+  &:link, &:visited, &:active {
+    text-decoration: none;
+    color: $lightGray;
+  }
+
+  &:hover {
+    text-decoration:none;
+    @include gradient-text($logoGradient);
+  }
+  @media (hover: none) {
+    &:hover {
+      @include unset-gradient-text($lightGray);
+    }
+  }
+}
+
+h1, h2, h3 {
+  font-family: 'Squared Display';
+  font-weight: normal;
+  color: $white;
+}
+
+h1, h2 {
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 0;
+}
+
+h4, h5, h6 {
+  font-weight: normal;
+  color: $lightGray;
+}
+
+h1 { font-size: calc(2.25em + 1vmin); }
+h2 { font-size: calc(1.875em + 1vmin); }
+h3 { font-size: calc(1.5em + 1vmin); }
+h4 { font-size: calc(1.125em + 1vmin); }
+h5 { font-size: calc(0.875em + 1vmin); }
+h6 { font-size: calc(0.75em + 1vmin); }
+
+.container {
+  z-index: 0;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+
+#scene {
+  pointer-events: none;
+  height: inherit;
+  .link-layer {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    padding-left: 5vh;
+  }
+  .back-layer {
+    padding-top: 15vh;
+  }
+  h3 {
+    margin: 0;
+    a {
+      pointer-events: all;
+    }
+  }
+}
+
+// put loading bar above overlay
+.pace {
+  z-index: 2;
+}

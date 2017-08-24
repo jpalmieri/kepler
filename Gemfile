@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# automatically add css vendor prefixes
+gem 'autoprefixer-rails', '~> 7.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
 # Use postgress as the database for Active Record
@@ -33,9 +35,11 @@ gem 'jbuilder', '~> 2.5'
 # javascript libraries
 gem 'jquery-rails', '~> 4.0'
 gem 'rack-pjax', '~> 1.0'
+gem 'pace-rails', '~> 0.1' # loading spinner
 
 # css libraries/stylesheets
 gem 'normalize-rails', '~> 4.0'
+gem 'font-awesome-rails', '~> 4.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
