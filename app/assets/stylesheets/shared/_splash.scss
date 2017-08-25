@@ -15,12 +15,26 @@
     top: -100vh;
   }
 
+  #logo, #location {
+    img {
+      width: 100%;
+    }
+  }
+
   #logo {
     cursor: pointer;
     width: 255px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 150px;
+    @media (max-width: 625px) {
+      width: 50%;
+      padding-top: 25%;
+    }
+    @media (max-height: 625px) {
+      padding-top: 20px;
+      width: 125px;
+    }
   }
 
   #location {
@@ -28,6 +42,13 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    @media (max-width: 625px) {
+      width: 100%;
+    }
+    @media (max-height: 625px) {
+      width: 250px;
+      margin-top: 25px;
+    }
   }
 
   #socialmedia1 {
@@ -42,20 +63,5 @@
     position: absolute;
     top: 10px;
     right: 10px;
-  }
-
-  @media (max-width: 625px) {
-    img {
-      width: 100%;
-    }
-
-    #location {
-      width: 100%;
-    }
-
-    #logo {
-      width: 50%;
-      padding-top: 25%;
-    }
   }
 }
