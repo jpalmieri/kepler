@@ -1,0 +1,7 @@
+@mixin tallBioPhotoLayout() {
+  .photo {
+    width: 200px;
+    max-width: unset;
+    min-width: unset;
+  }
+}
