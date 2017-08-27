@@ -79,6 +79,14 @@
   }
   .web-link {
     word-break: break-all;
+    a:hover .fa {
+      @include gradient-text($logoGradient);
+    }
+    @media (hover: none) {
+      a:hover .fa {
+        @include unset-gradient-text($lightGray);
+      }
+    }
   }
   .bio-content {
     white-space: pre-line;

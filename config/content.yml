@@ -7,7 +7,8 @@ default:
       name: "Ma Li"
       title: "Installation and Performance Artist"
       web_links:
-        - "malimalimali.com"
+        - address: "//malimalimali.com"
+          label: "malimalimali.com"
       photo:
         file: "ma_li.jpg"
         orientation: 'vertical'
@@ -17,7 +18,8 @@ default:
       name: "Florian Mathe"
       title: "Fashion Designer & Pattern Cutter"
       web_links:
-        - "florianmathe.com"
+        - address: "//florianmathe.com"
+          label: "florianmathe.com"
       photo:
         file: "florian_team.jpg"
         orientation: 'vertical'
@@ -27,7 +29,8 @@ default:
       name: "Thomas Vanta"
       title: "Creative coder + Visual artist"
       web_links:
-        - "thomasvanta.net"
+        - address: "//thomasvanta.net"
+          label: "thomasvanta.net"
       photo:
         file: "vanta.jpg"
         orientation: 'vertical'
@@ -37,7 +40,8 @@ default:
       name: "Stefanie Loveday"
       title: "Visual Artist + Designer"
       web_links:
-        - "stefanieloveday.com"
+        - address: "//stefanieloveday.com"
+          label: "stefanieloveday.com"
       photo:
         file: "stefanie.jpg"
         orientation: 'vertical'
@@ -47,7 +51,6 @@ default:
       name: "Giannina Lisitano"
       title: "Communications"
       web_links:
-        - ""
       photo:
         file: "giannina.jpg"
         orientation: 'vertical'
@@ -57,9 +60,12 @@ default:
       name: "Vittoria de Franchis"
       title: "Booker + Editor + Communication Manager"
       web_links:
-        - "terraformafestival.com"
-        - "inverted-audio.com"
-        - "utura-artists.com"
+        - label: "terraformafestival.com"
+          address: "//terraformafestival.com"
+        - label: "inverted-audio.com"
+          address: "//inverted-audio.com"
+        - label: "futura-artists.com"
+          address: "//futura-artists.com"
       photo:
         file: "vittoria.jpg"
         orientation: 'vertical'
@@ -69,7 +75,6 @@ default:
       name: "Mee Shell"
       title: "Video Production"
       web_links:
-        - ""
       photo:
         file: "mee_shell.jpg"
         orientation: 'vertical'
@@ -79,7 +84,6 @@ default:
       name: "Bogdan Licar"
       title: "Filmmaker"
       web_links:
-        - ""
       photo:
         file: "bogdan.jpg"
         orientation: 'vertical'
@@ -89,7 +93,6 @@ default:
       name: "Connie Hwong"
       title: "Communications"
       web_links:
-        - ""
       photo:
         file: "connie.jpg"
         orientation: 'vertical'
@@ -99,7 +102,8 @@ default:
       name: "Joe Palmieri"
       title: "Software Engineer"
       web_links:
-        - "jpalmieri.com"
+        - address: "//jpalmieri.com"
+          label: "jpalmieri.com"
       photo:
         file: "joe_palmieri.jpg"
         orientation: 'vertical'
@@ -110,7 +114,6 @@ default:
       name: "Ancestral Voices"
       title: ""
       web_links:
-        - ""
       photo:
         file: "ancestral_voices.jpg"
       bio: |
@@ -121,7 +124,6 @@ default:
       name: "MIIIA"
       title: ""
       web_links:
-        - ""
       photo:
         file: "miiia.jpg"
       bio: |
@@ -132,7 +134,6 @@ default:
       name: "Neel"
       title: ""
       web_links:
-        - ""
       photo:
         file: "neel.jpg"
       bio: >
@@ -142,7 +143,6 @@ default:
       name: "Nuel"
       title: ""
       web_links:
-        - ""
       photo:
         file: "nuel.jpg"
       bio: |
@@ -153,7 +153,6 @@ default:
       name: "STEFAN SCHNEIDER"
       title: ""
       web_links:
-        - ""
       photo:
         file: "stefan_schneider.jpg"
       bio: |
@@ -166,7 +165,6 @@ default:
       name: "Vladimir Ivkovic"
       title: ""
       web_links:
-        - ""
       photo:
         file: "vladimir_ivkovic.jpg"
         orientation: 'vertical'
@@ -176,7 +174,6 @@ default:
       name: "Valentino Mora"
       title: ""
       web_links:
-        - ""
       photo:
         file: "valentino_mora.jpg"
       bio: |
@@ -188,7 +185,6 @@ default:
       name: "embarassed years"
       title: ""
       web_links:
-        - ""
       photo:
         file: "embarassed_years.jpg"
       bio: |
@@ -203,7 +199,8 @@ default:
       name: "young boy dancing group"
       title: ""
       web_links:
-        - "thump.vice.com/en_us/article/pg8x3k/young-boy-dancing-group-lasers-butt-queer-art"
+        - address: "//thump.vice.com/en_us/article/pg8x3k/young-boy-dancing-group-lasers-butt-queer-art"
+          label: "Press"
       photo:
         file: "ybdg.jpg"
       bio: |
@@ -212,7 +209,6 @@ default:
       name: "Will Marshell"
       title: ""
       web_links:
-        - ""
       photo:
         file: "will_marshell.jpg"
       bio: >
@@ -221,7 +217,8 @@ default:
       name: "mataya waldenberg"
       title: "Performance Artist, Musician, Model "
       web_links:
-        - "pw-magazine.com/2017/lady-matayas-fantastischer-pfad-aus-der-duesternis/"
+        - address: "//pw-magazine.com/2017/lady-matayas-fantastischer-pfad-aus-der-duesternis/"
+          label: "Press"
       photo:
         file: "mataya_waldenberg.jpg"
       bio: >
@@ -230,7 +227,6 @@ default:
       name: "Proxima Plus ft. ZAFTIK musik"
       title: ""
       web_links:
-        - ""
       photo:
         file: "zaftik.jpg"
       bio: |
@@ -240,7 +236,6 @@ default:
       name: "Florian Mathe"
       title: ""
       web_links:
-        - ""
       photo:
         file: "florian_designer.jpg"
         orientation: 'vertical'
@@ -250,7 +245,6 @@ default:
       name: "Bjorn Melhus"
       title: "Made on Mars"
       web_links:
-        - ""
       photo:
         file: "bjorn_melhus.jpg"
         orientation: 'vertical'
@@ -261,7 +255,6 @@ default:
       name: "Nelson Santos"
       title: ""
       web_links:
-        - ""
       photo:
         file: "nelson_santos.jpg"
         orientation: 'vertical'
@@ -271,7 +264,6 @@ default:
       name: "Xvii Studio"
       title: "Bodies that Shatter"
       web_links:
-        - ""
       photo:
         file: "bodies_that_shatter.jpg"
         orientation: 'vertical'
@@ -282,7 +274,6 @@ default:
       name: "Daven Zang"
       title: ""
       web_links:
-        - ""
       photo:
         file: "daven_zang.jpg"
         orientation: 'vertical'

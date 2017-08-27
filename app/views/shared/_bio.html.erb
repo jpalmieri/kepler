@@ -16,10 +16,15 @@
               <div class='title'>
                 <%= person[:title] %>
               </div>
-              <% person[:web_links].each do |web_link| %>
-                <div class='web-link'>
-                  <%= link_to web_link, "//#{web_link}", target: '_blank' %>
-                </div>
+              <% if person[:web_links] %>
+                <% person[:web_links].each do |web_link| %>
+                  <div class='web-link'>
+                    <%= link_to web_link[:address], target: '_blank' do %>
+                      <%= web_link[:label] %>
+                      <%= fa_icon('external-link') %>
+                    <% end %>
+                  </div>
+                <% end %>
               <% end %>
             </div>
           </div>
