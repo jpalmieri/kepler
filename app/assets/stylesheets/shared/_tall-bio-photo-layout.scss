@@ -1,0 +1,19 @@
+@mixin tallBioPhotoLayout() {
+  .bio-item .photo {
+    max-width: 200px;
+    min-width: 200px;
+    height: auto;
+    img {
+      height: auto;
+      width: 100%;
+    }
+    @media (max-width: 950px) {
+      min-width: 200px;
+      max-width: 300px;
+    }
+    @media (max-width: $mobileWidth) {
+      min-width: 100px;
+      max-width: 200px
+    }
+  }
+}
