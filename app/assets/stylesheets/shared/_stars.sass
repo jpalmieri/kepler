@@ -1,18 +1,18 @@
 @mixin star-properties
   $size : random(3) * 1px
-  $x    : random(100) * 1vw
-  $y    : random(100) * 1vh
+  $x    : random(110) * 1vw
+  $y    : random(110) * 1vh
   height: $size
   width:  $size
-  left: $x
-  top: $y
+  left: $x - 5vw
+  top: $y - 5vh
 
 .star
   display: inline-block
   border-radius: 100%
   background-color: white
   position: absolute
-  
+
 @for $i from 0 through 100
   #stars-small
     .star:nth-child(#{$i})
