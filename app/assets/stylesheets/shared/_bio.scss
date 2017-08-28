@@ -77,6 +77,13 @@
       font-size: calc(1.5em + 1vmin);
     }
   }
+  .under-web-links {
+    display: none;
+  }
+  @media (max-width: $mobileWidth) {
+    .under-web-links { display: block; }
+    .inline-web-links { display: none; }
+  }
   .web-link {
     word-break: break-all;
     a:hover .fa {
@@ -89,6 +96,7 @@
     }
   }
   .bio-content {
+    margin-top: 0;
     white-space: pre-line;
   }
 }
