@@ -18,17 +18,22 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    .video {
+    .video-column {
       margin-right: 25px;
-      margin-bottom: 25px;
-      width:500px;
-      height: 300px;
+      flex-grow: 1;
+      display: flex;
+      flex-flow: column nowrap;
       @media (max-width: $tabletWidth) {
         width: 100%;
         margin-right: 0;
       }
-      @media (max-width: 350px) {
-        height: 170px;
+      .video {
+        height: calc(30*1vw);
+        min-width: 40vw;
+        padding-bottom: 25px;
+        @media (max-width: $tabletWidth) {
+          height: calc(44*1vw);
+        }
       }
     }
   }
