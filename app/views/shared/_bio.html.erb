@@ -16,13 +16,32 @@
               <div class='title'>
                 <%= person[:title] %>
               </div>
-              <% person[:web_links].each do |web_link| %>
-                <div class='web-link'>
-                  <%= link_to web_link, "//#{web_link}", target: '_blank' %>
+              <% if person[:web_links] %>
+                <div class='inline-web-links'>
+                  <% person[:web_links].each do |web_link| %>
+                    <div class='web-link'>
+                      <%= link_to web_link[:address], target: '_blank' do %>
+                        <%= web_link[:label] %>
+                        <%= fa_icon('external-link') %>
+                      <% end %>
+                    </div>
+                  <% end %>
                 </div>
               <% end %>
             </div>
           </div>
+          <% if person[:web_links] %>
+            <div class='under-web-links'>
+              <% person[:web_links].each do |web_link| %>
+                <div class='web-link'>
+                  <%= link_to web_link[:address], target: '_blank' do %>
+                    <%= web_link[:label] %>
+                    <%= fa_icon('external-link') %>
+                  <% end %>
+                </div>
+              <% end %>
+            </div>
+          <% end %>
           <div class='bio'>
             <p class='bio-content'>
               <%= person[:bio].html_safe %>
