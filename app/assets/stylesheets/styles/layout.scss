@@ -69,11 +69,14 @@ h6 { font-size: calc(0.75em + 1vmin); }
     left: auto !important;
     padding-left: 5vh;
   }
-  .back-layer {
-    padding-top: 15vh;
-  }
   h3 {
+    position: absolute;
     margin: 0;
+    @for $i from 1 to 15 {
+      &.row-#{$i} {
+        top: 10vh + (5 * $i);
+      }
+    }
     a {
       pointer-events: all;
     }
