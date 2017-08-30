@@ -60,6 +60,17 @@ h6 { font-size: calc(0.75em + 1vmin); }
   height: 100vh;
 }
 
+.flash {
+  position: absolute;
+  width: 1000vw;
+  animation: marquee_scroll 10s linear;
+  @keyframes marquee_scroll {
+    0%{ left: 150vw; visibility: visible; }
+    100%{ left: -100vw; visibility: visible; }
+  };
+  visibility: hidden;
+}
+
 #scene {
   pointer-events: none;
   height: inherit;

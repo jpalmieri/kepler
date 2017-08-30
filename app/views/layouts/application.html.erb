@@ -29,7 +29,7 @@
 
         <div data-pjax-container>
           <% if flash[:error] %>
-            <div class='flash error'><%= flash[:error] %></div>
+            <h3 class='flash error'>Error: <%= flash[:error] %></h3>
           <% end %>
           <%= yield %>
         </div>
