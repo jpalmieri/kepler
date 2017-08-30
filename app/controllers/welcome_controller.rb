@@ -7,5 +7,6 @@ class WelcomeController < ApplicationController
 
   def splash
     @show_splash = true
+    render 'index'
   end
 end
