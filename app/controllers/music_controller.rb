@@ -8,7 +8,7 @@ class MusicController < ApplicationController
     @musician = musicians.select {|m| m[:simple_name] == params[:id]}.first()
     unless @musician
       flash[:error] = "musician not found"
-      redirect to musicians_index
+      redirect_to musicians_url
     end
   end
 end
