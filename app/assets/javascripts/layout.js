@@ -14,7 +14,7 @@ $(document).ready(function() {
     var parallax = new Parallax(scene);
   }
 
-  moveLinksIntoConstellation($('.constellation-index'), $('.link-layer'));
+  moveLinksIntoConstellation($('.constellation-index').children(), $('.link-layer'));
 
   // Hamburger nav function
   $('.header .hamburger').click(function(e) {
@@ -41,7 +41,7 @@ $(document).ready(function() {
   // 'pjax:end' fires on back/forward browser button navigation
   $(document).on('pjax:complete pjax:end', function() {
     closeNav();
-    moveLinksIntoConstellation($('.constellation-index'), $('.link-layer'));
+    moveLinksIntoConstellation($('.constellation-index').children(), $('.link-layer'));
   });
 
   $('.splash #logo').click(function() {
@@ -70,10 +70,10 @@ $(document).ready(function() {
 // (by moving them into those layers after the pjax is done).
 // I guess another option would be to try to add a multiple container feature
 // to pjax...but I'm not trying to do that right now.
-var moveLinksIntoConstellation = function($sourceContainer, $destinationContainers) {
+var moveLinksIntoConstellation = function($links, $destinationContainers) {
   // clear the div of any previous links
   $destinationContainers.each(function(i, el) { $(el).empty(); });
-  $sourceContainer.children().each(function(i, link) {
+  $links.each(function(i, link) {
     var $destination = $(link).data('destination');
     // copy them to the new div instead of moving them
     $(link).clone().appendTo('.' + $destination);
