@@ -18,6 +18,7 @@
       <% if @show_splash %>
         <%= render 'shared/splash' %>
       <% end %>
+
       <%= render 'shared/header' %>
       <div id="scene" data-pointer-events='true'>
         <%= render 'shared/stars' %>
@@ -27,6 +28,9 @@
         <div class="front-layer link-layer layer" data-depth="1.0"></div>
 
         <div data-pjax-container>
+          <% if flash[:error] %>
+            <div class='flash error'><%= flash[:error] %></div>
+          <% end %>
           <%= yield %>
         </div>
       </div>
