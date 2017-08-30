@@ -73,6 +73,10 @@ h6 { font-size: calc(0.75em + 1vmin); }
     position: absolute;
     margin: 0;
     pointer-events: all;
+    // Below are some utility classes to be used for positioning the constellation links.
+    // For example, a link with "row-4 right-col-5", will be 30vh from the top
+    // and 26vw from the right.
+    // 10vh/vw added for padding/margin.
     @for $i from 0 to 15 {
       &.row-#{$i + 1} {
         top: 10vh + (5 * $i);
