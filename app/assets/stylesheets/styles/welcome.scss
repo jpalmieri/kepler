@@ -4,6 +4,23 @@
   }
 }
 
+#team {
+  @extend h3.row-12 ;
+  @extend h3.right-col-4 ;
+}
+#performance {
+  @extend h3.row-6 ;
+  @extend h3.right-col-5 ;
+}
+#designers {
+  @extend h3.row-9 ;
+  @extend h3.left-col-5 ;
+}
+#music {
+  @extend h3.row-3 ;
+  @extend h3.left-col-2 ;
+}
+
 .about {
   .main-row {
     display: flex;

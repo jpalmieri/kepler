@@ -72,12 +72,15 @@ h6 { font-size: calc(0.75em + 1vmin); }
   h3 {
     position: absolute;
     margin: 0;
-    @for $i from 1 to 15 {
-      &.row-#{$i} {
+    @for $i from 0 to 15 {
+      &.row-#{$i + 1} {
         top: 10vh + (5 * $i);
       }
-      &.col-#{$i} {
-        left: 10vw + (2 * $i);
+      &.left-col-#{$i + 1} {
+        left: 10vw + (4 * $i);
+      }
+      &.right-col-#{$i + 1} {
+        right: 10vw + (4 * $i);
       }
     }
     a {

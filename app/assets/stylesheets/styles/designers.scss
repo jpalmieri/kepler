@@ -3,3 +3,28 @@
     display: none;
   }
 }
+
+#florian_mathe {
+  @extend h3.row-2 ;
+  @extend h3.left-col-8 ;
+}
+
+#xvii_studio {
+  @extend h3.row-6 ;
+  @extend h3.right-col-3 ;
+}
+
+#bjorn_melhus {
+  @extend h3.row-9 ;
+  @extend h3.left-col-1 ;
+}
+
+#daven_zang {
+  @extend h3.row-12 ;
+  @extend h3.right-col-1 ;
+}
+
+#nelson_santos {
+  @extend h3.row-15 ;
+  @extend h3.left-col-3 ;
+}

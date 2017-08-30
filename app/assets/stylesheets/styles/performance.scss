@@ -3,3 +3,28 @@
     display: none;
   }
 }
+
+#embarassed_years {
+  @extend h3.row-1 ;
+  @extend h3.left-col-8 ;
+}
+
+#mataya_waldenberg {
+  @extend h3.row-4 ;
+  @extend h3.right-col-3 ;
+}
+
+#young_boy_dancing_group {
+  @extend h3.row-6 ;
+  @extend h3.left-col-1 ;
+}
+
+#proxima_plus {
+  @extend h3.row-10 ;
+  @extend h3.right-col-1 ;
+}
+
+#will_marshell {
+  @extend h3.row-15 ;
+  @extend h3.left-col-3 ;
+}
