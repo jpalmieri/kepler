@@ -4,6 +4,23 @@
   }
 }
 
+#team {
+  @extend .constellation-link.row-12 ;
+  @extend .constellation-link.right-col-4 ;
+}
+#performance {
+  @extend .constellation-link.row-6 ;
+  @extend .constellation-link.right-col-5 ;
+}
+#designers {
+  @extend .constellation-link.row-9 ;
+  @extend .constellation-link.left-col-5 ;
+}
+#music {
+  @extend .constellation-link.row-3 ;
+  @extend .constellation-link.left-col-2 ;
+}
+
 .about {
   .main-row {
     display: flex;

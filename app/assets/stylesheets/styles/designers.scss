@@ -3,3 +3,28 @@
     display: none;
   }
 }
+
+#florian_mathe {
+  @extend .constellation-link.row-2 ;
+  @extend .constellation-link.left-col-8 ;
+}
+
+#xvii_studio {
+  @extend .constellation-link.row-6 ;
+  @extend .constellation-link.right-col-3 ;
+}
+
+#bjorn_melhus {
+  @extend .constellation-link.row-9 ;
+  @extend .constellation-link.left-col-1 ;
+}
+
+#daven_zang {
+  @extend .constellation-link.row-12 ;
+  @extend .constellation-link.right-col-1 ;
+}
+
+#nelson_santos {
+  @extend .constellation-link.row-15 ;
+  @extend .constellation-link.left-col-3 ;
+}

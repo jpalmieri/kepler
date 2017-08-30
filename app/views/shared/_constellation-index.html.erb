@@ -1,17 +1,12 @@
 <div class='constellation-index'>
-  <div class='constellation-link-group' data-destination='back-layer'>
-    <% first_third(people).each do |person| %>
-      <h3><%= link_to person[:name], Rails.application.routes.url_helpers.send(show_path_method_name, person[:simple_name]) %></h3>
-    <% end %>
-  </div>
-  <div class='constellation-link-group' data-destination='middle-layer'>
-    <% middle_third(people).each do |person| %>
-      <h3><%= link_to person[:name], Rails.application.routes.url_helpers.send(show_path_method_name, person[:simple_name]) %></h3>
-    <% end %>
-  </div>
-  <div class='constellation-link-group' data-destination='front-layer'>
-    <% last_third(people).each do |person| %>
-      <h3><%= link_to person[:name], Rails.application.routes.url_helpers.send(show_path_method_name, person[:simple_name]) %></h3>
-    <% end %>
-  </div>
+  <% people.each_with_index do |person, i| %>
+    <%= render partial: 'shared/constellation_link', locals:
+      {
+        label: person[:name],
+        address: Rails.application.routes.url_helpers.send(show_path_method_name, person[:simple_name]),
+        destination_layer: ['back-layer', 'middle-layer', 'front-layer'][i % 3],
+        link_id: person[:simple_name]
+      }
+    %>
+  <% end %>
 </div>

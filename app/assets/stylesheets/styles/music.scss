@@ -3,3 +3,38 @@
     display: none;
   }
 }
+
+#ancestral_voices {
+  @extend .constellation-link.row-2 ;
+  @extend .constellation-link.left-col-8 ;
+}
+
+#nuel {
+  @extend .constellation-link.row-6 ;
+  @extend .constellation-link.right-col-3 ;
+}
+
+#valentino_mora {
+  @extend .constellation-link.row-10 ;
+  @extend .constellation-link.left-col-1 ;
+}
+
+#miiia {
+  @extend .constellation-link.row-4 ;
+  @extend .constellation-link.left-col-1 ;
+}
+
+#stefan_schneider {
+  @extend .constellation-link.row-7 ;
+  @extend .constellation-link.left-col-6 ;
+}
+
+#neel {
+  @extend .constellation-link.row-12 ;
+  @extend .constellation-link.right-col-1 ;
+}
+
+#vladimir_ivkovic {
+  @extend .constellation-link.row-15 ;
+  @extend .constellation-link.left-col-3 ;
+}

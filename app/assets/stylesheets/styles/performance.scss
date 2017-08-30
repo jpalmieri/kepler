@@ -3,3 +3,28 @@
     display: none;
   }
 }
+
+#embarassed_years {
+  @extend .constellation-link.row-1 ;
+  @extend .constellation-link.left-col-8 ;
+}
+
+#mataya_waldenberg {
+  @extend .constellation-link.row-4 ;
+  @extend .constellation-link.right-col-3 ;
+}
+
+#young_boy_dancing_group {
+  @extend .constellation-link.row-6 ;
+  @extend .constellation-link.left-col-1 ;
+}
+
+#proxima_plus {
+  @extend .constellation-link.row-10 ;
+  @extend .constellation-link.right-col-1 ;
+}
+
+#will_marshell {
+  @extend .constellation-link.row-15 ;
+  @extend .constellation-link.left-col-3 ;
+}
