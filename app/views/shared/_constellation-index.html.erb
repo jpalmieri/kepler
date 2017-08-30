@@ -5,7 +5,8 @@
         label: person[:name],
         address: Rails.application.routes.url_helpers.send(show_path_method_name, person[:simple_name]),
         destination_layer: ['back-layer', 'middle-layer', 'front-layer'][i % 3],
-        row_number: i + 1
+        row_number: i + 1,
+        col_number: i + 1
       }
     %>
   <% end %>

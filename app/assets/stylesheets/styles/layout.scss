@@ -76,6 +76,9 @@ h6 { font-size: calc(0.75em + 1vmin); }
       &.row-#{$i} {
         top: 10vh + (5 * $i);
       }
+      &.col-#{$i} {
+        left: 10vw + (2 * $i);
+      }
     }
     a {
       pointer-events: all;
