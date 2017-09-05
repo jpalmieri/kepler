@@ -4,7 +4,7 @@ default:
   facebook_path: "//www.facebook.com/kepler452b.org"
   crew:
     - simple_name: 'ma_li'
-      name: "Ma Li"
+      full_name: "Ma Li"
       title: "Installation and Performance Artist"
       web_links:
         - address: "//malimalimali.com"
@@ -15,7 +15,8 @@ default:
       bio: >
         Originally born in China, Ma Li received her MFA from San Francisco Art Institute. She formulates dream-like worlds using recycled materials both physical and digital. Combining her background in choreography and her upbringing in China, Ma Li orchestrates participatory performance through the methodologies of military training and childhood play. Ma Li is the recipient of the Pollack-Krasner Foundation Grant, the Murphy and Cadogan Contemporary Art Award, and has performed and exhibited internationally at art museums, galleries and venues. Her latest project was presented at the Asian Art Museum in San Francisco in Feb 2017, where she led 300 visitors to play a gigantic dance video game of watermelon-style TechnoTaichi.
     - simple_name: 'florian'
-      name: "Florian Mathe"
+      full_name: "Florian Mathe"
+      label_name: "Florian"
       title: "Fashion Designer & Pattern Cutter"
       web_links:
         - address: "//florianmathe.com"
@@ -26,7 +27,8 @@ default:
       bio: >
         Finding his technical feet during a Viennese apprenticeship for Fashion and Clothing Manufacturing, UDK alumnus Florian Máthé arrived in Berlin 4 years ago to begin his studies at the nation’s most prestigious creative institution. Immediately diving into Berlin’s art scene, he founded and organised a pop up project and art space called “je regrette” in Berlin Mitte, curating four shows featuring artists like Mischa Badasyan, Daniel Ferstl, Stephanie Ballantine and Kim Asendorf. During his studies, he worked for different labels and costume designers such as Marques’ Almeida, Wales Bonner and Hannah Hopkins and specialized in pattern cutting and tailoring. Using his technical background as a strong foundation to build on, he is currently developing his men’s and women’s wear graduate collection, which is deeply influenced by London’s Queer Performance Scene. With a desire to “[question] the terms of beauty, body and aesthetics” as key motivation, he wishes to convey vibrantness, freedom and emotion in the context of fashion as well as a new spectacular performance.
     - simple_name: 'vanta'
-      name: "Thomas Vanta"
+      full_name: "Thomas Vanta"
+      label_name: "Vanta"
       title: "Creative coder + Visual artist"
       web_links:
         - address: "//thomasvanta.net"
@@ -37,7 +39,8 @@ default:
       bio: >
         Thomas Van Ta is a digital Alter Ego. After studying Environmental Sciences in Granada University, Spain, Van Ta began his career as a visual designer. There he was part of the audiovisual collective Miga. Moving then to Berlin, he made an internship at the mythical record label Mnus, where he became part of development crew at 2V-P. Nowadays he works as creative coder in the studio Pfadfinderei as well as collaborating with many artistic and commercial projects such as Melt! Festival, Fusion Festival and Lowlands Festival.
     - simple_name: 'stefanie'
-      name: "Stefanie Loveday"
+      full_name: "Stefanie Loveday"
+      label_name: "Stefanie"
       title: "Visual Artist + Designer"
       web_links:
         - address: "//stefanieloveday.com"
@@ -48,7 +51,8 @@ default:
       bio: >
         Stefanie Loveday is a Swiss-Canadian artist working and living in Berlin, Germany. Her photographs and participatory performances explore landscape as an extension of the body. Loveday received a Masters of Fine Art in Photography from San Francisco Art Institute and a Bachelor of Media Arts from Emily Carr University. She was the recipient of the Leon and Thea Koerner Award in the Fine and Performing Arts, and the Helen Pitt Award. Loveday has been awarded artist residencies at Programa Red de Residencies Artísticas LOCAL, Universidad Nacional de Colombia in Bogotá and Leticia, and The Hammock Residency in Vancouver, Canada.
     - simple_name: 'giannina'
-      name: "Giannina Lisitano"
+      full_name: "Giannina Lisitano"
+      label_name: "Giannina"
       title: "Communications"
       web_links:
       photo:
@@ -57,7 +61,8 @@ default:
       bio: >
         Giannina Lisitano is a freelancer in communication and marketing. She worked for cultural projects and institutions such as Berliner Festspiele / Immersion, Berlin Biennale for Contemporary Art, HAU Hebbel am Ufer, transmediale festival for art and digital culture and Werkbundarchiv – Museum of Things.
     - simple_name: 'vittoria'
-      name: "Vittoria de Franchis"
+      full_name: "Vittoria de Franchis"
+      label_name: "Vittoria"
       title: "Booker + Editor + Communication Manager"
       web_links:
         - label: "terraformafestival.com"
@@ -72,7 +77,7 @@ default:
       bio: >
         Mingling her interest for electronic music and writing since her early teens, the experiences within editorial contexts (Tsinoshi Bar, Inverted Audio) and festivals (NeXTones, Krake) brought Vittoria to move from Milano to Berlin in 2015, two weeks after her graduation in International Relations. Fuelled by a grounded enthusiasm and strong will, she started an internship at Matias Aguayo’s label Cómeme to then soon become a booker of the label’s related agency futura. Concurrently working remotely for Electropark Exchanges, a Milano-based project of seated concerts focusing on electronic and classical music, Vittoria is now also collaborating with the experimental and sustainable festival Terraforma.
     - simple_name: 'mee_shell'
-      name: "Mee Shell"
+      full_name: "Mee Shell"
       title: "Video Production"
       web_links:
       photo:
@@ -81,7 +86,8 @@ default:
       bio: >
         Techno music, listening, producing, djing, dancing, movie making and organising artistic events, those are my passions and I try to put all my heart and energy into each one of them. At the end of the day, I want to inspire people and help them see things from a different perspective.
     - simple_name: 'bogdan'
-      name: "Bogdan Licar"
+      full_name: "Bogdan Licar"
+      label_name: "Bogdan"
       title: "Filmmaker"
       web_links:
       photo:
@@ -90,7 +96,7 @@ default:
       bio: >
         Bogdan Licar is a monkey-coder, filmmaker and avid dancer - after years of working with mathematics and digital art, he moved to analogue photography and filmmaking, focusing on deprecated visual and printing techniques, with the occasional scripted short film for his ongoing filmmaking degree in London. Mainly interested in water and plants, he’s trying to merge dance, shadow play and childhood memories onto film and possibly into physical ascension.
     - simple_name: 'xinru'
-      name: "Xinru"
+      full_name: "Xinru"
       title: ""
       web_links:
         - label: "Facebook"
@@ -101,7 +107,8 @@ default:
       bio: >
         Originally from Taiwan, Xinru is a Berlin-based dancer, costume designer and translator with a passion for recycling and animal-rescuing.
     - simple_name: 'joe'
-      name: "Joe Palmieri"
+      full_name: "Joe Palmieri"
+      label_name: "Joe"
       title: "Software Engineer"
       web_links:
         - address: "//jpalmieri.com"
@@ -113,7 +120,7 @@ default:
         Joe Palmieri is a Software Engineer based in Oakland, California who devotes his energy to collaborative installations in the San Francisco area and beyond. He has contributed to Catacomb of Veils and, to a lesser extent, La Victrola, both shown at Burning Man 2016. Recently, he has led the conceptual and preliminary design for C60, a steel sculpture with interactive fire effects which will debut in a partially finished form at Burning Man 2017. Over the coming year, he will be adding additional fire effects to C60 and sculpting his mustache to more Dalí-like proportions.
   music:
     - simple_name: 'ancestral_voices'
-      name: "Ancestral Voices"
+      full_name: "Ancestral Voices"
       title: ""
       web_links:
       photo:
@@ -123,7 +130,7 @@ default:
 
         Stripping back an already unique creative process proved a challenge that has paid off, and Blackburn’s evolving sound has no immediate sonic comparison. With distinct resonances of his musical heritage flowing through a more mature filter, there is a mystical atmosphere that resounds through his debut LP as you hear Ancestral Voices emerge triumphantly into the world. The Ancestral Voices debut LP is an insight into a subconscious journey; fully formed as one accomplished ‘Night Of Visions’.
     - simple_name: 'miiia'
-      name: "MIIIA"
+      full_name: "MIIIA"
       title: ""
       web_links:
       photo:
@@ -133,7 +140,7 @@ default:
 
         After being exposed to rave culture in Canada, MIIIA’s Shanghai journey began with a weekly radio session at uDance (the first 24hr underground music radio station in China). Her weekly live show ‘Tripout Session’ was ranked no.1 for the station, and for this she was invited to perform at the opening of the 1st International Radio Music Festival in Zurich. It was the beginning of an expansion out of her local scene: since then MIIIA has performed in Spain, Germany, Canada, Korea, Hong Kong, Taipei, and numerous cities in mainland China.
     - simple_name: 'neel'
-      name: "Neel"
+      full_name: "Neel"
       title: ""
       web_links:
       photo:
@@ -142,7 +149,7 @@ default:
         Neel is an artist who pays close attention to the technical aspect of sound whether producing in the studio, DJing or playing live around the world. His considered output fuses rhythm and texture with techno and ambience in hugely captivating ways, as proved by his latest LP Phobos, which was well received by all media and set a new standard for ambient music.
         Further releases on labels like Bunker NY and Spectrum Spools only confirm the uniqueness of his sound, and that also comes across in his immersive ambient AV shows at places like Mutek and Berlin Atonal, his solo live techno shows and of course Voices From the Lake, his live and studio collaboration with Donato Dozzy. Neel is, then, a true modern day techno craftsman who can do surreal and unusual things with sound in truly unique ways.
     - simple_name: 'nuel'
-      name: "Nuel"
+      full_name: "Nuel"
       title: ""
       web_links:
       photo:
@@ -152,7 +159,7 @@ default:
 
         Prolific as ever, Nuel has lots of material to come and all of it will continue to focus on his less is more approach: whatever he cooks up, though, you can be sure that it will wholly suck you in and take you to another world and mindset entirely.
     - simple_name: 'stefan_schneider'
-      name: "STEFAN SCHNEIDER"
+      full_name: "STEFAN SCHNEIDER"
       title: ""
       web_links:
       photo:
@@ -164,7 +171,7 @@ default:
 
         For his new solo set, which Schneider has debuted earlier this year on a tour in Japan, he needs only a few synthesizers, a rhythm machine and his voice. The show in Berlin will be followed by a tour with japanese electronic pioneer PHEW in october.
     - simple_name: 'vladimir_ivkovic'
-      name: "Vladimir Ivkovic"
+      full_name: "Vladimir Ivkovic"
       title: ""
       web_links:
       photo:
@@ -173,7 +180,7 @@ default:
       bio: |
         Born and raised in Belgrade, Yugoslavia. Witnessing the peak of alternative culture and disintegration of the society in his formative years. Moved to Germany in the beginning of the 90’s, in the late 90’s early 00’s invited artists like Carlos Souffront, I-F. I-G, Marco Passarani, Serge (amongst others) to play Selected and Substance events. Long time resident at the infamous Salon des Amateurs in Düsseldorf and the man behind Offen Music, a label specialized in authentic subjectivism. One of the finest selectors of hidden musical gems, he gleans from the most cloistered sonic lagoons – expect to see Loch Ness’s dragon dancing on the floor.
     - simple_name: 'valentino_mora'
-      name: "Valentino Mora"
+      full_name: "Valentino Mora"
       title: ""
       web_links:
       photo:
@@ -184,7 +191,7 @@ default:
         Before shifting back to his given name, Mora had a string of releases including one LP under his French Fries moniker, during which time he co-curated Clekclekboom recordings, as well as handled artistic direction for the label. Since then he has shifted his attention to his own label ‘IDO’ - or - Intercontinental Dance Organization, with co-founder Amila. Drawing inspiration from the early house scene IDO centres around melting percussion, breaks and techno into a rhythmic migration of hypnotic soundscapes. Furthermore, IDO is Mora’s outlet for demonstrating his explorations of sound that he has discovered between his travels of Tokyo and since relocating to Berlin.
   performance:
     - simple_name: 'embarassed_years'
-      name: "embarassed years"
+      full_name: "embarassed years"
       title: ""
       web_links:
       photo:
@@ -198,7 +205,7 @@ default:
 
         Ariel Cohen (IL), born in 1983, is a stage artist, visual artist and a performer. He studied at Kirov Academy in Washington D.C, and has a B.A from Amsterdam HogeschoolVoor De Kunst. He danced with Batsheva Dance Company, Scapino Ballet, Bern Ballet I.T Dansa, and created number of stage works for various dance festivals in Israel. His works were also presented in several galleries in Tel Aviv. Among others he collaborated with the choreographer Osnat Kelner. Cohen designed the costumes for Sadeh21 And The Hole by Ohad Naharin and he served as an assistant to Naharin for the piece Last Work.
     - simple_name: 'young_boy_dancing_group'
-      name: "young boy dancing group"
+      full_name: "young boy dancing group"
       title: ""
       web_links:
         - address: "//thump.vice.com/en_us/article/pg8x3k/young-boy-dancing-group-lasers-butt-queer-art"
@@ -208,7 +215,7 @@ default:
       bio: |
         Young Boy Dancing Group is a lose performance collective around Tomislav Feller, Nils Amadeus Lange, Maria Metsalu, Ofelia jarl Ortega, Vincent Riebeek, Nicolas Roses, Manuel Scheiwiller.From event to event the cast, title and scenes are changing according to the venue. The show is constructed with different scenes addressing sexuality, digital age, fetishes, contemporary dance, pop and youth culture. The scenes are often structured improvisation with a prepared aesthetic approach aiming for an entertaining spectacle. Ybdg is critiquing the institutionalized performances and dance shows produced by the theaters, some shows being constructed within a day, quickly built up and vivid labeling. Thereby all the participators are having an in uence on creating the scenes and carry the same authorship. YBDG showed amongst others at: Silencio, Paris, Lithuanian Pavilion, Venice Biennale 2015, Chart Art Fair, Manifesta Biennale, Zürich, AHMD & Chapter 10, London, Lof cialàrt, Paris, Roskilde Festival, DK.
     - simple_name: 'mataya_waldenberg'
-      name: "mataya waldenberg"
+      full_name: "mataya waldenberg"
       title: "Performance Artist, Musician, Model "
       web_links:
         - address: "//pw-magazine.com/2017/lady-matayas-fantastischer-pfad-aus-der-duesternis/"
@@ -218,7 +225,8 @@ default:
       bio: >
         Mataya Waldenberg aka Lady Mataya is a performance artist and musician. Since 2012, Mataya Waldenberg has studied Experiemental Design at the University of Art and Design Linz, and now concentrates on performance, photography and video. Their focus lies on the theme of gender and its place in society. In 2016, Waldenberg released their debut album “The Fantastic Tale”, with another album to be released in September 2017.
     - simple_name: 'proxima_plus'
-      name: "Proxima Plus ft. ZAFTIK musik"
+      full_name: "Proxima Plus ft. ZAFTIK musik"
+      label_name: "Proxima Plus"
       title: ""
       web_links:
       photo:
@@ -227,7 +235,7 @@ default:
         Born in San Fransisco, California on Sept 7, 1986, Claire Côte has been dancing and singing since she could walk and talk. Claire graduated from Goucher College with a B.A. in Anthropology, Art, and Dance in 2009. From 2007-2011, she created dance-theater pieces with effervescent collective in Baltimore, MD. Since moving to Berlin in 2011, she performs experimental, improvisation dance with various musicians including Lolita Terrorist Sounds, Passi ora, and Voodoohop, wearing self- made, imaginative costumes. In February 2017, she produced and self-released cross-genre, down- tempo electronic music under the name, quest:in:time, a collaborative project with Peter Lay of electronic welfare. In June 2017 she began her solo music project as ZAFTIK, delivering juicy vibes to the dance- oor. She recently formed the dance collective Proxima Plus with Irene Anglada and Marissa Medal, whose aim is to bring people closer by connecting and exchanging energy, and to experience movement and sensations more fully through interactive performances. Proxima Plus will prepare and guide the “lucky ones” on their journey to Kepler 425b, accompanied by the juicy waves of ZAFTIK musik.
   designers:
     - simple_name: 'florian_mathe'
-      name: "Florian Mathe"
+      full_name: "Florian Mathe"
       title: ""
       web_links:
       photo:
@@ -236,7 +244,7 @@ default:
       bio: |
         Finding his technical feet during a Viennese ap- prenticeship for Fashion and Clothing Manufacturing, UDK alumnus Florian Máthé arrived in Berlin 4 years ago to begin his studies at the nation’s most prestigious creative institution. Immediately diving into Berlin’s art scene, he founded and organised a pop up project and art space called “je regrette” in Berlin Mitte, curating four shows featur- ing artists like Mischa Badasyan, Daniel Ferstl, Stephanie Ballantine and Kim Asendorf. During his studies, he worked for different labels and costume designers such as Marques’ Almeida, Wales Bonner and Hannah Hopkins and specialized in pattern cutting and tailoring. Using his technical background as a strong foundation to build on, he is currently developing his men's and women’s wear graduate collection, which is deeply in uenced by London’s Queer Performance Scene. With a desire to “[question] the terms of beauty, body and aesthetics” as key motivation, he wishes to convey vibrantness, freedom and emotion in the context of fashion as well as a new spectacular performance.
     - simple_name: 'bjorn_melhus'
-      name: "Bjorn Melhus"
+      full_name: "Bjorn Melhus"
       title: "Made on Mars"
       web_links:
       photo:
@@ -246,7 +254,7 @@ default:
         <b>Made on Mars</b>
         The Brand new Fall/Winter Collection celebrates the  nancial crisis and is appropriately accompanied with mulled wine, seasonal baked goods and many intriguing insights on how to do Xmas on Mars. Not to be missed!And not to be forgotten: By attending this ultimate Xmas celebration you will already have put a check mark next to your Xmas festivities and can calmly leave for your well earned winter vacation on Venus!
     - simple_name: 'nelson_santos'
-      name: "Nelson Santos"
+      full_name: "Nelson Santos"
       title: ""
       web_links:
       photo:
@@ -255,7 +263,7 @@ default:
       bio: |
         Nelson Santos is a Portuguese fashion designer, illustrator and artist, who moved to London in 2007 after studying Fashion and Textiles Design in Portugal.He explores and overemphasizes the human body shape by manipulating materials, texture and cuts to create unique pieces to suit each individual he works with. His work is a fusion of art and fashion, exploring a different side of fashion and the dichotomy between the beautiful and the ugly and the aspirational desire for beauty. Nelson’s inspiration comes from the people in the streets, music and  lms. Since 2012 he has been working as senior fashion editor at KCTV, which has enabled him to keep up to date and share his views on the fashion world with the general public.As an up and coming designer, he won a national award in 1st place for young fashion designers in Portugal in 2006. He has also been awarded the “The Future of Fashion Illustration” an international competition by Fashion Capital, in 2012 and chosen over 100,000 entrants. Nelson is a multifaceted creative who over the last 2 years has not only designed and made several costumes for performers, singers & DJ’s, worldwide, but also has art directed and styled fashion  lms and most recently contributed towards a world-renowned fashion book called Petrie 66. Nelson continues to grow by grasping all new opportunities that come his way.
     - simple_name: 'xvii_studio'
-      name: "Xvii Studio"
+      full_name: "Xvii Studio"
       title: "Bodies that Shatter"
       web_links:
       photo:
@@ -265,7 +273,7 @@ default:
         <b>Bodies that Shatter</b>
         The work explores the contemporary phenomenon of ‘net feminism’ also referred to as Feminism 4.0 which conceives female melancholy as a methodological practice, the praxis that questions and thwarts society’s patriarchal structures. The title ‘Bodies that shatter’ is rooted in the early work of Judith Butler which in her book ‘Bodies that matter’ described the performative power of the language, where subjects are described as male or female, and thus become socially perceptible as such through the performativity of the gender. The core of the following collection appeals to the power of female self-portrayal in the sense of empowerment as opposed to the tradition of a male-dominated perspective. The power to dash, shock or shatter in reference to the blogger scene and the social mediascape at large is considered here (probed) and it’s ironically offensive parody of the conservative depiction of female body.The background of the concept recurs in the colour and form composition of the collection. The implementation of  at patterns which emphasize the framing of the body’s fragments, the asymmetry and omissions is an integral part of the lingerie collection in regards to present day feminist practice.
     - simple_name: 'daven_zang'
-      name: "Daven Zang"
+      full_name: "Daven Zang"
       title: ""
       web_links:
       photo:
