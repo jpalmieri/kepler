@@ -44,6 +44,12 @@ $(document).ready(function() {
     moveLinksIntoConstellation($('.constellation-index').children(), $('.link-layer'));
   });
 
+  // removes the flash on click so the user doesn't see it when navigating back
+  // with browser button
+  $(document).on('pjax:click', function() {
+    $('.flash').hide();
+  });
+
   $('.splash #logo').click(function() {
     slideSplash();
   });

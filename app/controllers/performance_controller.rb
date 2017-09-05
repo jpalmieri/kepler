@@ -8,7 +8,7 @@ class PerformanceController < ApplicationController
     @performer = performers.select {|m| m[:simple_name] == params[:id]}.first()
     unless @performer
       flash[:error] = "performer not found"
-      redirect to performers_index
+      redirect_to performers_url
     end
   end
 end
