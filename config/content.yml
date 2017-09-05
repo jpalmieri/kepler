@@ -233,6 +233,15 @@ default:
         file: "zaftik.jpg"
       bio: |
         Born in San Fransisco, California on Sept 7, 1986, Claire Côte has been dancing and singing since she could walk and talk. Claire graduated from Goucher College with a B.A. in Anthropology, Art, and Dance in 2009. From 2007-2011, she created dance-theater pieces with effervescent collective in Baltimore, MD. Since moving to Berlin in 2011, she performs experimental, improvisation dance with various musicians including Lolita Terrorist Sounds, Passi ora, and Voodoohop, wearing self- made, imaginative costumes. In February 2017, she produced and self-released cross-genre, down- tempo electronic music under the name, quest:in:time, a collaborative project with Peter Lay of electronic welfare. In June 2017 she began her solo music project as ZAFTIK, delivering juicy vibes to the dance- oor. She recently formed the dance collective Proxima Plus with Irene Anglada and Marissa Medal, whose aim is to bring people closer by connecting and exchanging energy, and to experience movement and sensations more fully through interactive performances. Proxima Plus will prepare and guide the “lucky ones” on their journey to Kepler 425b, accompanied by the juicy waves of ZAFTIK musik.
+    - simple_name: 'mikey_woodbridge'
+      full_name: "Mikey Woodbridge"
+      title: ""
+      web_links:
+      photo:
+        file: "mikey.jpg"
+        orientation: 'vertical'
+      bio: |
+        Mikey is a songwriter and performer born in Newcastle Australia now based in Berlin by way of New York and London. He has won a place in a strikingly high number of human hearts for both his music and his iconic nightlife fashions, both of which travel into uncharted territories of gender and sexuality. His songs address unconditional states such as energetic connections on the dancefloor, annihilation in love or deep and vulnerable conversation. Throughout his music, there is an intense longing to be able to connect beyond identity, beyond body and beyond fear. He is not positioning himself inside of anyone's storyline, but giving flesh to that space where we are no one and all.
   designers:
     - simple_name: 'florian_mathe'
       full_name: "Florian Mathe"
