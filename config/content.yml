@@ -89,15 +89,17 @@ default:
         orientation: 'vertical'
       bio: >
         Bogdan Licar is a monkey-coder, filmmaker and avid dancer - after years of working with mathematics and digital art, he moved to analogue photography and filmmaking, focusing on deprecated visual and printing techniques, with the occasional scripted short film for his ongoing filmmaking degree in London. Mainly interested in water and plants, he’s trying to merge dance, shadow play and childhood memories onto film and possibly into physical ascension.
-    - simple_name: 'connie'
-      name: "Connie Hwong"
-      title: "Communications"
+    - simple_name: 'xinru'
+      name: "Xinru"
+      title: ""
       web_links:
+        - label: "Facebook"
+          address: "//www.facebook.com/lhjtw"
       photo:
-        file: "connie.jpg"
+        file: "xinru.jpg"
         orientation: 'vertical'
       bio: >
-        Connie is a writer and communicator living in Berlin. Born in New Jersey, she began working with music labels, media artists, actors, and directors while attending university in New York City. After receiving her BA in Asian and Middle Eastern Languages and Cultures, she moved to San Francisco and was a founding member of the Elastic Future experimental theater company as a collaborator and costume designer. In addition to managing the Kearny Street Workshop gallery (a nonprofit dedicated to the work of emerging Asian American artists), she also spent 15 years writing about music, art, and culture for publications like Flavorpill, XLR8R, Alarm Press, and more. She also served on the San Francisco Arts Commission’s Grants for the Arts Cultural Equity Initiative board, where she was responsible for funding local arts organizations. She currently works in the tech sector, where she is the editorial director for Verto Analytics, a Finnish data startup.
+        Originally from Taiwan, Xinru is a Berlin-based dancer, costume designer and translator with a passion for recycling and animal-rescuing.
     - simple_name: 'joe'
       name: "Joe Palmieri"
       title: "Software Engineer"
