@@ -2,7 +2,7 @@ default:
   resident_advisor_path: "//www.residentadvisor.net/events/1003233"
   instagram_path: "//www.instagram.com/kp452b/"
   facebook_path: "//www.facebook.com/kepler452b.org"
-  team:
+  crew:
     - simple_name: 'ma_li'
       name: "Ma Li"
       title: "Installation and Performance Artist"
@@ -21,7 +21,7 @@ default:
         - address: "//florianmathe.com"
           label: "florianmathe.com"
       photo:
-        file: "florian_team.jpg"
+        file: "florian_crew.jpg"
         orientation: 'vertical'
       bio: >
         Finding his technical feet during a Viennese apprenticeship for Fashion and Clothing Manufacturing, UDK alumnus Florian Máthé arrived in Berlin 4 years ago to begin his studies at the nation’s most prestigious creative institution. Immediately diving into Berlin’s art scene, he founded and organised a pop up project and art space called “je regrette” in Berlin Mitte, curating four shows featuring artists like Mischa Badasyan, Daniel Ferstl, Stephanie Ballantine and Kim Asendorf. During his studies, he worked for different labels and costume designers such as Marques’ Almeida, Wales Bonner and Hannah Hopkins and specialized in pattern cutting and tailoring. Using his technical background as a strong foundation to build on, he is currently developing his men’s and women’s wear graduate collection, which is deeply influenced by London’s Queer Performance Scene. With a desire to “[question] the terms of beauty, body and aesthetics” as key motivation, he wishes to convey vibrantness, freedom and emotion in the context of fashion as well as a new spectacular performance.
@@ -35,7 +35,7 @@ default:
         file: "vanta.jpg"
         orientation: 'vertical'
       bio: >
-        Thomas Van Ta is a digital Alter Ego. After studying Environmental Sciences in Granada University, Spain, Van Ta began his career as a visual designer. There he was part of the audiovisual collective Miga. Moving then to Berlin, he made an internship at the mythical record label Mnus, where he became part of development team at 2V-P. Nowadays he works as creative coder in the studio Pfadfinderei as well as collaborating with many artistic and commercial projects such as Melt! Festival, Fusion Festival and Lowlands Festival.
+        Thomas Van Ta is a digital Alter Ego. After studying Environmental Sciences in Granada University, Spain, Van Ta began his career as a visual designer. There he was part of the audiovisual collective Miga. Moving then to Berlin, he made an internship at the mythical record label Mnus, where he became part of development crew at 2V-P. Nowadays he works as creative coder in the studio Pfadfinderei as well as collaborating with many artistic and commercial projects such as Melt! Festival, Fusion Festival and Lowlands Festival.
     - simple_name: 'stefanie'
       name: "Stefanie Loveday"
       title: "Visual Artist + Designer"
