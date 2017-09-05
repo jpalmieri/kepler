@@ -222,8 +222,10 @@ default:
           label: "Press"
       photo:
         file: "mataya_waldenberg.jpg"
-      bio: >
-        Mataya Waldenberg aka Lady Mataya is a performance artist and musician. Since 2012, Mataya Waldenberg has studied Experiemental Design at the University of Art and Design Linz, and now concentrates on performance, photography and video. Their focus lies on the theme of gender and its place in society. In 2016, Waldenberg released their debut album “The Fantastic Tale”, with another album to be released in September 2017.
+      bio: |
+        Mataya Waldenberg, born in 1994, is an artist and musician based in Vienna. Having studied Experimental Art at the University of Arts and Industrial Design Linz since 2012, they focus their pieces mainly on life in between worlds. Their own body is their main medium – roaming in between male and female, the real and the fantastic.
+
+        Along with their visual, physical presence,  music is Mataya's most important method of expression. All lyrics, compositions and synthesizers are of their own making, and are sometimes the product of collaboration with related souls. Their album 'LOVING ANGEL PROTOTYPE', to be released this fall, consists of ten tracks depicting raw emotion, overcoming challenges and the search for a place in the world.
     - simple_name: 'proxima_plus'
       full_name: "Proxima Plus ft. ZAFTIK musik"
       label_name: "Proxima Plus"
