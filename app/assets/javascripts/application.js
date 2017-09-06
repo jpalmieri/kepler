@@ -17,7 +17,6 @@
 //= require rails-ujs
 //= require pace/pace
 //= require parallax.min.js
-//= require constellation
 //= require_tree .
 
 // this tells pjax what links to fire on

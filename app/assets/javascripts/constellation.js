@@ -45,3 +45,13 @@ this.constellation = constellation;
     moveLinks($links, $destinationContainers);
   };
 })();
+
+$(document).ready(function() {
+  constellation.initParallax($('#scene'));
+  constellation.moveLinks($('.constellation-index').children(), $('.link-layer'));
+});
+
+// 'pjax:end' fires on back/forward browser button navigation
+$(document).on('pjax:complete pjax:end', function() {
+  constellation.moveLinks($('.constellation-index').children(), $('.link-layer'));
+});
