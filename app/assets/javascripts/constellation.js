@@ -2,7 +2,7 @@ var constellation = constellation || {};
 this.constellation = constellation;
 
 (function() {
-  var startParallax = function($sceneElement) {
+  var initParallax = function($sceneElement) {
     // parallax js magic
     var scene = $sceneElement.get(0);
     var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
@@ -20,8 +20,8 @@ this.constellation = constellation;
     constellation.parallax = parallax;
   }
 
-  constellation.startParallax = function($sceneElement) {
-    startParallax($sceneElement);
+  constellation.initParallax = function($sceneElement) {
+    initParallax($sceneElement);
   }
 
   // kind of a hack to move elements rendered via pjax into the parallax.js layers.
@@ -31,7 +31,7 @@ this.constellation = constellation;
   // (by moving them into those layers after the pjax is done).
   // I guess another option would be to try to add a multiple container feature
   // to pjax...but I'm not trying to do that right now.
-  var moveLinksIntoConstellation = function($links, $destinationContainers) {
+  var moveLinks = function($links, $destinationContainers) {
     // clear the div of any previous links
     $destinationContainers.each(function(i, el) { $(el).empty(); });
     $links.each(function(i, link) {
@@ -41,7 +41,7 @@ this.constellation = constellation;
     });
   };
 
-  constellation.moveLinksIntoConstellation = function($links, $destinationContainers) {
-    moveLinksIntoConstellation($links, $destinationContainers);
+  constellation.moveLinks = function($links, $destinationContainers) {
+    moveLinks($links, $destinationContainers);
   };
 })();

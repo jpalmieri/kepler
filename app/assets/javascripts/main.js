@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  constellation.startParallax($('#scene'));
-  constellation.moveLinksIntoConstellation($('.constellation-index').children(), $('.link-layer'));
+  constellation.initParallax($('#scene'));
+  constellation.moveLinks($('.constellation-index').children(), $('.link-layer'));
 
   // Hamburger nav function
   $('.header .hamburger').click(function(e) {
@@ -27,7 +27,7 @@ $(document).ready(function() {
   // 'pjax:end' fires on back/forward browser button navigation
   $(document).on('pjax:complete pjax:end', function() {
     closeNav();
-    constellation.moveLinksIntoConstellation($('.constellation-index').children(), $('.link-layer'));
+    constellation.moveLinks($('.constellation-index').children(), $('.link-layer'));
   });
 
   // removes the flash on click so the user doesn't see it when navigating back
