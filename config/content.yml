@@ -36,8 +36,10 @@ default:
       photo:
         file: "vanta.jpg"
         orientation: 'vertical'
-      bio: >
-        Thomas Van Ta is a digital Alter Ego. After studying Environmental Sciences in Granada University, Spain, Van Ta began his career as a visual designer. There he was part of the audiovisual collective Miga. Moving then to Berlin, he made an internship at the mythical record label Mnus, where he became part of development crew at 2V-P. Nowadays he works as creative coder in the studio Pfadfinderei as well as collaborating with many artistic and commercial projects such as Melt! Festival, Fusion Festival and Lowlands Festival.
+      bio: |
+        Thomas Van Ta is a digital Alter Ego.
+
+        After studying Environmental Sciences in Granada University, Spain, Van Ta began his career as a visual designer, working as a part of the audiovisual collective Miga. He then interned  at the mythical record label Mnus in Berlin, where he became part of development team at 2V-P. Nowadays he works as a creative coder in the studio Pfadfinderei as well as collaborating with various artistic and commercial projects such as Melt! Festival, fusion festival and Lowlands festivals, amongst others.
     - simple_name: 'stefanie'
       full_name: "Stefanie Loveday"
       label_name: "Stefanie"
