@@ -273,9 +273,8 @@ default:
       photo:
         file: "bjorn_melhus.jpg"
         orientation: 'vertical'
-      bio: |
-        <b>Made on Mars</b>
-        The Brand new Fall/Winter Collection celebrates the  nancial crisis and is appropriately accompanied with mulled wine, seasonal baked goods and many intriguing insights on how to do Xmas on Mars. Not to be missed!And not to be forgotten: By attending this ultimate Xmas celebration you will already have put a check mark next to your Xmas festivities and can calmly leave for your well earned winter vacation on Venus!
+      bio: >
+        The Brand new Fall/Winter Collection Made on Mars by artist Bjørn Melhus celebrates the financial crisis and will give some intriguing insights on how to do Xmas on Mars. Not to be missed! And not to be forgotten: by attending this ultimate Xmas celebration you will already have put a checkmark next to your Xmas festivities and can calmly leave for your well earned winter vacation on Venus!
     - simple_name: 'nelson_santos'
       full_name: "Nelson Santos"
       title: ""
