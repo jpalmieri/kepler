@@ -1,3 +1,6 @@
+var constellation = constellation || {};
+this.constellation = constellation;
+
 (function() {
   var startParallax = function($sceneElement) {
     // parallax js magic
@@ -14,10 +17,31 @@
       // instatiate as default (x and y inverted)
       var parallax = new Parallax(scene);
     }
-    window.parallax = parallax;
+    constellation.parallax = parallax;
   }
 
-  window.startParallax = function($sceneElement) {
+  constellation.startParallax = function($sceneElement) {
     startParallax($sceneElement);
   }
+
+  // kind of a hack to move elements rendered via pjax into the parallax.js layers.
+  // since one pjax link can only be associated with updating one pjax container,
+  // and the parallax.js layers need to remain in the document,
+  // this seems like the best way to update the links in the parallax.js layers
+  // (by moving them into those layers after the pjax is done).
+  // I guess another option would be to try to add a multiple container feature
+  // to pjax...but I'm not trying to do that right now.
+  var moveLinksIntoConstellation = function($links, $destinationContainers) {
+    // clear the div of any previous links
+    $destinationContainers.each(function(i, el) { $(el).empty(); });
+    $links.each(function(i, link) {
+      var $destination = $(link).data('destination');
+      // copy them to the new div instead of moving them
+      $(link).clone().appendTo('.' + $destination);
+    });
+  };
+
+  constellation.moveLinksIntoConstellation = function($links, $destinationContainers) {
+    moveLinksIntoConstellation($links, $destinationContainers);
+  };
 })();
