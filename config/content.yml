@@ -53,15 +53,17 @@ default:
       bio: >
         Stefanie Loveday is a Swiss-Canadian artist living and working in Berlin, Germany. Her photographs and participatory performances explore landscape as an extension of the body. Loveday received a Masters of Fine Art in Photography from San Francisco Art Institute and a Bachelor of Media Arts from Emily Carr University. She has received the Leon and Thea Koerner Award in the Fine and Performing Arts, as well as the Helen Pitt Award. Loveday has been awarded artist residencies at Programa Red de Residencies Artísticas LOCAL, Universidad Nacional de Colombia in Bogotá and Leticia and The Hammock Residency in Vancouver, Canada.
     - simple_name: 'giannina'
-      full_name: "Giannina Lisitano"
+      full_name: "Giannina Herion"
       label_name: "Giannina"
       title: "Communications"
       web_links:
+        - label: "gianninaherion.de"
+          address: "//gianninaherion.de"
       photo:
         file: "giannina.jpg"
         orientation: 'vertical'
       bio: >
-        Giannina Lisitano is a freelancer in communication and marketing. She worked for cultural projects and institutions such as Berliner Festspiele / Immersion, Berlin Biennale for Contemporary Art, HAU Hebbel am Ufer, transmediale festival for art and digital culture and Werkbundarchiv – Museum of Things.
+        Giannina Herion is a freelancer in communication and marketing. She worked for cultural projects and institutions such as Berlin Biennale for Contemporary Art, HAU Hebbel am Ufer and transmediale festival for art and digital culture.
     - simple_name: 'vittoria'
       full_name: "Vittoria de Franchis"
       label_name: "Vittoria"
