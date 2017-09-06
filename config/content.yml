@@ -152,12 +152,12 @@ default:
       full_name: "Nuel"
       title: ""
       web_links:
+        - label: "SoundCloud"
+          address: "//soundcloud.com/nuel"
       photo:
         file: "nuel.jpg"
       bio: |
-        Italian DJ and producer Nuel is someone who explores long form grooves, meditative rhythm and soothing soundscapes. He does so on labels like Further, Latency and Aquaplano in both EP and LP form, and is at home in both the techno and ambient worlds.
-
-        Prolific as ever, Nuel has lots of material to come and all of it will continue to focus on his less is more approach: whatever he cooks up, though, you can be sure that it will wholly suck you in and take you to another world and mindset entirely.
+        Italian DJ and producer Nuel is someone who explores longform grooves, meditative rhythm and soothing soundscapes. He does so on labels like Further, Latency and Aquaplano in both EP and LP form, and is at home in both the techno and ambient worlds. Prolific as ever, Nuel has plenty of material to come, all of which will reiterate his less-is-more approach: whatever it is that he cooks up, you can be sure that it will wholly suck you in and transport you to another world and mindset entirely.
     - simple_name: 'stefan_schneider'
       full_name: "STEFAN SCHNEIDER"
       title: ""
