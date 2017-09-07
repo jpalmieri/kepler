@@ -199,6 +199,20 @@ default:
         file: "eric.jpg"
       bio: >
         Eric Kustarz is a computer engineer with a passionate heart for art and adventure. He has experimented with laser cutting, collage, neon, animated gifs, experimental video, drawing, welding, graffiti, and small Arduino installations. He performed on the stage of Cabaret Voltaire during Manifesta 11 and has contributed his coding skills to the installation “Wish You Could Have Seen This”, a project about the displacement of San Francisco artists at San Francisco Arts Commission Gallery in 2016. His dream is to build action figures of his friends.
+    - simple_name: 'amy'
+      full_name: "Amy K Bell"
+      label_name: "Amy"
+      title: ""
+      web_links:
+        - label: "amykbell.com"
+          address: "//amykbell.com"
+        - label:  "dropleafpress.com"
+          address: "//dropleafpress.com"
+      photo:
+        file: "amy.jpg"
+        orientation: "vertical"
+      bio: >
+        Amy K. Bell is a writer and preschool teacher in Oakland, CA. She is the author of Book of Sybil (Gorilla Press, 2013) and is a co-founder of Drop Leaf Press (<a href='//dropleafpress.com' target='_blank'>dropleafpress.com</a>).
   music:
     - simple_name: 'ancestral_voices'
       full_name: "Ancestral Voices"
