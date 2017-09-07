@@ -201,6 +201,20 @@ default:
         Seamlessly incorporating influences of movement, expression and soul into his production, Valentino Canzani Mora has never strayed far from this ethos since beginning to experiment with music at a very young age. Raised by Uruguayan parents--of which his father was a trained sound engineer and musician--Mora was constantly surrounded by music and exposed to the music production industry throughout his childhood.
 
         Before shifting back to his given name, Mora had a string of releases including one LP under his French Fries moniker, during which time he co-curated Clekclekboom recordings, as well as taking on artistic direction for the label. Since then he has shifted his attention to his own label ‘IDO’ - or - Intercontinental Dance Organization, with co-founder Amila. Drawing inspiration from the early house scene, IDO centers around melting percussion, breaks and techno into a rhythmic migration of hypnotic soundscapes. Furthermore, IDO is Mora’s outlet for demonstrating the explorations of sound that he has experimented with between his travels in Tokyo and since relocating to Berlin.
+    - simple_name: 'nihiti'
+      full_name: "Nihiti"
+      title: ""
+      web_links:
+        - label: "nihiti.church"
+          address: "//www.nihiti.church"
+        - label: "SoundCloud"
+          address: "//SoundCloud.com/nihiti"
+      photo:
+        file: "nihiti.jpg"
+      bio: |
+        Mystical and futuristic, New York based NIHITI has so far produced a diverse and unexpected body of work, with each new release shifting its focus into new territory and genres. Described as "alternately uneasy, bloodthirsty and painfully beautiful" by Resident Advisor and chosen as record of the week by some of the better record stores in the states (Other Music NYC and Aquarius SF), their sound has intricately blurred the lines between acoustic and electronic, weaving the two together with a signature sense of dread.
+
+        In 2014 and 2015, NIHITI was commissioned to provide a "sacred space" for New York's renowned Sustain-Release festival - continuous music and atmosphere for those in need of a moment to contemplate and collect themselves. Since then NIHITI has engaged in more site specific meditative installations instead of actual performances, including recent releases on their label of ambient dreamscapes by Nathan Jonson (Hrdvsion, Wagon Repair) and the artist Viktor Timofeev. It is this side of the collective, featuring lo bit landscapes, that will be on display.
   performance:
     - simple_name: 'embarassed_years'
       full_name: "embarassed years"
