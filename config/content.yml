@@ -169,6 +169,18 @@ default:
         At the forefront of his artistic practice lies the simple but often overlooked foundations of beauty and experience; the serendipity of losing oneself to an experience, or the overwhelming emotional response elicited by beauty.
 
         He taps into these rare but pure moments by making  work that engages with the people who view it, in a time and site specific setting.
+    - simple_name: 'daven_crew'
+      full_name: "Daven Zhang"
+      label_name: "Daven"
+      title: ""
+      web_links:
+        - label: "davenzang.com"
+          address: "//davenzang.com"
+      photo:
+        file: "daven_crew.jpg"
+        orientation: 'vertical'
+      bio: >
+        Daven Zhang graduated from Tongji University and Beuth-Hochschule Berlin with degrees in architecture and building engineering. He is the founder of Shanghai Yuan Yun Art & Design Studio, the art director of Bronze music festival and, most recently, founder of the fashion brand DAVENZHANG. Through the brand DAVENZANG, which merges eastern and western elements to create an avant-garde androgynous clothing line, Zhang hopes to support a balanced and sophisticated sense of beauty and love throughout the world.
   music:
     - simple_name: 'ancestral_voices'
       full_name: "Ancestral Voices"
