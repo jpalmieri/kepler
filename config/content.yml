@@ -25,7 +25,7 @@ default:
         file: "florian_crew.jpg"
         orientation: 'vertical'
       bio: >
-        A soon-to-be graduate of  Universität der Künste Berlin,, Fashion designer Florian Máthé is currently developing a collection that is deeply influenced by London’s Queer Performance Scene. With a desire to “[question] the terms of beauty, body and aesthetics”, he wishes to convey vibrantness, freedom and emotion in the context of fashion as well as a new spectacular performance. Florian Máthé founded and organised pop up project and art space “je regrette” in Berlin Mitte, curating four shows featuring artists such as Mischa Badasyan, Daniel Ferstl, Stephanie Ballantine and Kim Asendorf.
+        A soon-to-be graduate of Universität der Künste Berlin,, Fashion designer Florian Máthé is currently developing a collection that is deeply influenced by London’s Queer Performance Scene. With a desire to “[question] the terms of beauty, body and aesthetics”, he wishes to convey vibrantness, freedom and emotion in the context of fashion as well as a new spectacular performance. Florian Máthé founded and organised pop up project and art space “je regrette” in Berlin Mitte, curating four shows featuring artists such as Mischa Badasyan, Daniel Ferstl, Stephanie Ballantine and Kim Asendorf.
     - simple_name: 'vanta'
       full_name: "Thomas Vanta"
       label_name: "Vanta"
@@ -168,7 +168,7 @@ default:
 
         At the forefront of his artistic practice lies the simple but often overlooked foundations of beauty and experience; the serendipity of losing oneself to an experience, or the overwhelming emotional response elicited by beauty.
 
-        He taps into these rare but pure moments by making  work that engages with the people who view it, in a time and site specific setting.
+        He taps into these rare but pure moments by making work that engages with the people who view it, in a time and site specific setting.
     - simple_name: 'daven_crew'
       full_name: "Daven Zhang"
       label_name: "Daven"
@@ -206,7 +206,7 @@ default:
       web_links:
         - label: "amykbell.com"
           address: "//amykbell.com"
-        - label:  "dropleafpress.com"
+        - label: "dropleafpress.com"
           address: "//dropleafpress.com"
       photo:
         file: "amy.jpg"
@@ -334,10 +334,10 @@ default:
       bio: |
         Young Boy Dancing Group is a loose performance collective that includes the likes of Tomislav Feller, Nils Amadeus Lange, Maria Metsalu, Ofelia jarl Ortega, Vincent Riebeek, Nicolas Roses, and Manuel Scheiwiller. From event to event, the cast, title and scenes produced by the group change according to the venue. The show that ensues is constructed with different scenes that address sexuality, the digital age, fetishes, contemporary dance, pop and youth culture. The scenes are often constructed through structured improvisation with a prepared aesthetic approach that aims to create an entertaining spectacle.
 
-        YBDG is a critique of the institutionalized performances and dance shows produced by theaters; the group’s performances are sometimes prepared within one day, quickly built up and publicized, but no less vivid for it.  In this respect, all participants influence the creation of the scenes that follow, and carry the same degree of authorship. YBDG has shown, amongst others, at: Silencio, Paris, Lithuanian Pavilion, Venice Biennale 2015, Chart Art Fair, Manifesta Biennale, Zürich, AHMD & Chapter 10, London, Lofficialàrt, Paris, Roskilde Festival, DK."
+        YBDG is a critique of the institutionalized performances and dance shows produced by theaters; the group’s performances are sometimes prepared within one day, quickly built up and publicized, but no less vivid for it. In this respect, all participants influence the creation of the scenes that follow, and carry the same degree of authorship. YBDG has shown, amongst others, at: Silencio, Paris, Lithuanian Pavilion, Venice Biennale 2015, Chart Art Fair, Manifesta Biennale, Zürich, AHMD & Chapter 10, London, Lofficialàrt, Paris, Roskilde Festival, DK."
     - simple_name: 'mataya_waldenberg'
       full_name: "mataya waldenberg"
-      title: "Performance Artist, Musician, Model "
+      title: "Performance Artist, Musician, Model"
       web_links:
         - address: "//pw-magazine.com/2017/lady-matayas-fantastischer-pfad-aus-der-duesternis/"
           label: "Press"
@@ -346,7 +346,7 @@ default:
       bio: |
         Mataya Waldenberg, born in 1994, is an artist and musician based in Vienna. Having studied Experimental Art at the University of Arts and Industrial Design Linz since 2012, they focus their pieces mainly on life in between worlds. Their own body is their main medium – roaming in between male and female, the real and the fantastic.
 
-        Along with their visual, physical presence,  music is Mataya's most important method of expression. All lyrics, compositions and synthesizers are of their own making, and are sometimes the product of collaboration with related souls. Their album 'LOVING ANGEL PROTOTYPE', to be released this fall, consists of ten tracks depicting raw emotion, overcoming challenges and the search for a place in the world.
+        Along with their visual, physical presence, music is Mataya's most important method of expression. All lyrics, compositions and synthesizers are of their own making, and are sometimes the product of collaboration with related souls. Their album 'LOVING ANGEL PROTOTYPE', to be released this fall, consists of ten tracks depicting raw emotion, overcoming challenges and the search for a place in the world.
     - simple_name: 'proxima_plus'
       full_name: "Proxima Plus ft. ZAFTIK musik"
       label_name: "Proxima Plus"
@@ -428,7 +428,7 @@ default:
         file: "daven_zang.jpg"
         orientation: 'vertical'
       bio: |
-        Daven Zang originally studied architecture and building engineering in Shanghai and Berlin. He  currently designs for and directs DAVENZANG, a fashion brand shaped by the slogan “YIN&YANG,LOVE,INDIVIDUALITY”. DAVENZANG merges eastern and western elements to create an avant-garde style of womenswear and unisex-wear for a sophisticated and modern androgynous clientele. The brand aims to spread this intuitive energy through beauty and a lifestyle balanced between all concepts.
+        Daven Zang originally studied architecture and building engineering in Shanghai and Berlin. He currently designs for and directs DAVENZANG, a fashion brand shaped by the slogan “YIN&YANG,LOVE,INDIVIDUALITY”. DAVENZANG merges eastern and western elements to create an avant-garde style of womenswear and unisex-wear for a sophisticated and modern androgynous clientele. The brand aims to spread this intuitive energy through beauty and a lifestyle balanced between all concepts.
 
 test:
   foo: "bar"
