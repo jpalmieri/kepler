@@ -1,50 +1,56 @@
-(function() {
-  var closeNav = function() {
-    $('.hamburger').removeClass('active');
-    $('.nav-container').removeClass('open');
-    $('.overlay').removeClass('active');
-    constellation.parallax.enable();
-  };
+var keplerNav = {
+  init: function() {
+    keplerNav.config = {
+      hamburger: $('.hamburger'),
+      navContainer: $('.nav-container'),
+      overlay: $('.overlay'),
+      navOpenCallback: function() {
+        constellation.parallax.disable();
+      },
+      navCloseCallback: function() {
+        constellation.parallax.enable();
+      }
+    };
+    keplerNav.setup();
+  },
 
-  var openNav = function() {
-    $('.hamburger').addClass('active');
-    $('.nav-container').addClass('open');
-    $('.overlay').addClass('active');
-    constellation.parallax.disable();
-  };
+  setup: function() {
+    keplerNav.config.hamburger.click(function() {
+      keplerNav.toggleNav();
+    });
+    keplerNav.config.overlay.click(function() {
+      keplerNav.closeNav();
+    });
+  },
 
-  var toggleNav = function() {
-    if ($('.nav-container').hasClass('open')) {
-      closeNav();
+  closeNav: function() {
+    keplerNav.config.hamburger.removeClass('active');
+    keplerNav.config.navContainer.removeClass('open');
+    keplerNav.config.overlay.removeClass('active');
+    keplerNav.config.navOpenCallback();
+  },
+
+  openNav: function() {
+    keplerNav.config.hamburger.addClass('active');
+    keplerNav.config.navContainer.addClass('open');
+    keplerNav.config.overlay.addClass('active');
+    keplerNav.config.navCloseCallback();
+  },
+
+  toggleNav: function() {
+    if (keplerNav.config.navContainer.hasClass('open')) {
+      keplerNav.closeNav();
     } else {
-      openNav();
+      keplerNav.openNav();
     }
-  };
-
-  window.closeNav = function() {
-    closeNav();
-  };
-
-  window.openNav = function() {
-    openNav();
-  };
-
-  window.toggleNav = function() {
-    toggleNav();
-  };
-})();
+  }
+}
 
 $(document).ready(function() {
-  $('.header .hamburger').click(function() {
-    toggleNav();
-  });
-
-  $('.overlay').click(function() {
-    closeNav();
-  });
+  keplerNav.init();
 });
 
 // 'pjax:end' fires on back/forward browser button navigation
 $(document).on('pjax:complete pjax:end', function() {
-  closeNav();
+  keplerNav.closeNav();
 });
