@@ -1,28 +1,48 @@
-var constellation = constellation || {};
-this.constellation = constellation;
+var constellation = {
+  init: function(settings) {
+    constellation.config = {
+      $scene: $('#scene').get(0),
+      $links: $('.constellation-index').children(),
+      $destinationContainers: $('.link-layer'),
+      mobileRegex: /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
+    };
+    // Allow overriding the default config
+    $.extend(constellation.config, settings);
 
-(function() {
-  var initParallax = function($sceneElement) {
-    // parallax js magic
-    var scene = $sceneElement.get(0);
-    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
-    if(isMobile) {
+    constellation.setup();
+  },
+
+  refreshSelectors: function() {
+    constellation.config.$links = $('.constellation-index').children();
+    constellation.config.$destinationContainers = $('.link-layer');
+  },
+
+  setup: function() {
+    if(constellation.isMobile()) {
       // instatiate without inverting x and y axes
       // I like this better on mobile
-      var parallax = new Parallax(scene, {
+      constellation.parallax = new Parallax(constellation.config.$scene, {
         invertX: false,
         invertY: false
       });
     } else {
       // instatiate as default (x and y inverted)
-      var parallax = new Parallax(scene);
+      constellation.parallax = new Parallax(constellation.config.$scene);
     }
-    constellation.parallax = parallax;
-  }
+    constellation.moveLinksIntoConstellation();
+  },
 
-  constellation.initParallax = function($sceneElement) {
-    initParallax($sceneElement);
-  }
+  isMobile: function() {
+    constellation.config.mobileRegex.test(navigator.userAgent);
+  },
+
+  disable: function() {
+    constellation.parallax.disable();
+  },
+
+  enable: function() {
+    constellation.parallax.enable();
+  },
 
   // kind of a hack to move elements rendered via pjax into the parallax.js layers.
   // since one pjax link can only be associated with updating one pjax container,
@@ -31,27 +51,23 @@ this.constellation = constellation;
   // (by moving them into those layers after the pjax is done).
   // I guess another option would be to try to add a multiple container feature
   // to pjax...but I'm not trying to do that right now.
-  var moveLinks = function($links, $destinationContainers) {
+  moveLinksIntoConstellation: function(options = {}) {
+    if (options.refreshSelectors) { constellation.refreshSelectors(); }
     // clear the div of any previous links
-    $destinationContainers.each(function(i, el) { $(el).empty(); });
-    $links.each(function(i, link) {
+    constellation.config.$destinationContainers.each(function(i, el) { $(el).empty(); });
+    constellation.config.$links.each(function(i, link) {
       var $destination = $(link).data('destination');
       // copy them to the new div instead of moving them
       $(link).clone().appendTo('.' + $destination);
     });
-  };
-
-  constellation.moveLinks = function($links, $destinationContainers) {
-    moveLinks($links, $destinationContainers);
-  };
-})();
+  }
+};
 
 $(document).ready(function() {
-  constellation.initParallax($('#scene'));
-  constellation.moveLinks($('.constellation-index').children(), $('.link-layer'));
+  constellation.init();
 });
 
 // 'pjax:end' fires on back/forward browser button navigation
 $(document).on('pjax:complete pjax:end', function() {
-  constellation.moveLinks($('.constellation-index').children(), $('.link-layer'));
+  constellation.moveLinksIntoConstellation({ refreshSelectors: true });
 });

@@ -7,10 +7,10 @@ var keplerNav = {
     };
     keplerNav.callbacks = {
       open: function() {
-        constellation.parallax.disable();
+        constellation.disable();
       },
       close: function() {
-        constellation.parallax.enable();
+        constellation.enable();
       }
     };
     keplerNav.setup();
