@@ -190,6 +190,15 @@ default:
         file: "olga.jpg"
       bio: >
         Olga Wiedemann holds an undergraduate degree in Business Administration and Art History from the University of Vienna, as well as a Masters degree in Museum & Gallery Studies from Kingston University London. After working at MOMENTUM, a project space in Berlin, as Production Manager and Coordinator for the Artist-in-Residence Programme, she is currently Programme Assistant for next year’s transmediale. She has been working for different Cultural Institutions in Berlin and London for the past years and is experienced in producing art exhibitions as well as in artist management.
+    - simple_name: 'eric'
+      full_name: "Eric Kustarz"
+      label_name: "Eric"
+      title: ""
+      web_links:
+      photo:
+        file: "eric.jpg"
+      bio: >
+        Eric Kustarz is a computer engineer with a passionate heart for art and adventure. He has experimented with laser cutting, collage, neon, animated gifs, experimental video, drawing, welding, graffiti, and small Arduino installations. He performed on the stage of Cabaret Voltaire during Manifesta 11 and has contributed his coding skills to the installation “Wish You Could Have Seen This”, a project about the displacement of San Francisco artists at San Francisco Arts Commission Gallery in 2016. His dream is to build action figures of his friends.
   music:
     - simple_name: 'ancestral_voices'
       full_name: "Ancestral Voices"
