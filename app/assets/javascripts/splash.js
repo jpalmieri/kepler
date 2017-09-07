@@ -1,5 +1,6 @@
 var splash = {
   init: function() {
+    splash.$document = $(document);
     splash.$el = $('.splash');
     splash.$cta = $('.splash #logo');
 
@@ -7,30 +8,38 @@ var splash = {
   },
 
   setup: function() {
+    splash.setupCustomScrollEvent();
+
     splash.$cta.click(function() {
       splash.slideUp();
     });
 
-    splash.bindToScroll(function() {
-      splash.slideUp();
-    });
+    splash.$document.on('scroll.splash', splash.handleScroll);
   },
 
   slideUp: function() {
     splash.$el.addClass('active');
+    splash.$document.off('scroll.splash', splash.handleScroll);
   },
 
-  bindToScroll: function(func) {
-    // bind to mouse scroll
+  handleScroll: function() {
+    _.throttle(function() {
+      splash.slideUp();
+    }, 60)();
+  },
+
+  // capture various device scroll events under one custom jQuery event
+  setupCustomScrollEvent: function() {
+    // mouse scroll event
     var isFirefox = (/Firefox/i.test(navigator.userAgent));
     var mousewheelEvent = isFirefox ? "DOMMouseScroll" : "wheel";
-    window.addEventListener(mousewheelEvent, _.throttle(function() {
-      func();
-    }, 60), false);
-    // bind to touchscreen scroll
-    window.addEventListener('touchmove', _.throttle(function() {
-      func();
-    }, 60), false);
+    window.addEventListener(mousewheelEvent, function() {
+      splash.$document.trigger("scroll.splash");
+    }, false);
+    // touchscreen scroll event
+    window.addEventListener('touchmove', function() {
+      splash.$document.trigger("scroll.splash");
+    }, false);
   }
 };
 
