@@ -1,13 +1,15 @@
 var keplerNav = {
   init: function() {
-    keplerNav.config = {
+    keplerNav.elements = {
       hamburger: $('.hamburger'),
       navContainer: $('.nav-container'),
-      overlay: $('.overlay'),
-      navOpenCallback: function() {
+      overlay: $('.overlay')
+    };
+    keplerNav.callbacks = {
+      open: function() {
         constellation.parallax.disable();
       },
-      navCloseCallback: function() {
+      close: function() {
         constellation.parallax.enable();
       }
     };
@@ -15,36 +17,36 @@ var keplerNav = {
   },
 
   setup: function() {
-    keplerNav.config.hamburger.click(function() {
+    keplerNav.elements.hamburger.click(function() {
       keplerNav.toggleNav();
     });
-    keplerNav.config.overlay.click(function() {
+    keplerNav.elements.overlay.click(function() {
       keplerNav.closeNav();
     });
   },
 
   closeNav: function() {
-    keplerNav.config.hamburger.removeClass('active');
-    keplerNav.config.navContainer.removeClass('open');
-    keplerNav.config.overlay.removeClass('active');
-    keplerNav.config.navOpenCallback();
+    Object.values(keplerNav.elements).forEach(function($el) {
+      $el.removeClass('active');
+    });
+    keplerNav.callbacks.close();
   },
 
   openNav: function() {
-    keplerNav.config.hamburger.addClass('active');
-    keplerNav.config.navContainer.addClass('open');
-    keplerNav.config.overlay.addClass('active');
-    keplerNav.config.navCloseCallback();
+    Object.values(keplerNav.elements).forEach(function($el) {
+      $el.addClass('active');
+    });
+    keplerNav.callbacks.open();
   },
 
   toggleNav: function() {
-    if (keplerNav.config.navContainer.hasClass('open')) {
+    if (keplerNav.elements.navContainer.hasClass('active')) {
       keplerNav.closeNav();
     } else {
       keplerNav.openNav();
     }
   }
-}
+};
 
 $(document).ready(function() {
   keplerNav.init();

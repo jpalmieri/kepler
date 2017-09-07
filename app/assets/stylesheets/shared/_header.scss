@@ -129,7 +129,7 @@
   @media (max-width: $mobileWidth) {
     right: -85vw;
   }
-  &.open {
+  &.active {
     right: 0;
   }
   .grid-item {
