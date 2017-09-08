@@ -1,13 +1,13 @@
 default:
-  resident_advisor_path: "//www.residentadvisor.net/events/1003233"
-  instagram_path: "//www.instagram.com/kp452b/"
-  facebook_path: "//www.facebook.com/kepler452b.org"
+  resident_advisor_path: "http://www.residentadvisor.net/events/1003233"
+  instagram_path: "http://www.instagram.com/kp452b/"
+  facebook_path: "http://www.facebook.com/kepler452b.org"
   crew:
     - simple_name: 'ma_li'
       full_name: "Ma Li"
       title: "Installation and Performance Artist"
       web_links:
-        - address: "//malimalimali.com"
+        - address: "http://malimalimali.com"
           label: "malimalimali.com"
       photo:
         file: "ma_li.jpg"
@@ -19,7 +19,7 @@ default:
       label_name: "Florian"
       title: "Fashion Designer & Pattern Cutter"
       web_links:
-        - address: "//florianmathe.com"
+        - address: "http://florianmathe.com"
           label: "florianmathe.com"
       photo:
         file: "florian_crew.jpg"
@@ -31,7 +31,7 @@ default:
       label_name: "Vanta"
       title: "Creative coder + Visual artist"
       web_links:
-        - address: "//thomasvanta.net"
+        - address: "http://thomasvanta.net"
           label: "thomasvanta.net"
       photo:
         file: "vanta.jpg"
@@ -45,7 +45,7 @@ default:
       label_name: "Stefanie"
       title: "Visual Artist + Designer"
       web_links:
-        - address: "//stefanieloveday.com"
+        - address: "http://stefanieloveday.com"
           label: "stefanieloveday.com"
       photo:
         file: "stefanie.jpg"
@@ -58,7 +58,7 @@ default:
       title: "Communications"
       web_links:
         - label: "gianninaherion.de"
-          address: "//gianninaherion.de"
+          address: "http://gianninaherion.de"
       photo:
         file: "giannina.jpg"
         orientation: 'vertical'
@@ -70,11 +70,11 @@ default:
       title: "Booker + Editor + Communication Manager"
       web_links:
         - label: "terraformafestival.com"
-          address: "//terraformafestival.com"
+          address: "http://terraformafestival.com"
         - label: "inverted-audio.com"
-          address: "//inverted-audio.com"
+          address: "http://inverted-audio.com"
         - label: "futura-artists.com"
-          address: "//futura-artists.com"
+          address: "http://futura-artists.com"
       photo:
         file: "vittoria.jpg"
       bio: >
@@ -103,7 +103,7 @@ default:
       title: ""
       web_links:
         - label: "Facebook"
-          address: "//www.facebook.com/lhjtw"
+          address: "http://www.facebook.com/lhjtw"
       photo:
         file: "xinru.jpg"
         orientation: 'vertical'
@@ -114,7 +114,7 @@ default:
       label_name: "Joe"
       title: "Software Engineer"
       web_links:
-        - address: "//jpalmieri.com"
+        - address: "http://jpalmieri.com"
           label: "jpalmieri.com"
       photo:
         file: "joe_palmieri.jpg"
@@ -137,7 +137,7 @@ default:
       title: ""
       web_links:
         - label: "michaelang.com"
-          addres: "//www.michaelang.com/"
+          addres: "http://www.michaelang.com/"
       photo:
         file: "michael_ang.jpg"
         orientation: 'vertical'
@@ -159,7 +159,7 @@ default:
       title: ""
       web_links:
         - label: "piercejordan.com"
-          address: "//piercejordan.com"
+          address: "http://piercejordan.com"
       photo:
         file: "pierce_jordan.jpg"
         orientation: 'vertical'
@@ -175,7 +175,7 @@ default:
       title: ""
       web_links:
         - label: "davenzang.com"
-          address: "//davenzang.com"
+          address: "http://davenzang.com"
       photo:
         file: "daven_crew.jpg"
         orientation: 'vertical'
@@ -205,9 +205,9 @@ default:
       title: ""
       web_links:
         - label: "amykbell.com"
-          address: "//amykbell.com"
+          address: "http://amykbell.com"
         - label: "dropleafpress.com"
-          address: "//dropleafpress.com"
+          address: "http://dropleafpress.com"
       photo:
         file: "amy.jpg"
         orientation: "vertical"
@@ -219,7 +219,7 @@ default:
       title: ""
       web_links:
         - label: "SoundCloud"
-          address: "//soundcloud.com/ancestralvoices"
+          address: "http://soundcloud.com/ancestralvoices"
       photo:
         file: "ancestral_voices.jpg"
       bio: |
@@ -231,7 +231,7 @@ default:
       title: ""
       web_links:
         - label: "SoundCloud"
-          address: "//soundcloud.com/miiia_303"
+          address: "http://soundcloud.com/miiia_303"
       photo:
         file: "miiia.jpg"
       bio: |
@@ -243,7 +243,7 @@ default:
       title: ""
       web_links:
         - label: "SoundCloud"
-          address: "//soundcloud.com/neel"
+          address: "http://soundcloud.com/neel"
       photo:
         file: "neel.jpg"
       bio: |
@@ -255,7 +255,7 @@ default:
       title: ""
       web_links:
         - label: "SoundCloud"
-          address: "//soundcloud.com/nuel"
+          address: "http://soundcloud.com/nuel"
       photo:
         file: "nuel.jpg"
       bio: |
@@ -275,7 +275,7 @@ default:
       title: ""
       web_links:
         - label: "SoundCloud"
-          address: "//soundcloud.com/vladimir"
+          address: "http://soundcloud.com/vladimir"
       photo:
         file: "vladimir_ivkovic.jpg"
         orientation: 'vertical'
@@ -286,7 +286,7 @@ default:
       title: ""
       web_links:
         - label: "SoundCloud"
-          address: "//soundcloud.com/valentinomora"
+          address: "http://soundcloud.com/valentinomora"
       photo:
         file: "valentino_mora.jpg"
       bio: |
@@ -298,9 +298,9 @@ default:
       title: ""
       web_links:
         - label: "nihiti.church"
-          address: "//www.nihiti.church"
+          address: "http://www.nihiti.church"
         - label: "SoundCloud"
-          address: "//SoundCloud.com/nihiti"
+          address: "http://SoundCloud.com/nihiti"
       photo:
         file: "nihiti.jpg"
       bio: |
@@ -327,7 +327,7 @@ default:
       full_name: "young boy dancing group"
       title: ""
       web_links:
-        - address: "//thump.vice.com/en_us/article/pg8x3k/young-boy-dancing-group-lasers-butt-queer-art"
+        - address: "http://thump.vice.com/en_us/article/pg8x3k/young-boy-dancing-group-lasers-butt-queer-art"
           label: "Press"
       photo:
         file: "ybdg.jpg"
@@ -339,7 +339,7 @@ default:
       full_name: "mataya waldenberg"
       title: "Performance Artist, Musician, Model"
       web_links:
-        - address: "//pw-magazine.com/2017/lady-matayas-fantastischer-pfad-aus-der-duesternis/"
+        - address: "http://pw-magazine.com/2017/lady-matayas-fantastischer-pfad-aus-der-duesternis/"
           label: "Press"
       photo:
         file: "mataya_waldenberg.jpg"
@@ -370,7 +370,7 @@ default:
       title: ""
       web_links:
         - label: "Tumblr"
-          address: "//tamanduaknytt.tumblr.com/"
+          address: "http://tamanduaknytt.tumblr.com/"
       photo:
         file: "tamandua.jpg"
       bio: |
