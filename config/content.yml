@@ -25,7 +25,7 @@ default:
         file: "florian_crew.jpg"
         orientation: 'vertical'
       bio: >
-        A soon-to-be graduate of  Universität der Künste Berlin,, Fashion designer Florian Máthé is currently developing a collection that is deeply influenced by London’s Queer Performance Scene. With a desire to “[question] the terms of beauty, body and aesthetics”, he wishes to convey vibrantness, freedom and emotion in the context of fashion as well as a new spectacular performance. Florian Máthé founded and organised pop up project and art space “je regrette” in Berlin Mitte, curating four shows featuring artists such as Mischa Badasyan, Daniel Ferstl, Stephanie Ballantine and Kim Asendorf.
+        A soon-to-be graduate of Universität der Künste Berlin,, Fashion designer Florian Máthé is currently developing a collection that is deeply influenced by London’s Queer Performance Scene. With a desire to “[question] the terms of beauty, body and aesthetics”, he wishes to convey vibrantness, freedom and emotion in the context of fashion as well as a new spectacular performance. Florian Máthé founded and organised pop up project and art space “je regrette” in Berlin Mitte, curating four shows featuring artists such as Mischa Badasyan, Daniel Ferstl, Stephanie Ballantine and Kim Asendorf.
     - simple_name: 'vanta'
       full_name: "Thomas Vanta"
       label_name: "Vanta"
@@ -121,6 +121,98 @@ default:
         orientation: 'vertical'
       bio: >
         Joe Palmieri is a Software Engineer based in Oakland, California who devotes his energy to collaborative installations in the San Francisco area and beyond. He has contributed to Catacomb of Veils and, to a lesser extent, La Victrola, both shown at Burning Man 2016. Recently, he has led the conceptual and preliminary design for C60, a steel sculpture with interactive fire effects which will debut in a partially finished form at Burning Man 2017. Over the coming year, he will be adding additional fire effects to C60 and sculpting his mustache to more Dalí-like proportions.
+    - simple_name: 'adi'
+      full_name: "Adi Dulza"
+      label_name: "Adi"
+      title: "Conceptual Artist"
+      web_links:
+      photo:
+        file: "adi_dulza.jpg"
+        orientation: 'vertical'
+      bio: >
+        Adi Dulza is a conceptual artist from Tel Aviv, Israel and recently relocated to Berlin in 2016. He holds an M.F.A from Bezalel Academy of Art and Design Israel (2015) and a B.Ed.FA from Hamisrasha School of Art (2008), where he graduated with honors and received an outstanding academic achievement award. He also holds a B.A in Architecture (2000). His recent solo exhibitions were featured in Gabirol Gallery Tel Aviv (2016), Al Ha-TzukGallery Netanya (2014), ZIZ Gallery Tel Aviv (2013), and the Artist's House Tel Aviv (2011). Dulza has participated in various group exhibitions in Israel, including the Petah Tikva Museum of Art (2014). Dulza was also granted support by the Tel Aviv Municipality with the Yehoshua Rabinowitz Foundation for Arts, Tel Aviv (2016).
+    - simple_name: 'michael'
+      full_name: "Michael Ang"
+      label_name: "Michael"
+      title: ""
+      web_links:
+        - label: "michaelang.com"
+          addres: "//www.michaelang.com/"
+      photo:
+        file: "michael_ang.jpg"
+        orientation: 'vertical'
+      bio: >
+        Michael Ang is a Canadian artist and engineer working at the intersection of art, engineering and human experience. His works use technology to enhance our understanding of natural phenomena, modulate social interaction, and bridge the divide between the virtual and physical. He creates light objects, interactive installations, and open source software tools that build towards a future of humane technology focused on people and the environment. He currently lives and works in Berlin.
+    - simple_name: 'nico'
+      full_name: "Nicolas Concha"
+      label_name: "Nico"
+      title: ""
+      web_links:
+      photo:
+        file: "nico.jpg"
+        orientation: 'vertical'
+      bio: >
+        Visual artist & self-taught web developer Nicolas Concha works on educational projects and using different means within the creative spectrum to better communicate everyday concepts and ideas, with a strong focus on DIY crafts like kirigami.
+    - simple_name: 'pierce'
+      full_name: "Pierce Jordan"
+      label_name: "Pierce"
+      title: ""
+      web_links:
+        - label: "piercejordan.com"
+          address: "//piercejordan.com"
+      photo:
+        file: "pierce_jordan.jpg"
+        orientation: 'vertical'
+      bio: |
+        Pierce Jordan is an experienced artist and designer based in Vancouver, British Columbia. As a developed graphic and industrial designer, he is driven by moments of engagement between people, products and brands, and the emotions, memories and ideas that create these moments.
+
+        At the forefront of his artistic practice lies the simple but often overlooked foundations of beauty and experience; the serendipity of losing oneself to an experience, or the overwhelming emotional response elicited by beauty.
+
+        He taps into these rare but pure moments by making work that engages with the people who view it, in a time and site specific setting.
+    - simple_name: 'daven_crew'
+      full_name: "Daven Zhang"
+      label_name: "Daven"
+      title: ""
+      web_links:
+        - label: "davenzang.com"
+          address: "//davenzang.com"
+      photo:
+        file: "daven_crew.jpg"
+        orientation: 'vertical'
+      bio: >
+        Daven Zhang graduated from Tongji University and Beuth-Hochschule Berlin with degrees in architecture and building engineering. He is the founder of Shanghai Yuan Yun Art & Design Studio, the art director of Bronze music festival and, most recently, founder of the fashion brand DAVENZHANG. Through the brand DAVENZANG, which merges eastern and western elements to create an avant-garde androgynous clothing line, Zhang hopes to support a balanced and sophisticated sense of beauty and love throughout the world.
+    - simple_name: 'olga'
+      full_name: "Olga Wiedemann"
+      label_name: "Olga"
+      title: ""
+      web_links:
+      photo:
+        file: "olga.jpg"
+      bio: >
+        Olga Wiedemann holds an undergraduate degree in Business Administration and Art History from the University of Vienna, as well as a Masters degree in Museum & Gallery Studies from Kingston University London. After working at MOMENTUM, a project space in Berlin, as Production Manager and Coordinator for the Artist-in-Residence Programme, she is currently Programme Assistant for next year’s transmediale. She has been working for different Cultural Institutions in Berlin and London for the past years and is experienced in producing art exhibitions as well as in artist management.
+    - simple_name: 'eric'
+      full_name: "Eric Kustarz"
+      label_name: "Eric"
+      title: ""
+      web_links:
+      photo:
+        file: "eric.jpg"
+      bio: >
+        Eric Kustarz is a computer engineer with a passionate heart for art and adventure. He has experimented with laser cutting, collage, neon, animated gifs, experimental video, drawing, welding, graffiti, and small Arduino installations. He performed on the stage of Cabaret Voltaire during Manifesta 11 and has contributed his coding skills to the installation “Wish You Could Have Seen This”, a project about the displacement of San Francisco artists at San Francisco Arts Commission Gallery in 2016. His dream is to build action figures of his friends.
+    - simple_name: 'amy'
+      full_name: "Amy K Bell"
+      label_name: "Amy"
+      title: ""
+      web_links:
+        - label: "amykbell.com"
+          address: "//amykbell.com"
+        - label: "dropleafpress.com"
+          address: "//dropleafpress.com"
+      photo:
+        file: "amy.jpg"
+        orientation: "vertical"
+      bio: >
+        Amy K. Bell is a writer and preschool teacher in Oakland, CA. She is the author of Book of Sybil (Gorilla Press, 2013) and is a co-founder of Drop Leaf Press (<a href='//dropleafpress.com' target='_blank'>dropleafpress.com</a>).
   music:
     - simple_name: 'ancestral_voices'
       full_name: "Ancestral Voices"
@@ -201,6 +293,20 @@ default:
         Seamlessly incorporating influences of movement, expression and soul into his production, Valentino Canzani Mora has never strayed far from this ethos since beginning to experiment with music at a very young age. Raised by Uruguayan parents--of which his father was a trained sound engineer and musician--Mora was constantly surrounded by music and exposed to the music production industry throughout his childhood.
 
         Before shifting back to his given name, Mora had a string of releases including one LP under his French Fries moniker, during which time he co-curated Clekclekboom recordings, as well as taking on artistic direction for the label. Since then he has shifted his attention to his own label ‘IDO’ - or - Intercontinental Dance Organization, with co-founder Amila. Drawing inspiration from the early house scene, IDO centers around melting percussion, breaks and techno into a rhythmic migration of hypnotic soundscapes. Furthermore, IDO is Mora’s outlet for demonstrating the explorations of sound that he has experimented with between his travels in Tokyo and since relocating to Berlin.
+    - simple_name: 'nihiti'
+      full_name: "Nihiti"
+      title: ""
+      web_links:
+        - label: "nihiti.church"
+          address: "//www.nihiti.church"
+        - label: "SoundCloud"
+          address: "//SoundCloud.com/nihiti"
+      photo:
+        file: "nihiti.jpg"
+      bio: |
+        Mystical and futuristic, New York based NIHITI has so far produced a diverse and unexpected body of work, with each new release shifting its focus into new territory and genres. Described as "alternately uneasy, bloodthirsty and painfully beautiful" by Resident Advisor and chosen as record of the week by some of the better record stores in the states (Other Music NYC and Aquarius SF), their sound has intricately blurred the lines between acoustic and electronic, weaving the two together with a signature sense of dread.
+
+        In 2014 and 2015, NIHITI was commissioned to provide a "sacred space" for New York's renowned Sustain-Release festival - continuous music and atmosphere for those in need of a moment to contemplate and collect themselves. Since then NIHITI has engaged in more site specific meditative installations instead of actual performances, including recent releases on their label of ambient dreamscapes by Nathan Jonson (Hrdvsion, Wagon Repair) and the artist Viktor Timofeev. It is this side of the collective, featuring lo bit landscapes, that will be on display.
   performance:
     - simple_name: 'embarassed_years'
       full_name: "embarassed years"
@@ -228,10 +334,10 @@ default:
       bio: |
         Young Boy Dancing Group is a loose performance collective that includes the likes of Tomislav Feller, Nils Amadeus Lange, Maria Metsalu, Ofelia jarl Ortega, Vincent Riebeek, Nicolas Roses, and Manuel Scheiwiller. From event to event, the cast, title and scenes produced by the group change according to the venue. The show that ensues is constructed with different scenes that address sexuality, the digital age, fetishes, contemporary dance, pop and youth culture. The scenes are often constructed through structured improvisation with a prepared aesthetic approach that aims to create an entertaining spectacle.
 
-        YBDG is a critique of the institutionalized performances and dance shows produced by theaters; the group’s performances are sometimes prepared within one day, quickly built up and publicized, but no less vivid for it.  In this respect, all participants influence the creation of the scenes that follow, and carry the same degree of authorship. YBDG has shown, amongst others, at: Silencio, Paris, Lithuanian Pavilion, Venice Biennale 2015, Chart Art Fair, Manifesta Biennale, Zürich, AHMD & Chapter 10, London, Lofficialàrt, Paris, Roskilde Festival, DK."
+        YBDG is a critique of the institutionalized performances and dance shows produced by theaters; the group’s performances are sometimes prepared within one day, quickly built up and publicized, but no less vivid for it. In this respect, all participants influence the creation of the scenes that follow, and carry the same degree of authorship. YBDG has shown, amongst others, at: Silencio, Paris, Lithuanian Pavilion, Venice Biennale 2015, Chart Art Fair, Manifesta Biennale, Zürich, AHMD & Chapter 10, London, Lofficialàrt, Paris, Roskilde Festival, DK."
     - simple_name: 'mataya_waldenberg'
       full_name: "mataya waldenberg"
-      title: "Performance Artist, Musician, Model "
+      title: "Performance Artist, Musician, Model"
       web_links:
         - address: "//pw-magazine.com/2017/lady-matayas-fantastischer-pfad-aus-der-duesternis/"
           label: "Press"
@@ -240,7 +346,7 @@ default:
       bio: |
         Mataya Waldenberg, born in 1994, is an artist and musician based in Vienna. Having studied Experimental Art at the University of Arts and Industrial Design Linz since 2012, they focus their pieces mainly on life in between worlds. Their own body is their main medium – roaming in between male and female, the real and the fantastic.
 
-        Along with their visual, physical presence,  music is Mataya's most important method of expression. All lyrics, compositions and synthesizers are of their own making, and are sometimes the product of collaboration with related souls. Their album 'LOVING ANGEL PROTOTYPE', to be released this fall, consists of ten tracks depicting raw emotion, overcoming challenges and the search for a place in the world.
+        Along with their visual, physical presence, music is Mataya's most important method of expression. All lyrics, compositions and synthesizers are of their own making, and are sometimes the product of collaboration with related souls. Their album 'LOVING ANGEL PROTOTYPE', to be released this fall, consists of ten tracks depicting raw emotion, overcoming challenges and the search for a place in the world.
     - simple_name: 'proxima_plus'
       full_name: "Proxima Plus ft. ZAFTIK musik"
       label_name: "Proxima Plus"
@@ -259,6 +365,24 @@ default:
         orientation: 'vertical'
       bio: |
         Mikey is a songwriter and performer born in Newcastle Australia now based in Berlin by way of New York and London. He has won a place in a strikingly high number of human hearts for both his music and his iconic nightlife fashions, both of which travel into uncharted territories of gender and sexuality. His songs address unconditional states such as energetic connections on the dancefloor, annihilation in love or deep and vulnerable conversation. Throughout his music, there is an intense longing to be able to connect beyond identity, beyond body and beyond fear. He is not positioning himself inside of anyone's storyline, but giving flesh to that space where we are no one and all.
+    - simple_name: 'tamandua'
+      full_name: "TAMANDUA"
+      title: ""
+      web_links:
+        - label: "Tumblr"
+          address: "//tamanduaknytt.tumblr.com/"
+      photo:
+        file: "tamandua.jpg"
+      bio: |
+        Tamandua is a Swedish-born rope artist based in Berlin. Their imagery and performance are deeply interwoven with their passion for kinbaku - the Japan-originated art of rope bondage. They teach the practice as a profession, treating it as more than a casual interest or a skill. Rather the relation to the practice and to rope as a material becomes the primary tool of choice with which to navigate the world and life in general on a creative and emotional level.
+    - simple_name: 'bjorn_melhus_performer'
+      full_name: "Bjorn Melhus"
+      title: ""
+      web_links:
+      photo:
+        file: "bjorn_melhus_performer.jpg"
+      bio: |
+        Bjørn Melhus studied art and film during the 90’s at the HBK, Braunschweig School of Arts and CalArts. His films, videos and installations have been screened and exhibited worldwide. Since 2003 he has worked as a Professor of Virtual Realities at the School of Art and Design at the University of Kassel.
   designers:
     - simple_name: 'florian_mathe'
       full_name: "Florian Mathe"
@@ -304,7 +428,7 @@ default:
         file: "daven_zang.jpg"
         orientation: 'vertical'
       bio: |
-        Daven Zang studied architecture and building engineering in Shanghai and Berlin, now, Daven Zhang is doing his own fashion brand DAVENZANG.The Branding is divided into two different lines, the middle-end products focusing on young customers and the high-end products involved Couture and designer brand. “YIN&YANG,LOVE,INDIVIDUALITY” is our main slogan. We try to merge eastern and western elements to create womenswear & unisex-wear. Like the creatures in the nature, DAVENZANG girls are modern intuitive thinkers sophisticatedly balanced with their avant-garde style. Unisex groups are the souls who follow the androgynism and show their endless love to the world. DAVENZANG hopes to spread this energy to the world by beautiful and a certain lifestyle balanced quite well between all the concepts.
+        Daven Zang originally studied architecture and building engineering in Shanghai and Berlin. He currently designs for and directs DAVENZANG, a fashion brand shaped by the slogan “YIN&YANG,LOVE,INDIVIDUALITY”. DAVENZANG merges eastern and western elements to create an avant-garde style of womenswear and unisex-wear for a sophisticated and modern androgynous clientele. The brand aims to spread this intuitive energy through beauty and a lifestyle balanced between all concepts.
 
 test:
   foo: "bar"
