@@ -375,12 +375,13 @@ default:
         file: "tamandua.jpg"
       bio: |
         Tamandua is a Swedish-born rope artist based in Berlin. Their imagery and performance are deeply interwoven with their passion for kinbaku - the Japan-originated art of rope bondage. They teach the practice as a profession, treating it as more than a casual interest or a skill. Rather the relation to the practice and to rope as a material becomes the primary tool of choice with which to navigate the world and life in general on a creative and emotional level.
-    - simple_name: 'bjoern_melhus_performer'
+    - simple_name: 'bjoern_melhus'
       full_name: "bjoern Melhus"
       title: ""
       web_links:
       photo:
-        file: "bjoern_melhus_performer.jpg"
+        file: "bjoern_melhus.jpg"
+        orientation: "vertical"
       bio: |
         Bjørn Melhus studied art and film during the 90’s at the HBK, Braunschweig School of Arts and CalArts. His films, videos and installations have been screened and exhibited worldwide. Since 2003 he has worked as a Professor of Virtual Realities at the School of Art and Design at the University of Kassel.
   designers:
