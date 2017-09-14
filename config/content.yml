@@ -137,7 +137,7 @@ default:
       title: ""
       web_links:
         - label: "michaelang.com"
-          addres: "http://www.michaelang.com/"
+          address: "http://www.michaelang.com/"
       photo:
         file: "michael_ang.jpg"
       bio: >
