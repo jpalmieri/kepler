@@ -393,12 +393,12 @@ default:
         orientation: 'vertical'
       bio: >
         Finding his technical feet during a Viennese apprenticeship for Fashion and Clothing Manufacturing, Universität der Künste student and soon-to-be alumnus Florian Máthé arrived in Berlin 4 years ago to begin his studies at the nation’s most prestigious creative institution. During his studies, he worked for different labels and costume designers such as Marques’ Almeida, Wales Bonner and Hannah Hopkins, and specialized in pattern cutting and tailoring. Using his technical background as a strong foundation to build on, he is currently developing his men's and women’s wear graduate collection, which is deeply influenced by London’s Queer Performance Scene. With a desire to “[question] the terms of beauty, body and aesthetics” as key motivation, he wishes to convey vibrantness, freedom and emotion in the context of fashion as well as a new spectacular performance.
-    - simple_name: 'bjoern_melhus'
-      full_name: "bjoern Melhus"
-      title: "Made on Mars"
+    - simple_name: 'made_on_mars'
+      full_name: "Made on Mars"
+      title: "by Bjoern Melhus"
       web_links:
       photo:
-        file: "bjoern_melhus.jpg"
+        file: "made_on_mars.jpg"
         orientation: 'vertical'
       bio: >
         The Brand new Fall/Winter Collection Made on Mars by artist Bjørn Melhus celebrates the financial crisis and will give some intriguing insights on how to do Xmas on Mars. Not to be missed! And not to be forgotten: by attending this ultimate Xmas celebration you will already have put a checkmark next to your Xmas festivities and can calmly leave for your well earned winter vacation on Venus!
