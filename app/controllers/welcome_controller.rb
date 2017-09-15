@@ -5,6 +5,11 @@ class WelcomeController < ApplicationController
   def about
   end
 
+  def program
+    @djs = CONTENT[:music]
+    @performers = CONTENT[:performance]
+  end
+
   def splash
     @show_splash = true
     render 'index'
