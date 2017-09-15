@@ -84,6 +84,14 @@
 }
 
 .program {
+  a:hover .fa {
+    @include gradient-text($logoGradient);
+  }
+  @media (hover: none) {
+    a:hover .fa {
+      @include unset-gradient-text($lightGray);
+    }
+  }
   .event-details
     .location, .exhibition-details, .closing-party-details, .mail-link {
       padding-bottom: 25px;
