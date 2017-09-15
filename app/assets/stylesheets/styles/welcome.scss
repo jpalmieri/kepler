@@ -21,7 +21,7 @@
   @extend .constellation-link.left-col-2 ;
 }
 
-.about {
+.about, .program {
   .main-row {
     display: flex;
     flex-flow: row wrap;
@@ -72,5 +72,20 @@
   .below-content-column {
     display: flex;
     flex-flow: column nowrap;
+  }
+}
+
+.program {
+  .event-details
+    .location, .exhibition-details, .closing-party-details, .mail-link {
+      padding-bottom: 25px;
+    }
+  .schedule {
+    .schedule-header {
+      text-align: left;
+    }
+    ul {
+      list-style: none;
+    }
   }
 }

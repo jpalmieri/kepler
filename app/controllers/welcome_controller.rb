@@ -5,6 +5,9 @@ class WelcomeController < ApplicationController
   def about
   end
 
+  def program
+  end
+
   def splash
     @show_splash = true
     render 'index'

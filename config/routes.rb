@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'welcome/splash'
   get 'index', to: 'welcome#index'
   get 'about', to: 'welcome#about'
+  get 'program', to: 'welcome#program'
 
   resources :crew, as: 'crew_members', only: [:index, :show]
   resources :performance, as: 'performers', only: [:index, :show]
