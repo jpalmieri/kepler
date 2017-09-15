@@ -146,11 +146,6 @@
     justify-self: center;
     text-align: center;
     grid-column: 2;
-    .fa {
-      &:hover {
-        @include gradient-text($logoGradient);
-      }
-    }
   }
   .label {
     font-weight: 300;

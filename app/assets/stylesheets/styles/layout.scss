@@ -19,10 +19,16 @@ a {
   &:hover {
     text-decoration:none;
     @include gradient-text($logoGradient);
+    .fa {
+      @include gradient-text($logoGradient);
+    }
   }
   @media (hover: none) {
     &:hover {
       @include unset-gradient-text($lightGray);
+      .fa {
+        @include unset-gradient-text($lightGray);
+      }
     }
   }
 }
