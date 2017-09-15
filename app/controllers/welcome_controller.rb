@@ -6,6 +6,8 @@ class WelcomeController < ApplicationController
   end
 
   def program
+    @djs = CONTENT[:music]
+    @performers = CONTENT[:performance]
   end
 
   def splash
