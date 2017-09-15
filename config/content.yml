@@ -2,6 +2,7 @@ default:
   resident_advisor_path: "http://www.residentadvisor.net/events/1003233"
   instagram_path: "http://www.instagram.com/kp452b/"
   facebook_path: "http://www.facebook.com/kepler452b.org"
+  location_link: "https://www.google.de/maps/place/52%C2%B033'20.3%22N+13%C2%B024'53.3%22E"
   crew:
     - simple_name: 'ma_li'
       full_name: "Ma Li"

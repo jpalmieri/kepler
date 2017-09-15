@@ -26,7 +26,13 @@
     <%= link_to 'program', program_path %>
   </div>
   <div class='grid-item program icon'>
-    <%= link_to fa_icon('calendar'), program_path%>
+    <%= link_to fa_icon('calendar'), program_path %>
+  </div>
+  <div class='grid-item location label'>
+    <%= link_to 'location', CONTENT[:location_link], target: '_blank' %>
+  </div>
+  <div class='grid-item location icon'>
+    <%= link_to fa_icon('map-marker'), CONTENT[:location_link], target: '_blank' %>
   </div>
   <div class='grid-item tickets label'>
     <%= link_to "tickets", CONTENT[:resident_advisor_path], target: '_blank' %>
