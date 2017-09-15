@@ -10,10 +10,10 @@
 </div>
 
 <div class='nav-container'>
-  <div class='grid-item about label'>
+  <div class='grid-item home label'>
     <%= link_to 'home', index_path %>
   </div>
-  <div class='grid-item about icon'>
+  <div class='grid-item home icon'>
     <%= link_to fa_icon('home'), index_path%>
   </div>
   <div class='grid-item about label'>
@@ -21,6 +21,12 @@
   </div>
   <div class='grid-item about icon'>
     <%= link_to fa_icon('info-circle'), about_path %>
+  </div>
+  <div class='grid-item program label'>
+    <%= link_to 'program', program_path %>
+  </div>
+  <div class='grid-item program icon'>
+    <%= link_to fa_icon('calendar'), program_path%>
   </div>
   <div class='grid-item tickets label'>
     <%= link_to "tickets", CONTENT[:resident_advisor_path], target: '_blank' %>
