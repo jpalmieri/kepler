@@ -14,11 +14,19 @@
 }
 #designers {
   @extend .constellation-link.row-9 ;
-  @extend .constellation-link.left-col-5 ;
+  @extend .constellation-link.left-col-6 ;
 }
 #music {
   @extend .constellation-link.row-3 ;
   @extend .constellation-link.left-col-2 ;
+}
+#about {
+  @extend .constellation-link.row-2 ;
+  @extend .constellation-link.left-col-9 ;
+}
+#program {
+  @extend .constellation-link.row-14 ;
+  @extend .constellation-link.left-col-4 ;
 }
 
 .about, .program {
