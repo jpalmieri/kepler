@@ -2,6 +2,8 @@
 <html lang="{{ $.Site.Language.Lang }}">
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="kepler 452b Berlin Party Collective">
+    <meta name="keywords" content="Berlin,party,art,performance,experimental,techno,Music,kepler 452b,dreamers,collective,collective action,autonomy,artists">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <base href="{{ $.Site.BaseURL }}">
     <title>{{ $.Site.Title }}</title>
@@ -9,6 +11,8 @@
   </head>
   <body>
     <div class='container'>
+      {{ block "splash" . }}
+      {{ end }}
 
       {{ block "header" . }}
         {{ partial "header" . }}
