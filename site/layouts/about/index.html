@@ -1,3 +1,5 @@
+{{ define "main" }}
+
 <div class='about'>
   <div class='main-content'>
     <div class='content-wrapper'>
@@ -11,7 +13,7 @@
           </div>
         </div>
         <div class='event-details-column'>
-          <%= render partial: 'shared/event_details' %>
+          {{ partial "event_details" . }}
         </div>
       </div>
       <div class='main-row'>
@@ -31,3 +33,5 @@
     </div>
   </div>
 </div>
+
+{{ end }}
