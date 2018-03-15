@@ -1,9 +1,29 @@
 {{ define "main" }}
 
-<h1>Hugo with Gulp, PostCSS and Webpack</h1>
-
-<p>
-  Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!
-</p>
+<div class='welcome'>
+  <div class='index constellation-index'>
+    <h3 id="crew" class="constellation-link" data-destination='back-layer'>
+      <a href='/crew'>crew</a>
+    </h3>
+    <h3 id="performance" class="constellation-link" data-destination='back-layer'>
+      <a href='/performance'>performance</a>
+    </h3>
+    <h3 id="about" class="constellation-link" data-destination='middle-layer'>
+      <a href='/about'>about</a>
+    </h3>
+    <h3 id="designers" class="constellation-link" data-destination='middle-layer'>
+      <a href='/designers'>designers</a>
+    </h3>
+    <h3 id="location" class="constellation-link" data-destination='front-layer'>
+      <a href='/location'>location</a>
+    </h3>
+    <h3 id="music" class="constellation-link" data-destination='front-layer'>
+      <a href='/music'>music</a>
+    </h3>
+    <h3 id="program" class="constellation-link" data-destination='front-layer'>
+      <a href='/program'>program</a>
+    </h3>
+  </div>
+</div>
 
 {{end}}

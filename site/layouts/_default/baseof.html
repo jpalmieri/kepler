@@ -8,17 +8,32 @@
     <link rel="stylesheet" href="css/main.css"/>
   </head>
   <body>
-    {{ block "header" . }}
-      {{ partial "header" . }}
-    {{end}}
+    <div class='container'>
 
-    {{ block "main" . }}
+      {{ block "header" . }}
+        {{ partial "header" . }}
+      {{end}}
 
-    {{end}}
+      <div id="scene" data-pointer-events='true'>
+        {{ partial "stars" . }}
 
-    {{ block "footer" . }}
-      {{ partial "footer" . }}
-    {{end}}
+        <div class="back-layer link-layer layer" data-depth="0.80"></div>
+        <div class="middle-layer link-layer layer" data-depth="0.90"></div>
+        <div class="front-layer link-layer layer" data-depth="1.0"></div>
+
+        <div data-pjax-container>
+          {{ block "main" . }}
+
+          {{end}}
+        </div>
+
+      </div>
+
+      {{ block "footer" . }}
+        {{ partial "footer" . }}
+      {{end}}
+
+    </div>
 
     <script src="app.js"></script>
 
