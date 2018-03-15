@@ -1,0 +1,58 @@
+{{ define "main" }}
+  <div class="{{ .Section }}">
+    <div class='main-content'>
+      <div class='content-wrapper'>
+        <div class="bio-item">
+          <div class='top-row'>
+            <div class='top-row-item-1'>
+              <div class='row-1'>
+                {{ if .Params.photo.file }}
+                  <div class="photo {{ .Params.photo.orientation }}">
+                    <img src="/images/bio/{{ .Params.photo.file }}" />
+                  </div>
+                {{ end }}
+                <div class='personal-details'>
+                  <h1 class='name'>
+                    {{ .Params.full_name }}
+                  </h1>
+                  <div class='title'>
+                    {{ .Params.title }}
+                  </div>
+                  {{ if .Params.web_links }}
+                    <div class='inline-web-links'>
+                      {{ range .Params.web_links }}
+                        <div class='web-link'>
+                          <a href="{{ .address }}" target="_blank">
+                            {{ .label }}
+                            <%= fa_icon('external-link') %>
+                          </a>
+                        </div>
+                      {{ end }}
+                    </div>
+                  {{ end }}
+                </div>
+              </div>
+              {{ if .Params.web_links }}
+                <div class='under-web-links'>
+                  {{ range .Params.web_links }}
+                    <div class='web-link'>
+                      <a href="{{ .address }}" target="_blank">
+                        {{ .label }}
+                        <%= fa_icon('external-link') %>
+                      </a>
+                    </div>
+                  {{ end }}
+                </div>
+              {{ end }}
+              <div class='bio'>
+                <p class='bio-content'>
+                  {{ .Params.bio }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
