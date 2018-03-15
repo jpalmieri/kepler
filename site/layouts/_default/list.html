@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<div class="{{ .Section }}">
+  <div class='constellation-index'>
+    {{ range .Data.Pages }}
+      <h3 id="{{ .Params.simple_name }}" class='constellation-link' data-destination="{{ .Params.destination_layer }}">
+        <a href="{{ .Permalink }}">{{ .Params.simple_name }}</a>
+      </h3>
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}
