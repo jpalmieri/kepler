@@ -22,7 +22,8 @@ export default {
     new webpack.ProvidePlugin({
       "fetch": "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch",
       $: "jquery",
-      jQuery: "jquery"
+      jQuery: "jquery",
+      _: "underscore"
     })
   ],
 
