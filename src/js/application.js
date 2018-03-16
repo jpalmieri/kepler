@@ -10,16 +10,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery3
 //= require jquery_ujs
-//= require jquery.pjax
 //= require underscore
 //= require rails-ujs
 //= require pace/pace
 //= require parallax.min.js
 //= require_tree .
-
-// this tells pjax what links to fire on
-$(function() {
-  $(document).pjax('a:not([data-remote]):not([data-behavior]):not([data-skip-pjax])', '[data-pjax-container]')
-});

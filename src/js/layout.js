@@ -1,4 +1,18 @@
+var Parallax = require('./vendor/parallax.min.js');
+
+// this tells pjax what links to fire on
+$(function() {
+  $(document).pjax('a:not([data-remote]):not([data-behavior]):not([data-skip-pjax])', '[data-pjax-container]')
+});
+
 $(document).ready(function() {
+
+  // hide cover image when user clicks splash image
+  $('.cover #splash').click(function() {
+    $('.cover').hide();
+    $('.index').show();
+  });
+
   // parallax js magic
   var scene = $('#scene').get(0);
   // mobile User Agent detection
