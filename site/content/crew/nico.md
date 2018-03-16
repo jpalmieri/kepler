@@ -7,6 +7,7 @@ web_links:
 photo:
   file: "nico.jpg"
   orientation: 'vertical'
+destination_layer: 'front-layer'
 bio: >
   Visual artist & self-taught web developer Nicolas Concha works on educational projects and using different means within the creative spectrum to better communicate everyday concepts and ideas, with a strong focus on DIY crafts like kirigami.
 ---
