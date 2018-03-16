@@ -4,15 +4,7 @@
   {{ range $index, $element := .Data.Pages }}
     {{ $mod := mod $index 3 }}
     {{ if (eq $mod 0) }}
-      <h3 id="{{ .Params.simple_name }}" class='constellation-link' data-destination="{{ .Params.destination_layer }}">
-        <a href="{{ .Permalink }}">
-          {{ if isset .Params "label_name" }}
-            {{ .Params.label_name }}
-          {{ else }}
-            {{ .Params.full_name }}
-          {{ end }}
-        </a>
-      </h3>
+      {{ partial "constellation_link" . }}
     {{ end }}
   {{ end }}
 </div>
@@ -21,15 +13,7 @@
   {{ range $index, $element := .Data.Pages }}
     {{ $mod := mod $index 3 }}
     {{ if (eq $mod 1) }}
-      <h3 id="{{ .Params.simple_name }}" class='constellation-link' data-destination="{{ .Params.destination_layer }}">
-        <a href="{{ .Permalink }}">
-          {{ if isset .Params "label_name" }}
-            {{ .Params.label_name }}
-          {{ else }}
-            {{ .Params.full_name }}
-          {{ end }}
-        </a>
-      </h3>
+      {{ partial "constellation_link" . }}
     {{ end }}
   {{ end }}
 </div>
@@ -38,15 +22,7 @@
   {{ range $index, $element := .Data.Pages }}
     {{ $mod := mod $index 3 }}
     {{ if (eq $mod 2) }}
-      <h3 id="{{ .Params.simple_name }}" class='constellation-link' data-destination="{{ .Params.destination_layer }}">
-        <a href="{{ .Permalink }}">
-          {{ if isset .Params "label_name" }}
-            {{ .Params.label_name }}
-          {{ else }}
-            {{ .Params.full_name }}
-          {{ end }}
-        </a>
-      </h3>
+      {{ partial "constellation_link" . }}
     {{ end }}
   {{ end }}
 </div>

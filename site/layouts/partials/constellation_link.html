@@ -1,0 +1,9 @@
+<h3 id="{{ $.Params.simple_name }}" class='constellation-link'>
+  <a href="{{ .Permalink }}">
+    {{ if isset $.Params "label_name" }}
+      {{ $.Params.label_name }}
+    {{ else }}
+      {{ $.Params.full_name }}
+    {{ end }}
+  </a>
+</h3>
