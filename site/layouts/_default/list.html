@@ -5,7 +5,13 @@
     {{ $mod := mod $index 3 }}
     {{ if (eq $mod 0) }}
       <h3 id="{{ .Params.simple_name }}" class='constellation-link' data-destination="{{ .Params.destination_layer }}">
-        <a href="{{ .Permalink }}">{{ .Params.label_name }}</a>
+        <a href="{{ .Permalink }}">
+          {{ if isset .Params "label_name" }}
+            {{ .Params.label_name }}
+          {{ else }}
+            {{ .Params.full_name }}
+          {{ end }}
+        </a>
       </h3>
     {{ end }}
   {{ end }}
@@ -16,7 +22,13 @@
     {{ $mod := mod $index 3 }}
     {{ if (eq $mod 1) }}
       <h3 id="{{ .Params.simple_name }}" class='constellation-link' data-destination="{{ .Params.destination_layer }}">
-        <a href="{{ .Permalink }}">{{ .Params.label_name }}</a>
+        <a href="{{ .Permalink }}">
+          {{ if isset .Params "label_name" }}
+            {{ .Params.label_name }}
+          {{ else }}
+            {{ .Params.full_name }}
+          {{ end }}
+        </a>
       </h3>
     {{ end }}
   {{ end }}
@@ -27,7 +39,13 @@
     {{ $mod := mod $index 3 }}
     {{ if (eq $mod 2) }}
       <h3 id="{{ .Params.simple_name }}" class='constellation-link' data-destination="{{ .Params.destination_layer }}">
-        <a href="{{ .Permalink }}">{{ .Params.label_name }}</a>
+        <a href="{{ .Permalink }}">
+          {{ if isset .Params "label_name" }}
+            {{ .Params.label_name }}
+          {{ else }}
+            {{ .Params.full_name }}
+          {{ end }}
+        </a>
       </h3>
     {{ end }}
   {{ end }}
