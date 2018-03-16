@@ -8,7 +8,6 @@ web_links:
 photo:
   file: "xinru.jpg"
   orientation: 'vertical'
-destination_layer: 'front-layer'
 bio: >
   Originally from Taiwan, Xinru is a Berlin-based dancer, costume designer and translator with a passion for recycling and animal-rescuing.
 ---

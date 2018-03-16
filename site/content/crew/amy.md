@@ -11,7 +11,6 @@ web_links:
 photo:
   file: "amy.jpg"
   orientation: "vertical"
-destination_layer: 'middle-layer'
 bio: >
   Amy K. Bell is a writer and preschool teacher in Oakland, CA. She is the author of Book of Sybil (Gorilla Press, 2013) and is a co-founder of Drop Leaf Press (<a href='//dropleafpress.com' target='_blank'>dropleafpress.com</a>).
 ---

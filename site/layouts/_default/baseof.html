@@ -21,11 +21,7 @@
       <div id="scene" data-pointer-events='true'>
         {{ partial "stars" . }}
 
-        <div class="back-layer link-layer layer" data-depth="0.80"></div>
-        <div class="middle-layer link-layer layer" data-depth="0.90"></div>
-        <div class="front-layer link-layer layer" data-depth="1.0"></div>
-
-        <div data-pjax-container>
+        <div class="js-Pjax">
           {{ block "main" . }}
 
           {{end}}

@@ -1,13 +1,36 @@
 {{ define "main" }}
 
-<div class="{{ .Section }}">
-  <div class='constellation-index'>
-    {{ range .Data.Pages }}
+<div class="back-layer link-layer layer" data-depth="0.80">
+  {{ range $index, $element := .Data.Pages }}
+    {{ $mod := mod $index 3 }}
+    {{ if (eq $mod 0) }}
       <h3 id="{{ .Params.simple_name }}" class='constellation-link' data-destination="{{ .Params.destination_layer }}">
-        <a href="{{ .Permalink }}">{{ .Params.simple_name }}</a>
+        <a href="{{ .Permalink }}">{{ .Params.label_name }}</a>
       </h3>
     {{ end }}
-  </div>
+  {{ end }}
+</div>
+
+<div class="middle-layer link-layer layer" data-depth="0.90">
+  {{ range $index, $element := .Data.Pages }}
+    {{ $mod := mod $index 3 }}
+    {{ if (eq $mod 1) }}
+      <h3 id="{{ .Params.simple_name }}" class='constellation-link' data-destination="{{ .Params.destination_layer }}">
+        <a href="{{ .Permalink }}">{{ .Params.label_name }}</a>
+      </h3>
+    {{ end }}
+  {{ end }}
+</div>
+
+<div class="front-layer link-layer layer" data-depth="1.0">
+  {{ range $index, $element := .Data.Pages }}
+    {{ $mod := mod $index 3 }}
+    {{ if (eq $mod 2) }}
+      <h3 id="{{ .Params.simple_name }}" class='constellation-link' data-destination="{{ .Params.destination_layer }}">
+        <a href="{{ .Permalink }}">{{ .Params.label_name }}</a>
+      </h3>
+    {{ end }}
+  {{ end }}
 </div>
 
 {{ end }}
