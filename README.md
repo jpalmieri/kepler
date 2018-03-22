@@ -1,19 +1,31 @@
-## Kepler452b.org
+## (former) Kepler452b.org website
 
-### Local installation:
+A slightly modified [Victor-Hugo](https://github.com/netlify/victor-hugo) build setup, opting for Sass instead of PostCSS.
 
-* Note that ruby version is set to 4.2.1
+### Local Development
 
-`git clone https://github.com/jpalmieri/kepler.git`
+[Hugo](https://gohugo.io/) and [Node](https://nodejs.org/en/) are dependencies. If you're developing on a Mac, you can install both with [Homebrew](https://brew.sh/):
 
-`bundle install`
+`brew install hugo node`
 
-`rails s`
+Then clone the repo, install the packages, and start the dev server:
+
+```
+git clone https://github.com/keplerites/kepler.git`
+npm install
+npm start
+```
 
 🚀 [http://localhost:3000](http://localhost:3000)
 
+Gulp will watch for any changes to local files, and will reload your page automatically (using Browsersync) when a change is noticed.
+
+You may want to check out the [Victor-Hugo](https://github.com/netlify/victor-hugo) and [Hugo](https://gohugo.io/documentation/) docs for more info on the build process.
+
 ### Deploy
 
-Easiest thing is to use heroku's [webui](https://dashboard.heroku.com/apps/nameless-inlet-37967/deploy/github).
+This site is no longer live, so no deploy is needed at this time.
 
-The other option is via the [command line](https://devcenter.heroku.com/articles/git#deploying-code).
+However, dev branches will be deployed to [Netlify](https://www.netlify.com/). The build of the master branch is at https://kepler.netlify.com, while the dev branches are deployed to https://<branch>--kepler.netlify.com (e.g., https://cool-new-feature--kepler.netlify.com).
+
+[Create an issue](https://github.com/keplerites/kepler/issues/new) if you need access to the admin.
