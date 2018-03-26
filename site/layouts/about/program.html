@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<div class='program'>
+  <div class='main-content'>
+    <div class='content-wrapper'>
+      <div class='main-row'>
+        <div class='main-column'>
+          <div class='event-details'>
+            {{ partial "event_details" . }}
+          </div>
+          <div class='below-content-column'>
+            <div class='schedule'>
+              <h2 class='section-header'>
+                DJS
+              </h2>
+              <ul>
+                {{ range where .Site.Pages "Section" "music" }}
+                  <li><a href="{{ .Permalink}}">{{ .Params.full_name }}</a></li>
+                {{ end }}
+              </ul>
+              <h2 class='section-header'>
+                PERFORMANCES
+              </h2>
+              <ul>
+                {{ range where .Site.Pages "Section" "performance" }}
+                  <li><a href="{{ .Permalink}}">{{ .Params.full_name }}</a></li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}

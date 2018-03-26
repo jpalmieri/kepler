@@ -1,0 +1,67 @@
+.splash {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #333333;
+  background-image :url('/images/kepler-bg-sm.gif');
+  background-size: cover;
+  -webkit-transition: top 0.5s ease-in-out;
+  -moz-transition: top 0.5s ease-in-out;
+  transition: top 0.5s ease-in-out;
+  &.active {
+    top: -100vh;
+  }
+
+  #logo, #location {
+    img {
+      width: 100%;
+    }
+  }
+
+  #logo {
+    cursor: pointer;
+    width: 255px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+    @media (max-width: 625px) {
+      width: 50%;
+      padding-top: 25%;
+    }
+    @media (max-height: 425px) {
+      padding-top: 20px;
+      width: 125px;
+    }
+  }
+
+  #location {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    @media (max-width: 625px) {
+      width: 100%;
+    }
+    @media (max-height: 625px) {
+      width: 250px;
+      margin-top: 25px;
+    }
+  }
+
+  #socialmedia1 {
+    width: 38px;
+    position: absolute;
+    top: 10px;
+    right: 60px;
+  }
+
+  #socialmedia2 {
+    width: 38px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}

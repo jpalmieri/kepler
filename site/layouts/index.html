@@ -1,0 +1,37 @@
+{{ define "splash" }}
+  {{ partial "splash" . }}
+{{ end }}
+
+{{ define "main" }}
+
+<div class="back-layer link-layer layer" data-depth="0.80">
+  <h3 id="crew" class="constellation-link">
+    <a href='/crew'>crew</a>
+  </h3>
+  <h3 id="performance" class="constellation-link">
+    <a href='/performance'>performance</a>
+  </h3>
+</div>
+
+<div class="middle-layer link-layer layer" data-depth="0.90">
+  <h3 id="about" class="constellation-link">
+    <a href='/about'>about</a>
+  </h3>
+  <h3 id="designers" class="constellation-link">
+    <a href='/designers'>designers</a>
+  </h3>
+</div>
+
+<div class="front-layer link-layer layer" data-depth="1.0">
+  <h3 id="music" class="constellation-link">
+    <a href='/music'>music</a>
+  </h3>
+  <h3 id="program" class="constellation-link">
+    <a href='/about/program'>program</a>
+  </h3>
+  <h3 id="location" class="constellation-link">
+    <a href="{{ .Site.Params.location_link }}" target='_blank'>location</a>
+  </h3>
+</div>
+
+{{end}}
